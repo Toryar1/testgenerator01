@@ -81,18 +81,14 @@
                     },
     "regionZoom":  16.15,
     "regions":  [
-                    "frozen",
-                    "hot",
-                    "terralost",
-                    "mushroom",
-                    "forests",
-                    "tundra",
-                    "magnetics",
                     "temperate",
-                    "estranged",
-                    "tropical",
+                    "forests",
+                    "hot",
                     "swamp",
-                    "prismatics"
+                    "tundra",
+                    "frozen",
+                    "tropical",
+                    "estranged"
                 ],
     "seaBiomeStyle":  {
                           "style":  "SIMPLEX",
