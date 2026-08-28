@@ -85,17 +85,10 @@
                      "slotTypes":  "STORAGE"
                  },
                  {
-                     "type":  "diamond",
-                     "minAmount":  1,
-                     "maxAmount":  1,
-                     "rarity":  10,
-                     "slotTypes":  "STORAGE"
-                 },
-                 {
                      "type":  "emerald",
                      "minAmount":  1,
                      "maxAmount":  1,
-                     "rarity":  8,
+                     "rarity":  25,
                      "slotTypes":  "STORAGE"
                  },
                  {

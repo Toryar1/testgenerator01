@@ -1,177 +1,135 @@
 {
+    "maxPicked":  3,
     "name":  "Global Treasure",
-    "rarity":  1,
-    "maxPicked":  2,
-    "minPicked":  0,
+    "minPicked":  1,
     "maxTries":  20,
+    "rarity":  1,
     "loot":  [
                  {
-                     "type":  "diamond",
-                     "minAmount":  1,
-                     "maxAmount":  1,
-                     "rarity":  6,
-                     "slotTypes":  "STORAGE"
+                     "slotTypes":  "STORAGE",
+                     "rarity":  1,
+                     "maxAmount":  9,
+                     "minAmount":  3,
+                     "type":  "iron_nugget"
                  },
                  {
-                     "type":  "emerald",
-                     "minAmount":  1,
-                     "maxAmount":  1,
-                     "rarity":  6,
-                     "slotTypes":  "STORAGE"
-                 },
-                 {
-                     "type":  "gold_ingot",
-                     "minAmount":  1,
-                     "maxAmount":  5,
-                     "rarity":  3,
-                     "slotTypes":  "STORAGE"
-                 },
-                 {
-                     "type":  "iron_ingot",
-                     "minAmount":  1,
-                     "maxAmount":  6,
+                     "slotTypes":  "STORAGE",
                      "rarity":  2,
-                     "slotTypes":  "STORAGE"
+                     "maxAmount":  6,
+                     "minAmount":  2,
+                     "type":  "gold_nugget"
                  },
                  {
-                     "type":  "name_tag",
-                     "minAmount":  1,
-                     "maxAmount":  1,
-                     "rarity":  5,
-                     "slotTypes":  "STORAGE"
-                 },
-                 {
-                     "type":  "redstone_block",
-                     "minAmount":  1,
-                     "maxAmount":  3,
-                     "rarity":  7,
-                     "slotTypes":  "STORAGE"
-                 },
-                 {
-                     "type":  "totem_of_undying",
-                     "minAmount":  1,
-                     "maxAmount":  1,
-                     "rarity":  16,
-                     "slotTypes":  "STORAGE"
-                 },
-                 {
-                     "type":  "tnt_minecart",
-                     "minAmount":  1,
-                     "maxAmount":  1,
-                     "rarity":  14,
-                     "slotTypes":  "STORAGE"
-                 },
-                 {
-                     "type":  "echo_shard",
-                     "minAmount":  1,
+                     "slotTypes":  "STORAGE",
+                     "rarity":  4,
                      "maxAmount":  2,
-                     "rarity":  14,
-                     "slotTypes":  "STORAGE"
+                     "minAmount":  1,
+                     "type":  "iron_ingot"
                  },
                  {
-                     "type":  "trial_key",
+                     "slotTypes":  "STORAGE",
+                     "rarity":  6,
+                     "maxAmount":  2,
                      "minAmount":  1,
-                     "maxAmount":  1,
-                     "rarity":  18,
-                     "slotTypes":  "STORAGE"
+                     "type":  "gold_ingot"
                  },
                  {
-                     "type":  "ominous_trial_key",
-                     "minAmount":  1,
-                     "maxAmount":  1,
-                     "rarity":  28,
-                     "slotTypes":  "STORAGE"
+                     "slotTypes":  "STORAGE",
+                     "rarity":  2,
+                     "maxAmount":  6,
+                     "minAmount":  2,
+                     "type":  "coal"
                  },
                  {
-                     "type":  "armadillo_scute",
+                     "slotTypes":  "STORAGE",
+                     "rarity":  1,
+                     "maxAmount":  8,
+                     "minAmount":  2,
+                     "type":  "torch"
+                 },
+                 {
+                     "slotTypes":  "STORAGE",
+                     "rarity":  2,
+                     "maxAmount":  8,
+                     "minAmount":  2,
+                     "type":  "arrow"
+                 },
+                 {
+                     "slotTypes":  "STORAGE",
+                     "rarity":  2,
+                     "maxAmount":  4,
                      "minAmount":  1,
+                     "type":  "bone"
+                 },
+                 {
+                     "slotTypes":  "STORAGE",
+                     "rarity":  3,
                      "maxAmount":  3,
-                     "rarity":  10,
-                     "slotTypes":  "STORAGE"
+                     "minAmount":  1,
+                     "type":  "leather"
                  },
                  {
-                     "type":  "flow_armor_trim_smithing_template",
-                     "minAmount":  1,
-                     "maxAmount":  1,
-                     "rarity":  22,
-                     "slotTypes":  "STORAGE"
-                 },
-                 {
-                     "type":  "bolt_armor_trim_smithing_template",
-                     "minAmount":  1,
-                     "maxAmount":  1,
-                     "rarity":  24,
-                     "slotTypes":  "STORAGE"
-                 },
-                 {
-                     "type":  "heavy_core",
-                     "minAmount":  1,
-                     "maxAmount":  1,
-                     "rarity":  36,
-                     "slotTypes":  "STORAGE"
-                 },
-                 {
-                     "type":  "enchanted_book",
-                     "minAmount":  1,
-                     "maxAmount":  1,
-                     "rarity":  14,
                      "slotTypes":  "STORAGE",
-                     "enchantments":  [
-                                          {
-                                              "enchantment":  "mending",
-                                              "minLevel":  1,
-                                              "maxLevel":  1,
-                                              "chance":  1.0
-                                          }
-                                      ]
+                     "rarity":  2,
+                     "maxAmount":  3,
+                     "minAmount":  1,
+                     "type":  "bread"
                  },
                  {
-                     "type":  "enchanted_book",
-                     "minAmount":  1,
-                     "maxAmount":  1,
-                     "rarity":  14,
                      "slotTypes":  "STORAGE",
-                     "enchantments":  [
-                                          {
-                                              "enchantment":  "protection",
-                                              "minLevel":  3,
-                                              "maxLevel":  4,
-                                              "chance":  1.0
-                                          }
-                                      ]
+                     "rarity":  3,
+                     "maxAmount":  2,
+                     "minAmount":  1,
+                     "type":  "apple"
                  },
                  {
-                     "type":  "enchanted_book",
-                     "minAmount":  1,
-                     "maxAmount":  1,
-                     "rarity":  22,
                      "slotTypes":  "STORAGE",
-                     "displayName":  "Odd Relic: Paradox Notes",
-                     "lore":  [
-                                  "Confidently contradictory",
-                                  "Scholars call it art",
-                                  "Recovered from global-treasure"
-                              ],
-                     "enchantments":  [
-                                          {
-                                              "enchantment":  "channeling",
-                                              "minLevel":  1,
-                                              "maxLevel":  1,
-                                              "chance":  1.0
-                                          },
-                                          {
-                                              "enchantment":  "silk_touch",
-                                              "minLevel":  1,
-                                              "maxLevel":  1,
-                                              "chance":  1.0
-                                          },
-                                          {
-                                              "enchantment":  "vanishing_curse",
-                                              "minLevel":  1,
-                                              "maxLevel":  1,
-                                              "chance":  1.0
-                                          }
-                                      ]
+                     "rarity":  2,
+                     "maxAmount":  4,
+                     "minAmount":  1,
+                     "type":  "string"
+                 },
+                 {
+                     "slotTypes":  "STORAGE",
+                     "rarity":  3,
+                     "maxAmount":  5,
+                     "minAmount":  1,
+                     "type":  "paper"
+                 },
+                 {
+                     "slotTypes":  "STORAGE",
+                     "rarity":  5,
+                     "maxAmount":  2,
+                     "minAmount":  1,
+                     "type":  "book"
+                 },
+                 {
+                     "slotTypes":  "STORAGE",
+                     "rarity":  12,
+                     "maxAmount":  1,
+                     "minAmount":  1,
+                     "type":  "compass"
+                 },
+                 {
+                     "slotTypes":  "STORAGE",
+                     "rarity":  15,
+                     "maxAmount":  1,
+                     "minAmount":  1,
+                     "type":  "clock"
+                 },
+                 {
+                     "slotTypes":  "STORAGE",
+                     "rarity":  12,
+                     "maxAmount":  1,
+                     "minAmount":  1,
+                     "type":  "name_tag"
+                 },
+                 {
+                     "slotTypes":  "STORAGE",
+                     "rarity":  25,
+                     "maxAmount":  1,
+                     "minAmount":  1,
+                     "type":  "emerald"
                  }
              ]
 }

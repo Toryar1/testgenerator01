@@ -265,19 +265,7 @@
                 "enabled": true
             },
             "place": [
-                "trees/oak/mroofed1",
-                "trees/oak/mroofed2",
-                "trees/oak/mroofed3",
-                "trees/oak/mroofed4",
-                "trees/oak/mroofed5",
-                "trees/oak/mroofed6",
-                "trees/oak/mroofed7",
-                "trees/oak/mroofed8",
-                "trees/oak/mroofed9",
-                "trees/oak/mroofed10",
-                "trees/oak/mroofed11",
-                "trees/oak/mroofed12"
-            ]
+                "trees/darkoak/generic1", "trees/darkoak/generic2", "trees/darkoak/generic3", "trees/darkoak/generic5", "trees/darkoak/generic6", "trees/darkoak/generic7", "trees/darkoak/generic8", "trees/darkoak/generic9", "trees/darkoak/generic10", "trees/darkoak/generic11"]
         },
         {
             "chance": 0.02,

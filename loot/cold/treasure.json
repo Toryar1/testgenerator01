@@ -30,7 +30,7 @@
                      "type":  "emerald",
                      "minAmount":  1,
                      "maxAmount":  1,
-                     "rarity":  6,
+                     "rarity":  25,
                      "slotTypes":  "STORAGE"
                  },
                  {
@@ -45,13 +45,6 @@
                      "minAmount":  1,
                      "maxAmount":  5,
                      "rarity":  5,
-                     "slotTypes":  "STORAGE"
-                 },
-                 {
-                     "type":  "diamond",
-                     "minAmount":  1,
-                     "maxAmount":  1,
-                     "rarity":  8,
                      "slotTypes":  "STORAGE"
                  },
                  {
@@ -124,13 +117,6 @@
                      "minAmount":  1,
                      "maxAmount":  5,
                      "rarity":  7,
-                     "slotTypes":  "STORAGE"
-                 },
-                 {
-                     "type":  "trial_key",
-                     "minAmount":  1,
-                     "maxAmount":  1,
-                     "rarity":  18,
                      "slotTypes":  "STORAGE"
                  },
                  {
