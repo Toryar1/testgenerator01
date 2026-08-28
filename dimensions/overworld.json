@@ -1,6 +1,6 @@
 ﻿{
     "version":  4002,
-    "name":  "Overworld",
+    "name":  "testgenerator01",
     "importedStructures":  {
                                "datapackOverrides":  true,
                                "disabled":  [
@@ -288,8 +288,8 @@
                          "minHeight":  19,
                          "maxHeight":  390,
                          "minPerChunk":  1,
-                         "maxPerChunk":  6,
-                         "minSize":  20,
+                         "maxPerChunk":  8,
+                         "minSize":  25,
                          "maxSize":  25,
                          "palette":  [
                                          {
@@ -302,8 +302,8 @@
                          "minHeight":  19,
                          "maxHeight":  310,
                          "minPerChunk":  1,
-                         "maxPerChunk":  6,
-                         "minSize":  20,
+                         "maxPerChunk":  8,
+                         "minSize":  25,
                          "maxSize":  25,
                          "palette":  [
                                          {
@@ -316,8 +316,8 @@
                          "minHeight":  19,
                          "maxHeight":  309,
                          "minPerChunk":  1,
-                         "maxPerChunk":  6,
-                         "minSize":  20,
+                         "maxPerChunk":  8,
+                         "minSize":  25,
                          "maxSize":  25,
                          "palette":  [
                                          {
@@ -330,8 +330,8 @@
                          "minHeight":  19,
                          "maxHeight":  389,
                          "minPerChunk":  1,
-                         "maxPerChunk":  6,
-                         "minSize":  20,
+                         "maxPerChunk":  8,
+                         "minSize":  25,
                          "maxSize":  25,
                          "palette":  [
                                          {
@@ -345,12 +345,12 @@
                          "maxHeight":  767,
                          "heightDistribution":  "UNIFORM",
                          "surfaceClearance":  0,
-                         "minPerChunk":  4,
-                         "maxPerChunk":  8,
-                         "minSize":  6,
-                         "maxSize":  10,
+                         "minPerChunk":  45,
+                         "maxPerChunk":  45,
+                         "minSize":  13,
+                         "maxSize":  13,
                          "shape":  "VANILLA_ELLIPSOID",
-                         "discardChanceOnAirExposure":  0.5,
+                         "discardChanceOnAirExposure":  0.3,
                          "palette":  [
                                          {
                                              "block":  "minecraft:coal_ore"
@@ -360,14 +360,14 @@
                      {
                          "minHeight":  128,
                          "maxHeight":  512,
-                         "heightDistribution":  "TRIANGLE",
+                         "heightDistribution":  "UNIFORM",
                          "surfaceClearance":  0,
-                         "minPerChunk":  4,
-                         "maxPerChunk":  8,
-                         "minSize":  6,
-                         "maxSize":  8,
+                         "minPerChunk":  60,
+                         "maxPerChunk":  60,
+                         "minSize":  13,
+                         "maxSize":  13,
                          "shape":  "VANILLA_ELLIPSOID",
-                         "discardChanceOnAirExposure":  0.5,
+                         "discardChanceOnAirExposure":  0.3,
                          "palette":  [
                                          {
                                              "block":  "minecraft:coal_ore"
@@ -379,12 +379,12 @@
                          "maxHeight":  896,
                          "heightDistribution":  "TRIANGLE",
                          "surfaceClearance":  0,
-                         "minPerChunk":  3,
-                         "maxPerChunk":  6,
-                         "minSize":  4,
-                         "maxSize":  6,
+                         "minPerChunk":  135,
+                         "maxPerChunk":  135,
+                         "minSize":  7,
+                         "maxSize":  7,
                          "shape":  "VANILLA_ELLIPSOID",
-                         "discardChanceOnAirExposure":  0.5,
+                         "discardChanceOnAirExposure":  0.3,
                          "palette":  [
                                          {
                                              "block":  "minecraft:iron_ore"
@@ -396,12 +396,12 @@
                          "maxHeight":  240,
                          "heightDistribution":  "TRIANGLE",
                          "surfaceClearance":  0,
-                         "minPerChunk":  3,
-                         "maxPerChunk":  6,
-                         "minSize":  4,
-                         "maxSize":  5,
+                         "minPerChunk":  30,
+                         "maxPerChunk":  30,
+                         "minSize":  7,
+                         "maxSize":  7,
                          "shape":  "VANILLA_ELLIPSOID",
-                         "discardChanceOnAirExposure":  0.5,
+                         "discardChanceOnAirExposure":  0.3,
                          "palette":  [
                                          {
                                              "block":  "minecraft:iron_ore"
@@ -413,12 +413,12 @@
                          "maxHeight":  272,
                          "heightDistribution":  "UNIFORM",
                          "surfaceClearance":  0,
-                         "minPerChunk":  2,
-                         "maxPerChunk":  4,
+                         "minPerChunk":  30,
+                         "maxPerChunk":  30,
                          "minSize":  3,
-                         "maxSize":  4,
+                         "maxSize":  3,
                          "shape":  "VANILLA_ELLIPSOID",
-                         "discardChanceOnAirExposure":  0.6,
+                         "discardChanceOnAirExposure":  0.3,
                          "palette":  [
                                          {
                                              "block":  "minecraft:iron_ore"
@@ -430,12 +430,12 @@
                          "maxHeight":  352,
                          "heightDistribution":  "TRIANGLE",
                          "surfaceClearance":  0,
-                         "minPerChunk":  3,
-                         "maxPerChunk":  6,
-                         "minSize":  5,
-                         "maxSize":  8,
+                         "minPerChunk":  48,
+                         "maxPerChunk":  48,
+                         "minSize":  8,
+                         "maxSize":  15,
                          "shape":  "VANILLA_ELLIPSOID",
-                         "discardChanceOnAirExposure":  0.5,
+                         "discardChanceOnAirExposure":  0.3,
                          "palette":  [
                                          {
                                              "block":  "minecraft:copper_ore"
@@ -447,12 +447,12 @@
                          "maxHeight":  192,
                          "heightDistribution":  "TRIANGLE",
                          "surfaceClearance":  0,
-                         "minPerChunk":  1,
-                         "maxPerChunk":  3,
-                         "minSize":  3,
-                         "maxSize":  5,
+                         "minPerChunk":  12,
+                         "maxPerChunk":  12,
+                         "minSize":  7,
+                         "maxSize":  7,
                          "shape":  "VANILLA_ELLIPSOID",
-                         "discardChanceOnAirExposure":  0.6,
+                         "discardChanceOnAirExposure":  0.3,
                          "palette":  [
                                          {
                                              "block":  "minecraft:gold_ore"
@@ -465,11 +465,11 @@
                          "heightDistribution":  "UNIFORM",
                          "surfaceClearance":  0,
                          "minPerChunk":  0,
-                         "maxPerChunk":  1,
-                         "minSize":  3,
-                         "maxSize":  4,
+                         "maxPerChunk":  2,
+                         "minSize":  7,
+                         "maxSize":  7,
                          "shape":  "VANILLA_ELLIPSOID",
-                         "discardChanceOnAirExposure":  0.6,
+                         "discardChanceOnAirExposure":  0.5,
                          "palette":  [
                                          {
                                              "block":  "minecraft:gold_ore"
@@ -489,10 +489,10 @@
                          "maxHeight":  640,
                          "heightDistribution":  "UNIFORM",
                          "surfaceClearance":  0,
-                         "minPerChunk":  3,
-                         "maxPerChunk":  6,
-                         "minSize":  4,
-                         "maxSize":  6,
+                         "minPerChunk":  75,
+                         "maxPerChunk":  75,
+                         "minSize":  7,
+                         "maxSize":  7,
                          "shape":  "VANILLA_ELLIPSOID",
                          "biomeScope":  "SURFACE",
                          "includedBiomes":  [
@@ -519,9 +519,9 @@
                          "maxHeight":  158,
                          "heightDistribution":  "UNIFORM",
                          "surfaceClearance":  0,
-                         "minPerChunk":  2,
-                         "maxPerChunk":  4,
-                         "minSize":  4,
+                         "minPerChunk":  12,
+                         "maxPerChunk":  12,
+                         "minSize":  6,
                          "maxSize":  6,
                          "shape":  "VANILLA_ELLIPSOID",
                          "palette":  [
@@ -538,9 +538,9 @@
                          "maxHeight":  64,
                          "heightDistribution":  "TRIANGLE",
                          "surfaceClearance":  0,
-                         "minPerChunk":  2,
-                         "maxPerChunk":  4,
-                         "minSize":  4,
+                         "minPerChunk":  12,
+                         "maxPerChunk":  12,
+                         "minSize":  6,
                          "maxSize":  6,
                          "shape":  "VANILLA_ELLIPSOID",
                          "palette":  [
@@ -565,9 +565,9 @@
                          "maxHeight":  192,
                          "heightDistribution":  "TRIANGLE",
                          "surfaceClearance":  0,
-                         "minPerChunk":  1,
-                         "maxPerChunk":  2,
-                         "minSize":  3,
+                         "minPerChunk":  6,
+                         "maxPerChunk":  6,
+                         "minSize":  5,
                          "maxSize":  5,
                          "shape":  "VANILLA_ELLIPSOID",
                          "palette":  [
@@ -581,10 +581,10 @@
                          "maxHeight":  256,
                          "heightDistribution":  "UNIFORM",
                          "surfaceClearance":  0,
-                         "minPerChunk":  1,
-                         "maxPerChunk":  2,
-                         "minSize":  3,
-                         "maxSize":  4,
+                         "minPerChunk":  12,
+                         "maxPerChunk":  12,
+                         "minSize":  5,
+                         "maxSize":  5,
                          "shape":  "VANILLA_ELLIPSOID",
                          "discardChanceOnAirExposure":  1,
                          "palette":  [
