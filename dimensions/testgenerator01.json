@@ -610,17 +610,17 @@
                                      ]
                      },
                      {
-                         "minHeight":  -160,
-                         "maxHeight":  80,
+                         "minHeight":  -64,
+                         "maxHeight":  16,
                          "heightDistribution":  "TRIANGLE",
                          "surfaceClearance":  0,
-                         "minPerChunk":  0,
-                         "maxPerChunk":  1,
-                         "spawnChance":  0.35,
-                         "minSize":  1,
-                         "maxSize":  3,
+                         "minPerChunk":  1,
+                         "maxPerChunk":  4,
+                         "spawnChance":  1,
+                         "minSize":  2,
+                         "maxSize":  5,
                          "shape":  "VANILLA_ELLIPSOID",
-                         "discardChanceOnAirExposure":  0.8,
+                         "discardChanceOnAirExposure":  0.35,
                          "palette":  [
                                          {
                                              "block":  "minecraft:diamond_ore"
@@ -628,15 +628,15 @@
                                      ]
                      },
                      {
-                         "minHeight":  96,
-                         "maxHeight":  1088,
+                         "minHeight":  64,
+                         "maxHeight":  320,
                          "heightDistribution":  "TRIANGLE",
                          "surfaceClearance":  0,
                          "minPerChunk":  0,
-                         "maxPerChunk":  2,
-                         "spawnChance":  0.3,
+                         "maxPerChunk":  3,
+                         "spawnChance":  0.6,
                          "minSize":  1,
-                         "maxSize":  2,
+                         "maxSize":  3,
                          "shape":  "VANILLA_ELLIPSOID",
                          "biomeScope":  "SURFACE",
                          "includedBiomes":  [
