@@ -1,157 +1,109 @@
 {
+    "maxPicked":  4,
     "name":  "Cave Clutter",
-    "rarity":  1,
-    "maxPicked":  3,
-    "minPicked":  1,
+    "minPicked":  2,
     "maxTries":  20,
+    "rarity":  1,
     "loot":  [
                  {
-                     "type":  "torch",
-                     "minAmount":  2,
-                     "maxAmount":  12,
+                     "slotTypes":  "STORAGE",
                      "rarity":  1,
-                     "slotTypes":  "STORAGE"
+                     "maxAmount":  16,
+                     "minAmount":  4,
+                     "type":  "rail"
                  },
                  {
-                     "type":  "coal",
-                     "minAmount":  1,
-                     "maxAmount":  8,
-                     "rarity":  1,
-                     "slotTypes":  "STORAGE"
-                 },
-                 {
-                     "type":  "cobblestone",
-                     "minAmount":  2,
-                     "maxAmount":  10,
-                     "rarity":  1,
-                     "slotTypes":  "STORAGE"
-                 },
-                 {
-                     "type":  "cobbled_deepslate",
-                     "minAmount":  2,
-                     "maxAmount":  10,
-                     "rarity":  2,
-                     "slotTypes":  "STORAGE"
-                 },
-                 {
-                     "type":  "tuff",
-                     "minAmount":  1,
-                     "maxAmount":  8,
-                     "rarity":  2,
-                     "slotTypes":  "STORAGE"
-                 },
-                 {
-                     "type":  "dripstone_block",
-                     "minAmount":  1,
-                     "maxAmount":  6,
-                     "rarity":  3,
-                     "slotTypes":  "STORAGE"
-                 },
-                 {
-                     "type":  "glow_berries",
-                     "minAmount":  1,
-                     "maxAmount":  6,
-                     "rarity":  3,
-                     "slotTypes":  "STORAGE"
-                 },
-                 {
-                     "type":  "amethyst_shard",
-                     "minAmount":  1,
-                     "maxAmount":  5,
-                     "rarity":  4,
-                     "slotTypes":  "STORAGE"
-                 },
-                 {
-                     "type":  "copper_ingot",
-                     "minAmount":  1,
-                     "maxAmount":  4,
+                     "slotTypes":  "STORAGE",
                      "rarity":  5,
-                     "slotTypes":  "STORAGE"
-                 },
-                 {
-                     "type":  "bone",
-                     "minAmount":  1,
                      "maxAmount":  4,
-                     "rarity":  4,
-                     "slotTypes":  "STORAGE"
+                     "minAmount":  1,
+                     "type":  "powered_rail"
                  },
                  {
-                     "type":  "skeleton_skull",
-                     "minAmount":  1,
-                     "maxAmount":  1,
-                     "rarity":  24,
-                     "slotTypes":  "STORAGE"
+                     "slotTypes":  "STORAGE",
+                     "rarity":  1,
+                     "maxAmount":  16,
+                     "minAmount":  4,
+                     "type":  "torch"
                  },
                  {
-                     "type":  "paper",
-                     "minAmount":  1,
-                     "maxAmount":  7,
-                     "rarity":  6,
-                     "slotTypes":  "STORAGE"
+                     "slotTypes":  "STORAGE",
+                     "rarity":  1,
+                     "maxAmount":  8,
+                     "minAmount":  2,
+                     "type":  "coal"
                  },
                  {
-                     "type":  "glass_bottle",
+                     "slotTypes":  "STORAGE",
+                     "rarity":  3,
+                     "maxAmount":  3,
                      "minAmount":  1,
-                     "maxAmount":  4,
-                     "rarity":  6,
-                     "slotTypes":  "STORAGE"
+                     "type":  "iron_ingot"
                  },
                  {
-                     "type":  "lantern",
-                     "minAmount":  1,
+                     "slotTypes":  "STORAGE",
+                     "rarity":  5,
                      "maxAmount":  2,
-                     "rarity":  9,
-                     "slotTypes":  "STORAGE"
+                     "minAmount":  1,
+                     "type":  "gold_ingot"
                  },
                  {
-                     "type":  "enchanted_book",
+                     "slotTypes":  "STORAGE",
+                     "rarity":  4,
+                     "maxAmount":  8,
+                     "minAmount":  2,
+                     "type":  "redstone"
+                 },
+                 {
+                     "slotTypes":  "STORAGE",
+                     "rarity":  4,
+                     "maxAmount":  6,
+                     "minAmount":  2,
+                     "type":  "lapis_lazuli"
+                 },
+                 {
+                     "slotTypes":  "STORAGE",
+                     "rarity":  8,
+                     "maxAmount":  2,
                      "minAmount":  1,
+                     "type":  "tnt"
+                 },
+                 {
+                     "slotTypes":  "STORAGE",
+                     "rarity":  1,
+                     "maxAmount":  16,
+                     "minAmount":  4,
+                     "type":  "cobblestone"
+                 },
+                 {
+                     "slotTypes":  "STORAGE",
+                     "rarity":  2,
+                     "maxAmount":  4,
+                     "minAmount":  1,
+                     "type":  "string"
+                 },
+                 {
+                     "slotTypes":  "STORAGE",
+                     "rarity":  2,
+                     "maxAmount":  3,
+                     "minAmount":  1,
+                     "type":  "bread"
+                 },
+                 {
+                     "maxDurability":  0.5,
+                     "minAmount":  1,
+                     "slotTypes":  "STORAGE",
                      "maxAmount":  1,
+                     "type":  "iron_pickaxe",
+                     "rarity":  10,
+                     "minDurability":  0.1
+                 },
+                 {
+                     "slotTypes":  "STORAGE",
                      "rarity":  30,
-                     "slotTypes":  "STORAGE",
-                     "enchantments":  [
-                                          {
-                                              "enchantment":  "fortune",
-                                              "minLevel":  2,
-                                              "maxLevel":  3,
-                                              "chance":  1.0
-                                          }
-                                      ]
-                 },
-                 {
-                     "type":  "crossbow",
-                     "minAmount":  1,
                      "maxAmount":  1,
-                     "rarity":  20,
-                     "slotTypes":  "STORAGE",
-                     "displayName":  "Odd Relic: Misfire Repeater",
-                     "lore":  [
-                                  "Reloads before you think",
-                                  "Aims after you regret",
-                                  "Recovered from cave/clutter"
-                              ],
-                     "enchantments":  [
-                                          {
-                                              "enchantment":  "quick_charge",
-                                              "minLevel":  2,
-                                              "maxLevel":  3,
-                                              "chance":  1.0
-                                          },
-                                          {
-                                              "enchantment":  "piercing",
-                                              "minLevel":  2,
-                                              "maxLevel":  4,
-                                              "chance":  1.0
-                                          },
-                                          {
-                                              "enchantment":  "binding_curse",
-                                              "minLevel":  1,
-                                              "maxLevel":  1,
-                                              "chance":  1.0
-                                          }
-                                      ],
-                     "minDurability":  0.2,
-                     "maxDurability":  0.8
+                     "minAmount":  1,
+                     "type":  "diamond"
                  }
              ]
 }

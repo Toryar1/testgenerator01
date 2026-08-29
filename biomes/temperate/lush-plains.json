@@ -96,7 +96,7 @@
       ]
     },
     {
-      "chance": 0.01,
+      "chance": 0.004,
       "rotation": {
         "yAxis": {
           "min": 0,

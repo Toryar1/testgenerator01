@@ -56,7 +56,7 @@
             "place": ["clutter/bincluster1"]
         },
         {
-            "chance": 0.7,
+            "chance": 0.004,
             "density": 2,
             "edit": [
                 {

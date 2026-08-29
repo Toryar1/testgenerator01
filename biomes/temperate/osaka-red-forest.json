@@ -102,7 +102,7 @@
   ],
   "objects": [
     {
-      "chance": 0.2,
+      "chance": 0.004,
       "rotation": {
         "yAxis": {
           "min": 0,

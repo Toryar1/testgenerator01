@@ -90,7 +90,7 @@
   ],
   "objects": [
     {
-      "chance": 0.125,
+      "chance": 0.004,
       "place": [
         "clutter/oakshrub1",
         "clutter/oakshrub2",

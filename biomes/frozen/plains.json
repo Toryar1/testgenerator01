@@ -84,7 +84,7 @@
     ],
     "objects": [
         {
-            "chance": 0.000256,
+            "chance": 0.004,
             "density": 1,
             "snow": 0.25,
             "rotation": {

@@ -144,7 +144,7 @@
             "snow": 0.1
         },
         {
-            "chance": 0.005,
+            "chance": 0.004,
             "mode": "PAINT",
             "edit": [
                 {
