@@ -126,7 +126,7 @@
                  },
                  {
                      "slotTypes":  "STORAGE",
-                     "rarity":  25,
+                     "rarity":  30,
                      "maxAmount":  1,
                      "minAmount":  1,
                      "type":  "emerald"

@@ -85,7 +85,7 @@
                                           {
                                               "enchantment":  "fire_protection",
                                               "minLevel":  2,
-                                              "maxLevel":  4,
+                                              "maxLevel":  2,
                                               "chance":  1.0
                                           }
                                       ]
@@ -112,7 +112,7 @@
                                           {
                                               "enchantment":  "blast_protection",
                                               "minLevel":  3,
-                                              "maxLevel":  4,
+                                              "maxLevel":  2,
                                               "chance":  1.0
                                           },
                                           {

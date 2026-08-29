@@ -220,15 +220,6 @@
                      "maxDurability":  0.95
                  },
                  {
-                     "type":  "mace",
-                     "minAmount":  1,
-                     "maxAmount":  1,
-                     "rarity":  40,
-                     "slotTypes":  "STORAGE",
-                     "minDurability":  0.6,
-                     "maxDurability":  1.0
-                 },
-                 {
                      "type":  "wolf_armor",
                      "minAmount":  1,
                      "maxAmount":  1,
@@ -245,7 +236,7 @@
                                           {
                                               "enchantment":  "efficiency",
                                               "minLevel":  2,
-                                              "maxLevel":  4,
+                                              "maxLevel":  2,
                                               "chance":  1.0
                                           }
                                       ]
@@ -260,7 +251,7 @@
                                           {
                                               "enchantment":  "sharpness",
                                               "minLevel":  2,
-                                              "maxLevel":  4,
+                                              "maxLevel":  2,
                                               "chance":  1.0
                                           }
                                       ]
@@ -287,7 +278,7 @@
                                           {
                                               "enchantment":  "fire_protection",
                                               "minLevel":  2,
-                                              "maxLevel":  4,
+                                              "maxLevel":  2,
                                               "chance":  1.0
                                           },
                                           {

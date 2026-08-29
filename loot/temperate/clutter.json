@@ -85,7 +85,7 @@
                                           {
                                               "enchantment":  "protection",
                                               "minLevel":  2,
-                                              "maxLevel":  4,
+                                              "maxLevel":  2,
                                               "chance":  1.0
                                           }
                                       ]
@@ -106,7 +106,7 @@
                                           {
                                               "enchantment":  "efficiency",
                                               "minLevel":  3,
-                                              "maxLevel":  5,
+                                              "maxLevel":  2,
                                               "chance":  1.0
                                           },
                                           {

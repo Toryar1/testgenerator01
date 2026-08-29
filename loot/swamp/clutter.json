@@ -106,7 +106,7 @@
                                           {
                                               "enchantment":  "protection",
                                               "minLevel":  2,
-                                              "maxLevel":  4,
+                                              "maxLevel":  2,
                                               "chance":  1.0
                                           }
                                       ]
@@ -133,7 +133,7 @@
                                           {
                                               "enchantment":  "piercing",
                                               "minLevel":  2,
-                                              "maxLevel":  4,
+                                              "maxLevel":  2,
                                               "chance":  1.0
                                           },
                                           {

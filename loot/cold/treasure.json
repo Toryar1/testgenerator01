@@ -30,7 +30,7 @@
                      "type":  "emerald",
                      "minAmount":  1,
                      "maxAmount":  1,
-                     "rarity":  25,
+                     "rarity":  30,
                      "slotTypes":  "STORAGE"
                  },
                  {
@@ -85,7 +85,7 @@
                                           {
                                               "enchantment":  "protection",
                                               "minLevel":  2,
-                                              "maxLevel":  4,
+                                              "maxLevel":  2,
                                               "chance":  1.0
                                           }
                                       ]
@@ -162,7 +162,7 @@
                                           {
                                               "enchantment":  "projectile_protection",
                                               "minLevel":  2,
-                                              "maxLevel":  4,
+                                              "maxLevel":  2,
                                               "chance":  1.0
                                           }
                                       ]
