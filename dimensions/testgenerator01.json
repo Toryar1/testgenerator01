@@ -2,7 +2,7 @@
     "version":  4002,
     "name":  "testgenerator01",
     "importedStructures":  {
-                               "datapackOverrides":  true,
+                               "datapackOverrides":  false,
                                "disabled":  [
                                                 "minecraft:village",
                                                 "minecraft:villages",
@@ -36,7 +36,21 @@
                                                 "minecraft:swamp_hut",
                                                 "minecraft:igloo",
                                                 "minecraft:monument",
-                                                "minecraft:ocean_monument"
+                                                "minecraft:ocean_monument",
+                                                "towns_and_towers:towns",
+                                                "towns_and_towers:towers",
+                                                "towns_and_towers:other",
+                                                "towns_and_towers:village_jungle",
+                                                "towns_and_towers:village_beach",
+                                                "towns_and_towers:village_badlands",
+                                                "towns_and_towers:village_forest",
+                                                "towns_and_towers:village_ocean",
+                                                "towns_and_towers:village_swamp",
+                                                "nova_structures:tavern",
+                                                "nova_structures:taverns",
+                                                "nova_structures:illager_camp",
+                                                "nova_structures:illager_camps",
+                                                "nova_structures:wreckage"
                                             ],
                                "adjustments":  [
                                                    {
@@ -610,17 +624,17 @@
                                      ]
                      },
                      {
-                         "minHeight":  -64,
-                         "maxHeight":  16,
-                         "heightDistribution":  "TRIANGLE",
+                         "minHeight":  -256,
+                         "maxHeight":  20,
+                         "heightDistribution":  "UNIFORM",
                          "surfaceClearance":  0,
-                         "minPerChunk":  1,
-                         "maxPerChunk":  4,
+                         "minPerChunk":  2,
+                         "maxPerChunk":  5,
                          "spawnChance":  1,
                          "minSize":  2,
-                         "maxSize":  5,
+                         "maxSize":  6,
                          "shape":  "VANILLA_ELLIPSOID",
-                         "discardChanceOnAirExposure":  0.35,
+                         "discardChanceOnAirExposure":  0.25,
                          "palette":  [
                                          {
                                              "block":  "minecraft:diamond_ore"
