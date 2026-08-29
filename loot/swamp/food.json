@@ -105,7 +105,7 @@
                      "enchantments":  [
                                           {
                                               "enchantment":  "bane_of_arthropods",
-                                              "minLevel":  3,
+                                              "minLevel":  1,
                                               "maxLevel":  2,
                                               "chance":  1.0
                                           },

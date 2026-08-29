@@ -127,7 +127,7 @@
                                           },
                                           {
                                               "enchantment":  "blast_protection",
-                                              "minLevel":  3,
+                                              "minLevel":  1,
                                               "maxLevel":  2,
                                               "chance":  1.0
                                           },
