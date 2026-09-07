@@ -183,7 +183,7 @@
       "style": "FRACTAL_WATER",
       "zoom": 0.44
     },
-    "baseWeight": 0.675,
+    "baseWeight": 0.225,
     "detailWeight": 0.12,
     "warpStrength": 0.36,
     "densityThreshold": {

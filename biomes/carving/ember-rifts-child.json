@@ -172,7 +172,7 @@
       "style": "SIMPLEX",
       "zoom": 0.334
     },
-    "baseWeight": 0.6075,
+    "baseWeight": 0.2025,
     "detailWeight": 0.1575,
     "warpStrength": 0.3616,
     "densityThreshold": {
