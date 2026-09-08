@@ -217,6 +217,35 @@
       "translate": {
         "y": 1
       }
+    },
+    {
+      "rotation": {
+        "yAxis": {
+          "min": 0,
+          "interval": 90,
+          "max": 270,
+          "enabled": true
+        },
+        "enabled": true
+      },
+      "chance": 0.001,
+      "mode": "ORGANIC_STILT",
+      "stiltSettings": {
+        "maxHeight": 3,
+        "organicJitter": 4,
+        "organicScratch": 1,
+        "enabled": true,
+        "minHeight": 1
+      },
+      "place": [
+        "structures/ruin1",
+        "structures/ruin2",
+        "structures/ruin3",
+        "structures/ruin4",
+        "structures/oruins1",
+        "structures/oruins2",
+        "structures/oruins3"
+      ]
     }
   ],
   "decorators": [
