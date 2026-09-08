@@ -192,7 +192,7 @@
       "zoom": 0.792
     },
     "surfaceBreakNoiseThreshold": 0.62,
-    "surfaceBreakDepth": 14,
+    "surfaceBreakDepth": 7,
     "surfaceBreakThresholdBoost": 0.1,
     "objectMinDepthBelowSurface": 16,
     "defaultObjectAnchor": "FLOOR",

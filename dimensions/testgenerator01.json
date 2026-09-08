@@ -17,9 +17,6 @@
       "minecraft:strongholds",
       "minecraft:ruined_portal",
       "minecraft:ruined_portals",
-      "minecraft:ancient_city",
-      "minecraft:ancient_cities",
-      "minecraft:trial_chambers",
       "minecraft:woodland_mansion",
       "minecraft:mansion",
       "minecraft:mansions",
@@ -57,6 +54,16 @@
           "minecraft:mineshaft"
         ],
         "preserveSourceY": true
+      }
+    ],
+    "frequencyOverrides": [
+      {
+        "structureSet": "minecraft:ancient_cities",
+        "multiplier": 0.333
+      },
+      {
+        "structureSet": "minecraft:trial_chambers",
+        "multiplier": 0.333
       }
     ]
   },
@@ -780,14 +787,14 @@
     },
     "thresholdBias": 0.25,
     "sampleStep": 3,
-    "surfaceClearance": 10,
+    "surfaceClearance": 7,
     "allowSurfaceBreak": true,
     "surfaceBreakStyle": {
       "style": "SIMPLEX",
       "zoom": 0.88
     },
     "surfaceBreakNoiseThreshold": 0.85,
-    "surfaceBreakDepth": 8,
+    "surfaceBreakDepth": 7,
     "surfaceBreakThresholdBoost": 0.25,
     "objectMinDepthBelowSurface": 14,
     "defaultObjectAnchor": "FLOOR",
