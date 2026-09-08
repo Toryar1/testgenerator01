@@ -9,8 +9,8 @@
   ],
   "generators": [
     {
-      "min": 70,
-      "max": 110,
+      "min": 49,
+      "max": 75,
       "generator": "canyon-steep"
     },
     {

@@ -20,8 +20,8 @@
   "generators": [
     {
       "generator": "mountain",
-      "max": 195,
-      "min": 112
+      "max": 132,
+      "min": 78
     }
   ],
   "layers": [

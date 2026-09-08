@@ -6,8 +6,8 @@
   "vanillaDerivative": "minecraft:desert",
   "generators": [
     {
-      "min": 59,
-      "max": 123,
+      "min": 41,
+      "max": 83,
       "generator": "cracked-cliffs"
     }
   ],

@@ -13,8 +13,8 @@
   "generators": [
     {
       "generator": "mountain",
-      "max": 220,
-      "min": 170
+      "max": 145,
+      "min": 113
     }
   ],
   "wall": {

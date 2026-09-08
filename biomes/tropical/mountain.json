@@ -19,8 +19,8 @@
   ],
   "generators": [
     {
-      "min": 75,
-      "max": 150,
+      "min": 52,
+      "max": 101,
       "generator": "mountain"
     }
   ],

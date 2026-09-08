@@ -17,8 +17,8 @@
   "generators": [
     {
       "generator": "smooth-dunes",
-      "min": 97,
-      "max": 132
+      "min": 68,
+      "max": 91
     },
     {
       "generator": "mountain",

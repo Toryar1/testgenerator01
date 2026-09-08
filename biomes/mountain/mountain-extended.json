@@ -9,8 +9,8 @@
   "generators": [
     {
       "generator": "mountain",
-      "max": 195,
-      "min": 106
+      "max": 132,
+      "min": 74
     }
   ],
   "biomeStyle": {

@@ -20,8 +20,8 @@
   "generators": [
     {
       "generator": "smooth-dunes",
-      "max": 112,
-      "min": 50
+      "max": 75,
+      "min": 35
     }
   ],
   "wall": {

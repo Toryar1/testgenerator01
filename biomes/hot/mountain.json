@@ -6,8 +6,8 @@
   "vanillaDerivative": "minecraft:desert",
   "generators": [
     {
-      "min": 120,
-      "max": 214,
+      "min": 84,
+      "max": 145,
       "generator": "mountain"
     }
   ],
