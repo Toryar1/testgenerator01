@@ -541,33 +541,6 @@
         "y": -1,
         "z": 0
       }
-    },
-    {
-      "stiltSettings": {
-        "organicScratch": 1,
-        "enabled": true,
-        "organicJitter": 4,
-        "minHeight": 1,
-        "maxHeight": 3
-      },
-      "rotation": {
-        "enabled": true,
-        "yAxis": {
-          "interval": 90,
-          "enabled": true,
-          "max": 270,
-          "min": 0
-        }
-      },
-      "chance": 0.0006,
-      "place": [
-        "structures/swampforearm1",
-        "structures/swampforearm2",
-        "structures/swampforearm3",
-        "structures/swampforearm4",
-        "structures/swampforearm5"
-      ],
-      "mode": "ORGANIC_STILT"
     }
   ],
   "decorators": [

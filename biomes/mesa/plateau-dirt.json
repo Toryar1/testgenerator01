@@ -147,31 +147,6 @@
         "structures/ruins-greek-temple"
       ],
       "mode": "ORGANIC_STILT"
-    },
-    {
-      "stiltSettings": {
-        "organicScratch": 1,
-        "enabled": true,
-        "organicJitter": 4,
-        "minHeight": 1,
-        "maxHeight": 3
-      },
-      "rotation": {
-        "enabled": true,
-        "yAxis": {
-          "interval": 90,
-          "enabled": true,
-          "max": 270,
-          "min": 0
-        }
-      },
-      "chance": 0.0006,
-      "place": [
-        "structures/bonehand1",
-        "structures/bonehand2",
-        "structures/bonehand3"
-      ],
-      "mode": "ORGANIC_STILT"
     }
   ],
   "decorators": [
