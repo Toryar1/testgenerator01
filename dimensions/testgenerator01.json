@@ -753,7 +753,7 @@
     "enabled": true,
     "verticalRange": {
       "min": 6,
-      "max": 110
+      "max": 700
     },
     "baseDensityStyle": {
       "style": "PERLIN_IRIS",
@@ -808,7 +808,7 @@
         "threshold": 0.03,
         "verticalRange": {
           "min": 24,
-          "max": 110
+          "max": 660
         },
         "invert": false
       },
@@ -821,7 +821,7 @@
         "threshold": 0.08,
         "verticalRange": {
           "min": 6,
-          "max": 110
+          "max": 240
         },
         "invert": true
       }

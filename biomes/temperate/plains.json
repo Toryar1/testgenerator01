@@ -226,6 +226,31 @@
         "structures/ruin3",
         "structures/ruin4"
       ]
+    },
+    {
+      "place": [
+        "clutter/genericpeak1",
+        "clutter/genericpeak2",
+        "clutter/genericpeak3",
+        "clutter/genericpeak5",
+        "clutter/genericpeak6"
+      ],
+      "translate": {
+        "y": -4,
+        "z": 0,
+        "x": 0
+      },
+      "rotation": {
+        "yAxis": {
+          "max": 270,
+          "interval": 90,
+          "enabled": true,
+          "min": 0
+        },
+        "enabled": true
+      },
+      "mode": "PAINT",
+      "chance": 0.002
     }
   ],
   "decorators": [
