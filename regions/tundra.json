@@ -72,7 +72,7 @@
       "style": "SIMPLEX",
       "zoom": 0.5
     },
-    "baseWeight": 0.25,
+    "baseWeight": 0.18,
     "detailWeight": 0,
     "warpStrength": 0,
     "densityThreshold": {
@@ -83,7 +83,7 @@
         "zoom": 0.5
       }
     },
-    "thresholdBias": 0.18,
+    "thresholdBias": 0.21,
     "sampleStep": 3,
     "surfaceClearance": 12,
     "allowSurfaceBreak": false,

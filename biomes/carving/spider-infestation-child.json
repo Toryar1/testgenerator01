@@ -155,7 +155,7 @@
       "style": "PERLIN_IRIS",
       "zoom": 0.35
     },
-    "baseWeight": 0.207,
+    "baseWeight": 0.1552,
     "detailWeight": 0.12,
     "warpStrength": 0.2884,
     "densityThreshold": {
