@@ -67,6 +67,14 @@
       }
     ]
   },
+  "importedFeatures": {
+    "enabled": true,
+    "steps": [
+      "FLUID_SPRINGS",
+      "UNDERGROUND_DECORATION"
+    ],
+    "disabled": []
+  },
   "structures": [],
   "fullbright": false,
   "upperDimension": "",
@@ -76,6 +84,7 @@
   "environment": "NORMAL",
   "dimensionAngleDeg": 69,
   "fluidHeight": 50,
+  "caveLavaHeight": 202,
   "continentZoom": 1,
   "continentalStyle": {
     "style": "NOWHERE_CELLULAR",
@@ -776,7 +785,7 @@
     },
     "baseWeight": 0.16,
     "detailWeight": 0.11,
-    "warpStrength": 0.24,
+    "warpStrength": 0.45,
     "densityThreshold": {
       "min": -0.12,
       "max": -0.06,
@@ -786,7 +795,7 @@
       }
     },
     "thresholdBias": 0.25,
-    "sampleStep": 3,
+    "sampleStep": 2,
     "surfaceClearance": 7,
     "allowSurfaceBreak": true,
     "surfaceBreakStyle": {
@@ -831,6 +840,19 @@
           "max": 240
         },
         "invert": true
+      },
+      {
+        "style": {
+          "style": "CELLULAR_IRIS",
+          "zoom": 0.35
+        },
+        "weight": 0.05,
+        "threshold": 0.08,
+        "verticalRange": {
+          "min": 10,
+          "max": 350
+        },
+        "invert": false
       }
     ],
     "verticalEdgeFade": 24,

@@ -65,6 +65,23 @@
           }
         }
       ]
+    },
+    {
+      "chance": 0.007,
+      "scaleStack": true,
+      "stackMin": 100,
+      "stackMax": 100,
+      "partOf": "CEILING",
+      "palette": [
+        {
+          "block": "minecraft:dripstone_block",
+          "weight": 4
+        },
+        {
+          "block": "minecraft:granite",
+          "weight": 1
+        }
+      ]
     }
   ],
   "caveCeilingLayers": [

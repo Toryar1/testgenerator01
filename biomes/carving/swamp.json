@@ -61,6 +61,23 @@
           "block": "minecraft:red_mushroom"
         }
       ]
+    },
+    {
+      "chance": 0.015,
+      "palette": [
+        {
+          "block": "minecraft:magma_block"
+        }
+      ]
+    },
+    {
+      "partOf": "CEILING",
+      "chance": 0.035,
+      "palette": [
+        {
+          "block": "minecraft:glow_lichen"
+        }
+      ]
     }
   ],
   "caveCeilingLayers": [

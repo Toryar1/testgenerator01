@@ -222,5 +222,37 @@
     "minCarveCells": 20,
     "recoveryThresholdBoost": 0.07
   },
-  "caveMinDepthBelowSurface": 10
+  "caveMinDepthBelowSurface": 10,
+  "decorators": [
+    {
+      "chance": 0.005,
+      "scaleStack": true,
+      "stackMin": 100,
+      "stackMax": 100,
+      "partOf": "CEILING",
+      "palette": [
+        {
+          "block": "minecraft:deepslate",
+          "weight": 4
+        },
+        {
+          "block": "minecraft:stone",
+          "weight": 2
+        },
+        {
+          "block": "minecraft:tuff",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "partOf": "CEILING",
+      "chance": 0.028,
+      "palette": [
+        {
+          "block": "minecraft:glow_lichen"
+        }
+      ]
+    }
+  ]
 }

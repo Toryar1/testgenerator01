@@ -201,5 +201,37 @@
     "style": "CELLULAR_IRIS_DOUBLE",
     "zoom": 0.74
   },
-  "childShrinkFactor": 1.54
+  "childShrinkFactor": 1.54,
+  "decorators": [
+    {
+      "chance": 0.005,
+      "scaleStack": true,
+      "stackMin": 100,
+      "stackMax": 100,
+      "partOf": "CEILING",
+      "palette": [
+        {
+          "block": "minecraft:deepslate",
+          "weight": 4
+        },
+        {
+          "block": "minecraft:stone",
+          "weight": 2
+        },
+        {
+          "block": "minecraft:tuff",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "partOf": "CEILING",
+      "chance": 0.028,
+      "palette": [
+        {
+          "block": "minecraft:glow_lichen"
+        }
+      ]
+    }
+  ]
 }
