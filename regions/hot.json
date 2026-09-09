@@ -1,7 +1,7 @@
 {
   "name": "Hot",
   "color": "#D1CD44",
-  "rarity": 3,
+  "rarity": 9,
   "seaBiomeZoom": 3.5,
   "landBiomes": [
     "hot/desert-dunes",
@@ -29,7 +29,11 @@
     "carving/sand-hollows",
     "carving/red-sandstone",
     "carving/mixed-sandstone",
-    "carving/volcanic",
+    "carving/deep",
+    "carving/deepslate",
+    "carving/rocky-cavebiome",
+    "carving/deepravine",
+    "carving/lush",
     "carving/ember-rifts"
   ],
   "shoreBiomes": [

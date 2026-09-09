@@ -3,37 +3,30 @@
   "derivative": "minecraft:dripstone_caves",
   "vanillaDerivative": "minecraft:dripstone_caves",
   "wall": {
-    "minHeight": 2,
-    "maxHeight": 2,
     "style": {
-      "style": "FRACTAL_WATER",
-      "zoom": 0.72
+      "style": "SIMPLEX",
+      "zoom": 0.08
     },
-    "zoom": 0.4,
     "palette": [
       {
         "block": "minecraft:sandstone",
-        "weight": 4
+        "weight": 12
       },
       {
         "block": "minecraft:smooth_sandstone",
+        "weight": 4
+      },
+      {
+        "block": "minecraft:granite",
         "weight": 3
       },
       {
-        "block": "minecraft:cut_sandstone",
+        "block": "minecraft:terracotta",
         "weight": 3
       },
       {
-        "block": "minecraft:red_sandstone",
+        "block": "minecraft:sand",
         "weight": 2
-      },
-      {
-        "block": "minecraft:smooth_red_sandstone",
-        "weight": 2
-      },
-      {
-        "block": "minecraft:calcite",
-        "weight": 1
       }
     ]
   },

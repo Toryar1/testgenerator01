@@ -84,7 +84,6 @@
   "environment": "NORMAL",
   "dimensionAngleDeg": 69,
   "fluidHeight": 50,
-  "caveLavaHeight": 202,
   "continentZoom": 1,
   "continentalStyle": {
     "style": "NOWHERE_CELLULAR",
@@ -327,6 +326,20 @@
     "style": "NOWHERE_CELLULAR"
   },
   "deposits": [
+    {
+      "minHeight": 1,
+      "maxHeight": 260,
+      "minPerChunk": 2,
+      "maxPerChunk": 10,
+      "minSize": 30,
+      "maxSize": 50,
+      "palette": [
+        {
+          "block": "minecraft:tuff"
+        }
+      ],
+      "varience": 2
+    },
     {
       "minHeight": 19,
       "maxHeight": 390,

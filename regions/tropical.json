@@ -1,7 +1,7 @@
 {
   "name": "Tropical",
   "color": "#54EA2C",
-  "rarity": 2,
+  "rarity": 6,
   "landBiomes": [
     "tropical/rainforest",
     "tropical/volcanic-plains",
@@ -18,10 +18,15 @@
   ],
   "caveBiomes": [
     "carving/jungle",
-    "carving/lush",
+    "carving/deep",
+    "carving/deepslate",
     "carving/sand-hollows",
     "carving/drip",
-    "carving/moss-pillars"
+    "carving/moss-pillars",
+    "carving/rocky-cavebiome",
+    "carving/lush",
+    "carving/deepravine",
+    "carving/volcanic"
   ],
   "shoreBiomes": [
     "tropical/island-beach",

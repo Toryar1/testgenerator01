@@ -1,7 +1,7 @@
 {
   "name": "Tundra",
   "color": "#9CB0B9",
-  "rarity": 2,
+  "rarity": 4,
   "landBiomes": [
     "tundra/taiga",
     "tundra/redwood-forest",
@@ -32,10 +32,15 @@
   ],
   "caveBiomes": [
     "carving/calcite",
-    "carving/ice",
     "carving/ice-lite",
     "carving/frost-shards",
-    "carving/glacial"
+    "carving/deep",
+    "carving/deepslate",
+    "carving/rocky-cavebiome",
+    "carving/mountain-caves",
+    "carving/glacial",
+    "carving/ice",
+    "carving/volcanic"
   ],
   "shoreBiomes": [
     "tundra/shore/beach",

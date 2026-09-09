@@ -4,19 +4,32 @@
   "vanillaDerivative": "minecraft:deep_dark",
   "wall": {
     "style": {
-      "style": "STATIC"
+      "style": "SIMPLEX",
+      "zoom": 0.08
     },
     "palette": [
       {
         "block": "minecraft:stone",
-        "weight": 2
-      },
-      {
-        "block": "minecraft:stone",
-        "weight": 9
+        "weight": 12
       },
       {
         "block": "minecraft:andesite",
+        "weight": 4
+      },
+      {
+        "block": "minecraft:diorite",
+        "weight": 3
+      },
+      {
+        "block": "minecraft:granite",
+        "weight": 3
+      },
+      {
+        "block": "minecraft:gravel",
+        "weight": 2
+      },
+      {
+        "block": "minecraft:tuff",
         "weight": 1
       }
     ]
@@ -138,6 +151,16 @@
       "scale": {
         "size": 0.75
       }
+    },
+    {
+      "chance": 0.02,
+      "density": 1,
+      "carvingSupport": "CARVING_ONLY",
+      "caveAnchorMode": "FLOOR",
+      "mode": "ORGANIC_STILT",
+      "place": [
+        "clutter/pond"
+      ]
     }
   ],
   "caveProfile": {

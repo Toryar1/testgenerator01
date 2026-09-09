@@ -1,7 +1,7 @@
 {
   "name": "Estranged",
   "color": "#B26BE8",
-  "rarity": 1,
+  "rarity": 3,
   "proceduralObjects": {
     "formations": [
       {
@@ -382,9 +382,14 @@
   "caveBiomes": [
     "carving/rocky-cavebiome",
     "carving/deep",
+    "carving/deepslate",
     "carving/drip",
     "carving/chalk-gardens",
-    "carving/moss-pillars"
+    "carving/amethyst",
+    "carving/moss-pillars",
+    "carving/deepravine",
+    "carving/lush",
+    "carving/volcanic"
   ],
   "shoreBiomes": [
     "temperate/shore/beach",

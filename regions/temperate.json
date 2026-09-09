@@ -1,7 +1,7 @@
 {
   "name": "Temperate",
   "color": "#9BEE61",
-  "rarity": 1,
+  "rarity": 4,
   "landBiomes": [
     "temperate/plains",
     "temperate/combo-forest",
@@ -33,9 +33,14 @@
   "caveBiomes": [
     "carving/rocky-cavebiome",
     "carving/deep",
+    "carving/deepslate",
     "carving/drip",
     "carving/chalk-gardens",
-    "carving/moss-pillars"
+    "carving/amethyst",
+    "carving/moss-pillars",
+    "carving/deepravine",
+    "carving/lush",
+    "carving/volcanic"
   ],
   "shoreBiomes": [
     "temperate/shore/beach",

@@ -1,7 +1,7 @@
 {
   "name": "Frozen",
   "color": "#44C3D1",
-  "rarity": 1,
+  "rarity": 2,
   "landBiomes": [
     "frozen/plains",
     "frozen/hills",
@@ -26,11 +26,16 @@
     "vanilla/jagged_peaks"
   ],
   "caveBiomes": [
-    "carving/ice-lite",
-    "carving/ice",
-    "carving/ice-ravine",
     "carving/frost-shards",
-    "carving/glacial"
+    "carving/ice-lite",
+    "carving/deep",
+    "carving/deepslate",
+    "carving/calcite",
+    "carving/rocky-cavebiome",
+    "carving/mountain-caves",
+    "carving/ice-ravine",
+    "carving/glacial",
+    "carving/volcanic"
   ],
   "shoreBiomes": [
     "frozen/shore/beach"

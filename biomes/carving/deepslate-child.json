@@ -3,14 +3,30 @@
   "derivative": "minecraft:deep_dark",
   "vanillaDerivative": "minecraft:deep_dark",
   "wall": {
+    "style": {
+      "style": "SIMPLEX",
+      "zoom": 0.08
+    },
     "palette": [
       {
         "block": "minecraft:deepslate",
-        "weight": 13
+        "weight": 12
       },
       {
         "block": "minecraft:tuff",
-        "weight": 3
+        "weight": 5
+      },
+      {
+        "block": "minecraft:cobbled_deepslate",
+        "weight": 2
+      },
+      {
+        "block": "minecraft:gravel",
+        "weight": 2
+      },
+      {
+        "block": "minecraft:smooth_basalt",
+        "weight": 1
       }
     ]
   },
@@ -125,6 +141,27 @@
       "scale": {
         "size": 0.75
       }
+    },
+    {
+      "chance": 0.01,
+      "density": 1,
+      "carvingSupport": "CARVING_ONLY",
+      "caveAnchorMode": "FLOOR",
+      "mode": "ORGANIC_STILT",
+      "place": [
+        "clutter/lava-cup-1",
+        "clutter/lava-cup-2"
+      ]
+    },
+    {
+      "chance": 0.015,
+      "density": 1,
+      "carvingSupport": "CARVING_ONLY",
+      "caveAnchorMode": "FLOOR",
+      "mode": "ORGANIC_STILT",
+      "place": [
+        "clutter/pond"
+      ]
     }
   ],
   "caveProfile": {

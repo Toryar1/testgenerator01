@@ -3,9 +3,34 @@
   "derivative": "minecraft:dripstone_caves",
   "vanillaDerivative": "minecraft:dripstone_caves",
   "wall": {
+    "style": {
+      "style": "SIMPLEX",
+      "zoom": 0.08
+    },
     "palette": [
       {
-        "block": "minecraft:tuff"
+        "block": "minecraft:stone",
+        "weight": 12
+      },
+      {
+        "block": "minecraft:andesite",
+        "weight": 4
+      },
+      {
+        "block": "minecraft:diorite",
+        "weight": 3
+      },
+      {
+        "block": "minecraft:granite",
+        "weight": 3
+      },
+      {
+        "block": "minecraft:gravel",
+        "weight": 2
+      },
+      {
+        "block": "minecraft:tuff",
+        "weight": 1
       }
     ]
   },

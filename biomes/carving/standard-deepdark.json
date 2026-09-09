@@ -4,12 +4,29 @@
   "vanillaDerivative": "minecraft:deep_dark",
   "wall": {
     "style": {
-      "style": "STATIC"
+      "style": "SIMPLEX",
+      "zoom": 0.08
     },
     "palette": [
       {
         "block": "minecraft:deepslate",
-        "weight": 3
+        "weight": 12
+      },
+      {
+        "block": "minecraft:tuff",
+        "weight": 5
+      },
+      {
+        "block": "minecraft:cobbled_deepslate",
+        "weight": 2
+      },
+      {
+        "block": "minecraft:gravel",
+        "weight": 2
+      },
+      {
+        "block": "minecraft:smooth_basalt",
+        "weight": 1
       }
     ]
   },

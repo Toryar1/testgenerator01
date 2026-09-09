@@ -1,7 +1,7 @@
 {
   "name": "Forests",
   "color": "#9BEE61",
-  "rarity": 1,
+  "rarity": 4,
   "landBiomes": [
     "tundra/forest",
     "tundra/autumn",
@@ -18,9 +18,15 @@
   ],
   "caveBiomes": [
     "carving/rocky-cavebiome",
-    "carving/lush",
     "carving/mountain-caves",
-    "carving/moss-pillars"
+    "carving/deep",
+    "carving/deepslate",
+    "carving/moss-pillars",
+    "carving/drip",
+    "carving/chalk-gardens",
+    "carving/lush",
+    "carving/deepravine",
+    "carving/volcanic"
   ],
   "shoreBiomes": [
     "temperate/shore/beach",

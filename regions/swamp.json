@@ -1,7 +1,7 @@
 {
   "name": "Swamp",
   "color": "#69943C",
-  "rarity": 2,
+  "rarity": 6,
   "landBiomes": [
     "swamp/roofed-forest",
     "swamp/sea/lake",
@@ -15,11 +15,16 @@
     "vanilla/mangrove_swamp"
   ],
   "caveBiomes": [
+    "carving/deep",
+    "carving/deepslate",
+    "carving/drip",
+    "carving/drip-lite",
+    "carving/moss-pillars",
+    "carving/rocky-cavebiome",
+    "carving/chalk-gardens",
     "carving/swamp",
     "carving/lush",
-    "carving/drip-lite",
-    "carving/drip",
-    "carving/moss-pillars"
+    "carving/volcanic"
   ],
   "shoreBiomes": [
     "swamp/shore/beach"

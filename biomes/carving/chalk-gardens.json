@@ -4,18 +4,33 @@
   "vanillaDerivative": "minecraft:lush_caves",
   "wall": {
     "style": {
-      "style": "CELLULAR",
-      "zoom": 0.75
+      "style": "SIMPLEX",
+      "zoom": 0.08
     },
     "palette": [
       {
-        "block": "minecraft:calcite"
+        "block": "minecraft:stone",
+        "weight": 12
       },
       {
-        "block": "minecraft:diorite"
+        "block": "minecraft:andesite",
+        "weight": 4
       },
       {
-        "block": "minecraft:deepslate"
+        "block": "minecraft:diorite",
+        "weight": 3
+      },
+      {
+        "block": "minecraft:granite",
+        "weight": 3
+      },
+      {
+        "block": "minecraft:gravel",
+        "weight": 2
+      },
+      {
+        "block": "minecraft:tuff",
+        "weight": 1
       }
     ]
   },
