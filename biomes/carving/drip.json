@@ -9,28 +9,24 @@
     },
     "palette": [
       {
+        "block": "minecraft:dripstone_block",
+        "weight": 8
+      },
+      {
         "block": "minecraft:stone",
-        "weight": 12
-      },
-      {
-        "block": "minecraft:andesite",
-        "weight": 4
-      },
-      {
-        "block": "minecraft:diorite",
-        "weight": 3
+        "weight": 8
       },
       {
         "block": "minecraft:granite",
         "weight": 3
       },
       {
-        "block": "minecraft:gravel",
+        "block": "minecraft:terracotta",
         "weight": 2
       },
       {
-        "block": "minecraft:tuff",
-        "weight": 1
+        "block": "minecraft:deepslate",
+        "weight": 2
       }
     ]
   },
@@ -194,6 +190,16 @@
       "scale": {
         "size": 0.75
       }
+    },
+    {
+      "chance": 0.02,
+      "density": 1,
+      "carvingSupport": "CARVING_ONLY",
+      "caveAnchorMode": "FLOOR",
+      "mode": "ORGANIC_STILT",
+      "place": [
+        "clutter/pond"
+      ]
     }
   ],
   "caveProfile": {

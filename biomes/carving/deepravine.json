@@ -1,18 +1,36 @@
 {
-  "name": "Deepened Ravine",
-  "derivative": "minecraft:deep_dark",
-  "vanillaDerivative": "minecraft:deep_dark",
+  "name": "Vanilla Ravine",
+  "derivative": "minecraft:plains",
+  "vanillaDerivative": "minecraft:plains",
   "wall": {
     "style": {
-      "style": "NOWHERE"
+      "style": "SIMPLEX",
+      "zoom": 0.08
     },
     "palette": [
       {
         "block": "minecraft:stone",
+        "weight": 12
+      },
+      {
+        "block": "minecraft:andesite",
+        "weight": 4
+      },
+      {
+        "block": "minecraft:diorite",
         "weight": 3
       },
       {
-        "block": "minecraft:stone"
+        "block": "minecraft:granite",
+        "weight": 3
+      },
+      {
+        "block": "minecraft:gravel",
+        "weight": 2
+      },
+      {
+        "block": "minecraft:deepslate",
+        "weight": 2
       }
     ]
   },

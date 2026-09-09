@@ -17,16 +17,16 @@
     "tropical/rainforest-island"
   ],
   "caveBiomes": [
-    "carving/jungle",
     "carving/deep",
     "carving/deepslate",
-    "carving/sand-hollows",
-    "carving/drip",
-    "carving/moss-pillars",
-    "carving/rocky-cavebiome",
+    "carving/deepslate",
     "carving/lush",
+    "carving/lush",
+    "carving/lush",
+    "carving/lush",
+    "carving/drip",
     "carving/deepravine",
-    "carving/volcanic"
+    "carving/standard-deepdark"
   ],
   "shoreBiomes": [
     "tropical/island-beach",

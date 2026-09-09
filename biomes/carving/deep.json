@@ -1,7 +1,7 @@
 {
-  "name": "Deepened cave",
-  "derivative": "minecraft:deep_dark",
-  "vanillaDerivative": "minecraft:deep_dark",
+  "name": "Vanilla Stone Cave",
+  "derivative": "minecraft:plains",
+  "vanillaDerivative": "minecraft:plains",
   "wall": {
     "style": {
       "style": "SIMPLEX",

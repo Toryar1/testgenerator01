@@ -1,7 +1,7 @@
 {
-  "name": "Deepslate Cavern Child",
-  "derivative": "minecraft:deep_dark",
-  "vanillaDerivative": "minecraft:deep_dark",
+  "name": "Vanilla Deepslate Cave Child",
+  "derivative": "minecraft:plains",
+  "vanillaDerivative": "minecraft:plains",
   "wall": {
     "style": {
       "style": "SIMPLEX",

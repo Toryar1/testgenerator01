@@ -25,16 +25,16 @@
     "vanilla/wooded_badlands"
   ],
   "caveBiomes": [
-    "carving/sandstone",
-    "carving/sand-hollows",
-    "carving/red-sandstone",
-    "carving/mixed-sandstone",
+    "carving/deep",
     "carving/deep",
     "carving/deepslate",
-    "carving/rocky-cavebiome",
+    "carving/deepslate",
+    "carving/drip",
+    "carving/drip",
+    "carving/drip",
     "carving/deepravine",
-    "carving/lush",
-    "carving/ember-rifts"
+    "carving/deepravine",
+    "carving/standard-deepdark"
   ],
   "shoreBiomes": [
     "hot/shore/beach",

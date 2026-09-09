@@ -17,16 +17,16 @@
     "vanilla/windswept_forest"
   ],
   "caveBiomes": [
-    "carving/rocky-cavebiome",
-    "carving/mountain-caves",
+    "carving/deep",
     "carving/deep",
     "carving/deepslate",
-    "carving/moss-pillars",
-    "carving/drip",
-    "carving/chalk-gardens",
+    "carving/deepslate",
     "carving/lush",
+    "carving/lush",
+    "carving/lush",
+    "carving/drip",
     "carving/deepravine",
-    "carving/volcanic"
+    "carving/standard-deepdark"
   ],
   "shoreBiomes": [
     "temperate/shore/beach",

@@ -380,16 +380,16 @@
     "estranged/taxodium"
   ],
   "caveBiomes": [
-    "carving/rocky-cavebiome",
     "carving/deep",
     "carving/deepslate",
+    "carving/deepslate",
+    "carving/standard-deepdark",
+    "carving/standard-deepdark",
+    "carving/standard-deepdark",
     "carving/drip",
-    "carving/chalk-gardens",
-    "carving/amethyst",
-    "carving/moss-pillars",
-    "carving/deepravine",
+    "carving/drip",
     "carving/lush",
-    "carving/volcanic"
+    "carving/deepravine"
   ],
   "shoreBiomes": [
     "temperate/shore/beach",

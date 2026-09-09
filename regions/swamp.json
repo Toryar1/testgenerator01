@@ -17,14 +17,14 @@
   "caveBiomes": [
     "carving/deep",
     "carving/deepslate",
-    "carving/drip",
-    "carving/drip-lite",
-    "carving/moss-pillars",
-    "carving/rocky-cavebiome",
-    "carving/chalk-gardens",
-    "carving/swamp",
+    "carving/deepslate",
     "carving/lush",
-    "carving/volcanic"
+    "carving/lush",
+    "carving/lush",
+    "carving/lush",
+    "carving/drip",
+    "carving/deepravine",
+    "carving/standard-deepdark"
   ],
   "shoreBiomes": [
     "swamp/shore/beach"

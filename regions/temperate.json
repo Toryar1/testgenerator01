@@ -31,16 +31,16 @@
     "vanilla/sunflower_plains"
   ],
   "caveBiomes": [
-    "carving/rocky-cavebiome",
+    "carving/deep",
     "carving/deep",
     "carving/deepslate",
-    "carving/drip",
-    "carving/chalk-gardens",
-    "carving/amethyst",
-    "carving/moss-pillars",
-    "carving/deepravine",
+    "carving/deepslate",
     "carving/lush",
-    "carving/volcanic"
+    "carving/lush",
+    "carving/drip",
+    "carving/deepravine",
+    "carving/deepravine",
+    "carving/standard-deepdark"
   ],
   "shoreBiomes": [
     "temperate/shore/beach",

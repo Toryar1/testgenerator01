@@ -68,11 +68,23 @@
         },
         {
           "block": "minecraft:sculk_catalyst",
-          "weight": 2
+          "weight": 10
         },
         {
           "block": "minecraft:sculk_shrieker",
-          "weight": 1
+          "data": {
+            "can_summon": "true"
+          },
+          "weight": 8
+        }
+      ]
+    },
+    {
+      "partOf": "CEILING",
+      "chance": 0.08,
+      "palette": [
+        {
+          "block": "minecraft:sculk_vein"
         }
       ]
     }
