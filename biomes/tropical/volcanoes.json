@@ -94,5 +94,6 @@
     "zoom": 0.2,
     "exponent": 4
   },
-  "childShrinkFactor": 1
+  "childShrinkFactor": 1,
+  "objects": []
 }

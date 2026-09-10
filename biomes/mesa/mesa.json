@@ -203,5 +203,6 @@
     "zoom": 1.2,
     "exponent": 1.3
   },
-  "childShrinkFactor": 1
+  "childShrinkFactor": 1,
+  "objects": []
 }

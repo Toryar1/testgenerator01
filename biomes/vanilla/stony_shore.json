@@ -1,94 +1,95 @@
 {
-    "generators":  [
-                       {
-                           "min":  -3,
-                           "generator":  "plain",
-                           "max":  4
-                       }
-                   ],
-    "color":  "#8A8A8A",
-    "vanillaDerivative":  "minecraft:stony_shore",
-    "name":  "Stony Shore",
-    "customDerivitives":  [
-                              {
-                                  "id":  "stony_shore",
-                                  "waterColor":  "#3F76E4",
-                                  "downfallType":  "none",
-                                  "grassColor":  "#8AB689",
-                                  "foliageColor":  "#6DA36B",
-                                  "category":  "beach"
-                              }
-                          ],
-    "lockLayers":  true,
-    "derivative":  "minecraft:stony_shore",
-    "rarity":  1,
-    "layers":  [
-                   {
-                       "palette":  [
-                                       {
-                                           "block":  "minecraft:gravel",
-                                           "weight":  5
-                                       },
-                                       {
-                                           "block":  "minecraft:stone",
-                                           "weight":  4
-                                       },
-                                       {
-                                           "block":  "minecraft:andesite",
-                                           "weight":  2
-                                       }
-                                   ],
-                       "style":  {
-                                     "zoom":  0.95,
-                                     "style":  "CELLULAR_BILINEAR"
-                                 },
-                       "minHeight":  1,
-                       "maxHeight":  3
-                   },
-                   {
-                       "palette":  [
-                                       {
-                                           "block":  "minecraft:stone",
-                                           "weight":  6
-                                       },
-                                       {
-                                           "block":  "minecraft:andesite",
-                                           "weight":  3
-                                       },
-                                       {
-                                           "block":  "minecraft:cobblestone",
-                                           "weight":  1
-                                       }
-                                   ],
-                       "style":  {
-                                     "zoom":  0.8,
-                                     "style":  "SIMPLEX"
-                                 },
-                       "minHeight":  2,
-                       "maxHeight":  6
-                   }
-               ],
-    "wall":  {
-                 "palette":  [
-                                 {
-                                     "block":  "minecraft:stone",
-                                     "weight":  5
-                                 },
-                                 {
-                                     "block":  "minecraft:andesite",
-                                     "weight":  3
-                                 },
-                                 {
-                                     "block":  "minecraft:gravel",
-                                     "weight":  2
-                                 },
-                                 {
-                                     "block":  "minecraft:cobblestone",
-                                     "weight":  1
-                                 }
-                             ],
-                 "style":  {
-                               "style":  "STATIC"
-                           }
-             }
+  "generators": [
+    {
+      "min": -3,
+      "generator": "plain",
+      "max": 4
+    }
+  ],
+  "color": "#8A8A8A",
+  "vanillaDerivative": "minecraft:stony_shore",
+  "name": "Stony Shore",
+  "customDerivitives": [
+    {
+      "id": "stony_shore",
+      "waterColor": "#3F76E4",
+      "downfallType": "none",
+      "grassColor": "#8AB689",
+      "foliageColor": "#6DA36B",
+      "category": "beach"
+    }
+  ],
+  "lockLayers": true,
+  "derivative": "minecraft:stony_shore",
+  "rarity": 1,
+  "layers": [
+    {
+      "palette": [
+        {
+          "block": "minecraft:gravel",
+          "weight": 5
+        },
+        {
+          "block": "minecraft:stone",
+          "weight": 4
+        },
+        {
+          "block": "minecraft:andesite",
+          "weight": 2
+        }
+      ],
+      "style": {
+        "zoom": 0.95,
+        "style": "CELLULAR_BILINEAR"
+      },
+      "minHeight": 1,
+      "maxHeight": 3
+    },
+    {
+      "palette": [
+        {
+          "block": "minecraft:stone",
+          "weight": 6
+        },
+        {
+          "block": "minecraft:andesite",
+          "weight": 3
+        },
+        {
+          "block": "minecraft:cobblestone",
+          "weight": 1
+        }
+      ],
+      "style": {
+        "zoom": 0.8,
+        "style": "SIMPLEX"
+      },
+      "minHeight": 2,
+      "maxHeight": 6
+    }
+  ],
+  "wall": {
+    "palette": [
+      {
+        "block": "minecraft:stone",
+        "weight": 5
+      },
+      {
+        "block": "minecraft:andesite",
+        "weight": 3
+      },
+      {
+        "block": "minecraft:gravel",
+        "weight": 2
+      },
+      {
+        "block": "minecraft:cobblestone",
+        "weight": 1
+      }
+    ],
+    "style": {
+      "style": "STATIC"
+    }
+  },
+  "objects": []
 }

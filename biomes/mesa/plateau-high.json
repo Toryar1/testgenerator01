@@ -113,5 +113,6 @@
       ]
     }
   ],
-  "lockLayers": true
+  "lockLayers": true,
+  "objects": []
 }

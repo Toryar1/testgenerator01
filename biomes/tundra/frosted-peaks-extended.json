@@ -204,5 +204,6 @@
         "block": "minecraft:air"
       }
     ]
-  }
+  },
+  "objects": []
 }

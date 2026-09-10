@@ -131,5 +131,6 @@
     },
     "snippet/decorator/dry_grass"
   ],
-  "lockLayers": true
+  "lockLayers": true,
+  "objects": []
 }
