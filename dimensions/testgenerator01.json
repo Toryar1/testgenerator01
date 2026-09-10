@@ -71,7 +71,9 @@
     "enabled": true,
     "steps": [
       "FLUID_SPRINGS",
-      "UNDERGROUND_DECORATION"
+      "UNDERGROUND_DECORATION",
+      "UNDERGROUND_STRUCTURES",
+      "LAKES"
     ],
     "disabled": []
   },
@@ -786,38 +788,38 @@
     },
     "baseDensityStyle": {
       "style": "PERLIN_IRIS",
-      "zoom": 0.9
+      "zoom": 0.72
     },
     "detailDensityStyle": {
       "style": "SIMPLEX",
-      "zoom": 0.675
+      "zoom": 0.54
     },
     "warpStyle": {
       "style": "FRACTAL_WATER",
       "zoom": 0.5
     },
-    "baseWeight": 0.16,
+    "baseWeight": 0.9,
     "detailWeight": 0.11,
-    "warpStrength": 0.45,
+    "warpStrength": 0.24,
     "densityThreshold": {
-      "min": -0.12,
+      "min": -0.14,
       "max": -0.06,
       "style": {
         "style": "SIMPLEX",
         "zoom": 0.74
       }
     },
-    "thresholdBias": 0.25,
-    "sampleStep": 2,
-    "surfaceClearance": 7,
+    "thresholdBias": 0.14,
+    "sampleStep": 3,
+    "surfaceClearance": 12,
     "allowSurfaceBreak": true,
     "surfaceBreakStyle": {
       "style": "SIMPLEX",
       "zoom": 0.88
     },
-    "surfaceBreakNoiseThreshold": 0.85,
-    "surfaceBreakDepth": 7,
-    "surfaceBreakThresholdBoost": 0.25,
+    "surfaceBreakNoiseThreshold": 0.98,
+    "surfaceBreakDepth": 2,
+    "surfaceBreakThresholdBoost": 0.05,
     "objectMinDepthBelowSurface": 14,
     "defaultObjectAnchor": "FLOOR",
     "defaultObjectPlaceMode": "ORGANIC_STILT",
@@ -833,7 +835,7 @@
           "style": "SIMPLEX_VASCULAR",
           "zoom": 1.08
         },
-        "weight": 0.06,
+        "weight": 0.08,
         "threshold": 0.03,
         "verticalRange": {
           "min": 24,
@@ -846,26 +848,13 @@
           "style": "FRACTAL_FBM_SIMPLEX",
           "zoom": 0.24
         },
-        "weight": 0.03,
+        "weight": 0.04,
         "threshold": 0.08,
         "verticalRange": {
           "min": 6,
           "max": 240
         },
         "invert": true
-      },
-      {
-        "style": {
-          "style": "CELLULAR_IRIS",
-          "zoom": 0.35
-        },
-        "weight": 0.05,
-        "threshold": 0.08,
-        "verticalRange": {
-          "min": 10,
-          "max": 350
-        },
-        "invert": false
       }
     ],
     "verticalEdgeFade": 24,

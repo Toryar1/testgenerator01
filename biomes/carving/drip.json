@@ -85,23 +85,6 @@
           }
         }
       ]
-    },
-    {
-      "chance": 0.007,
-      "scaleStack": true,
-      "stackMin": 100,
-      "stackMax": 100,
-      "partOf": "CEILING",
-      "palette": [
-        {
-          "block": "minecraft:dripstone_block",
-          "weight": 4
-        },
-        {
-          "block": "minecraft:granite",
-          "weight": 1
-        }
-      ]
     }
   ],
   "caveCeilingLayers": [
@@ -220,9 +203,9 @@
       "style": "FRACTAL_WATER",
       "zoom": 0.46
     },
-    "baseWeight": 0.1688,
+    "baseWeight": 0.9,
     "detailWeight": 0.12,
-    "warpStrength": 0.34,
+    "warpStrength": 0.24,
     "densityThreshold": {
       "min": -0.12,
       "max": -0.03,
@@ -232,16 +215,16 @@
       }
     },
     "thresholdBias": 0.11,
-    "sampleStep": 2,
-    "surfaceClearance": 5,
+    "sampleStep": 3,
+    "surfaceClearance": 12,
     "allowSurfaceBreak": true,
     "surfaceBreakStyle": {
       "style": "SIMPLEX",
       "zoom": 0.84
     },
-    "surfaceBreakNoiseThreshold": 0.58,
-    "surfaceBreakDepth": 7,
-    "surfaceBreakThresholdBoost": 0.1,
+    "surfaceBreakNoiseThreshold": 0.98,
+    "surfaceBreakDepth": 2,
+    "surfaceBreakThresholdBoost": 0.05,
     "objectMinDepthBelowSurface": 12,
     "defaultObjectAnchor": "FLOOR",
     "defaultObjectPlaceMode": "ORGANIC_STILT",
@@ -250,7 +233,7 @@
     "allowFluid": true,
     "fluidMinDepthBelowSurface": 18,
     "fluidRequiresFloor": true,
-    "allowLava": true,
+    "allowLava": false,
     "modules": [
       {
         "style": {

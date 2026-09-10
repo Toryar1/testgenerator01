@@ -213,7 +213,7 @@
   ],
   "objects": [
     {
-      "chance": 0.03,
+      "chance": 0.04,
       "density": 1,
       "carvingSupport": "CARVING_ONLY",
       "caveAnchorMode": "FLOOR",
@@ -221,6 +221,29 @@
       "place": [
         "clutter/pond"
       ]
+    },
+    {
+      "chance": 0.08,
+      "density": 1,
+      "carvingSupport": "CARVING_ONLY",
+      "caveAnchorMode": "FLOOR",
+      "translate": {
+        "y": -1
+      },
+      "place": [
+        "trees/jungle/mgeneric1",
+        "trees/jungle/mgeneric2",
+        "trees/jungle/mgeneric3",
+        "trees/jungle/mgeneric4",
+        "trees/jungle/deligeneric2",
+        "trees/jungle/deligeneric3",
+        "trees/jungle/deligeneric4"
+      ],
+      "bottom": true,
+      "force": true,
+      "scale": {
+        "size": 0.75
+      }
     },
     {
       "chance": 0.12,
@@ -262,9 +285,9 @@
       "style": "SIMPLEX",
       "zoom": 0.35
     },
-    "baseWeight": 0.1502,
+    "baseWeight": 0.9,
     "detailWeight": 0.17,
-    "warpStrength": 0.4104,
+    "warpStrength": 0.24,
     "densityThreshold": {
       "min": -0.145,
       "max": -0.032,
@@ -274,16 +297,16 @@
       }
     },
     "thresholdBias": 0.12,
-    "sampleStep": 2,
-    "surfaceClearance": 5,
+    "sampleStep": 3,
+    "surfaceClearance": 12,
     "allowSurfaceBreak": true,
     "surfaceBreakStyle": {
       "style": "FRACTAL_BILLOW_SIMPLEX",
       "zoom": 0.738
     },
-    "surfaceBreakNoiseThreshold": 0.56,
-    "surfaceBreakDepth": 7,
-    "surfaceBreakThresholdBoost": 0.1,
+    "surfaceBreakNoiseThreshold": 0.98,
+    "surfaceBreakDepth": 2,
+    "surfaceBreakThresholdBoost": 0.05,
     "objectMinDepthBelowSurface": 10,
     "defaultObjectAnchor": "FLOOR",
     "defaultObjectPlaceMode": "ORGANIC_STILT",
@@ -292,7 +315,7 @@
     "allowFluid": true,
     "fluidMinDepthBelowSurface": 14,
     "fluidRequiresFloor": true,
-    "allowLava": true,
+    "allowLava": false,
     "modules": [
       {
         "style": {

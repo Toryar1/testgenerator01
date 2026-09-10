@@ -182,9 +182,9 @@
       "style": "SIMPLEX",
       "zoom": 0.38
     },
-    "baseWeight": 0.1519,
+    "baseWeight": 0.9,
     "detailWeight": 0.1575,
-    "warpStrength": 0.386,
+    "warpStrength": 0.24,
     "densityThreshold": {
       "min": -0.155,
       "max": -0.052,
@@ -194,16 +194,16 @@
       }
     },
     "thresholdBias": 0.14,
-    "sampleStep": 2,
-    "surfaceClearance": 5,
+    "sampleStep": 3,
+    "surfaceClearance": 12,
     "allowSurfaceBreak": true,
     "surfaceBreakStyle": {
       "style": "SIMPLEX_VASCULAR",
       "zoom": 0.792
     },
-    "surfaceBreakNoiseThreshold": 0.64,
-    "surfaceBreakDepth": 7,
-    "surfaceBreakThresholdBoost": 0.1,
+    "surfaceBreakNoiseThreshold": 0.98,
+    "surfaceBreakDepth": 2,
+    "surfaceBreakThresholdBoost": 0.05,
     "objectMinDepthBelowSurface": 14,
     "defaultObjectAnchor": "FLOOR",
     "defaultObjectPlaceMode": "ORGANIC_STILT",
@@ -248,27 +248,6 @@
   },
   "caveMinDepthBelowSurface": 10,
   "decorators": [
-    {
-      "chance": 0.005,
-      "scaleStack": true,
-      "stackMin": 100,
-      "stackMax": 100,
-      "partOf": "CEILING",
-      "palette": [
-        {
-          "block": "minecraft:deepslate",
-          "weight": 4
-        },
-        {
-          "block": "minecraft:stone",
-          "weight": 2
-        },
-        {
-          "block": "minecraft:tuff",
-          "weight": 1
-        }
-      ]
-    },
     {
       "partOf": "CEILING",
       "chance": 0.028,

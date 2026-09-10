@@ -148,7 +148,7 @@
     "enabled": true,
     "verticalRange": {
       "min": 6,
-      "max": 81
+      "max": 620
     },
     "baseDensityStyle": {
       "style": "FRACTAL_BILLOW_SIMPLEX",
@@ -162,7 +162,7 @@
       "style": "FRACTAL_WATER",
       "zoom": 0.426
     },
-    "baseWeight": 0.1552,
+    "baseWeight": 0.94,
     "detailWeight": 0.12,
     "warpStrength": 0.1054,
     "densityThreshold": {
@@ -174,15 +174,15 @@
       }
     },
     "thresholdBias": 0.055,
-    "sampleStep": 2,
+    "sampleStep": 3,
     "surfaceClearance": 14,
     "allowSurfaceBreak": false,
     "surfaceBreakStyle": {
       "style": "SIMPLEX_VASCULAR",
       "zoom": 0.9
     },
-    "surfaceBreakNoiseThreshold": 0.9,
-    "surfaceBreakDepth": 8,
+    "surfaceBreakNoiseThreshold": 0.98,
+    "surfaceBreakDepth": 2,
     "surfaceBreakThresholdBoost": 0.0,
     "objectMinDepthBelowSurface": 40,
     "defaultObjectAnchor": "FLOOR",
@@ -203,7 +203,7 @@
         "threshold": 0.03,
         "verticalRange": {
           "min": 20,
-          "max": 81
+          "max": 620
         },
         "invert": false
       },
@@ -216,7 +216,7 @@
         "threshold": 0.03,
         "verticalRange": {
           "min": 6,
-          "max": 81
+          "max": 620
         },
         "invert": true
       }

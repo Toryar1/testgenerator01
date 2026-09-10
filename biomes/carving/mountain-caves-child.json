@@ -181,9 +181,9 @@
       "style": "PERLIN_IRIS",
       "zoom": 0.35
     },
-    "baseWeight": 0.1519,
+    "baseWeight": 0.9,
     "detailWeight": 0.17,
-    "warpStrength": 0.4348,
+    "warpStrength": 0.24,
     "densityThreshold": {
       "min": -0.135,
       "max": -0.022,
@@ -193,16 +193,16 @@
       }
     },
     "thresholdBias": 0.11,
-    "sampleStep": 2,
-    "surfaceClearance": 5,
+    "sampleStep": 3,
+    "surfaceClearance": 12,
     "allowSurfaceBreak": true,
     "surfaceBreakStyle": {
       "style": "PERLIN_IRIS",
       "zoom": 0.756
     },
-    "surfaceBreakNoiseThreshold": 0.58,
-    "surfaceBreakDepth": 7,
-    "surfaceBreakThresholdBoost": 0.1,
+    "surfaceBreakNoiseThreshold": 0.98,
+    "surfaceBreakDepth": 2,
+    "surfaceBreakThresholdBoost": 0.05,
     "objectMinDepthBelowSurface": 12,
     "defaultObjectAnchor": "FLOOR",
     "defaultObjectPlaceMode": "ORGANIC_STILT",
@@ -211,7 +211,7 @@
     "allowFluid": true,
     "fluidMinDepthBelowSurface": 18,
     "fluidRequiresFloor": true,
-    "allowLava": true,
+    "allowLava": false,
     "modules": [
       {
         "style": {
@@ -260,27 +260,6 @@
   },
   "caveMinDepthBelowSurface": 10,
   "decorators": [
-    {
-      "chance": 0.005,
-      "scaleStack": true,
-      "stackMin": 100,
-      "stackMax": 100,
-      "partOf": "CEILING",
-      "palette": [
-        {
-          "block": "minecraft:deepslate",
-          "weight": 4
-        },
-        {
-          "block": "minecraft:stone",
-          "weight": 2
-        },
-        {
-          "block": "minecraft:tuff",
-          "weight": 1
-        }
-      ]
-    },
     {
       "partOf": "CEILING",
       "chance": 0.028,

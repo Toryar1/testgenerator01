@@ -66,7 +66,7 @@
       "chance": 0.015,
       "palette": [
         {
-          "block": "minecraft:magma_block"
+          "block": "minecraft:firefly_bush"
         }
       ]
     },
@@ -199,9 +199,9 @@
       "style": "FRACTAL_WATER",
       "zoom": 0.46
     },
-    "baseWeight": 0.1688,
+    "baseWeight": 0.9,
     "detailWeight": 0.11,
-    "warpStrength": 0.3,
+    "warpStrength": 0.24,
     "densityThreshold": {
       "min": -0.13,
       "max": -0.04,
@@ -211,16 +211,16 @@
       }
     },
     "thresholdBias": 0.12,
-    "sampleStep": 2,
-    "surfaceClearance": 5,
+    "sampleStep": 3,
+    "surfaceClearance": 12,
     "allowSurfaceBreak": true,
     "surfaceBreakStyle": {
       "style": "SIMPLEX",
       "zoom": 0.84
     },
-    "surfaceBreakNoiseThreshold": 0.54,
-    "surfaceBreakDepth": 7,
-    "surfaceBreakThresholdBoost": 0.1,
+    "surfaceBreakNoiseThreshold": 0.98,
+    "surfaceBreakDepth": 2,
+    "surfaceBreakThresholdBoost": 0.05,
     "objectMinDepthBelowSurface": 12,
     "defaultObjectAnchor": "FLOOR",
     "defaultObjectPlaceMode": "ORGANIC_STILT",
@@ -229,7 +229,7 @@
     "allowFluid": true,
     "fluidMinDepthBelowSurface": 16,
     "fluidRequiresFloor": true,
-    "allowLava": true,
+    "allowLava": false,
     "modules": [
       {
         "style": {

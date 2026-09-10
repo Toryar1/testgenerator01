@@ -64,26 +64,10 @@
       ]
     },
     {
-      "partOf": "CEILING",
-      "chance": 0.05,
-      "scaleStack": true,
-      "stackMin": 20,
-      "stackMax": 70,
-      "absoluteMaxStack": 10,
-      "heightVariance": {
-        "style": "STATIC"
-      },
-      "palette": [
-        {
-          "block": "minecraft:stone"
-        }
-      ]
-    },
-    {
       "chance": 0.015,
       "palette": [
         {
-          "block": "minecraft:magma_block"
+          "block": "minecraft:firefly_bush"
         }
       ]
     },
@@ -207,9 +191,9 @@
       "style": "FRACTAL_WATER",
       "zoom": 0.46
     },
-    "baseWeight": 0.1688,
+    "baseWeight": 0.9,
     "detailWeight": 0.12,
-    "warpStrength": 0.34,
+    "warpStrength": 0.24,
     "densityThreshold": {
       "min": -0.12,
       "max": -0.03,
@@ -219,16 +203,16 @@
       }
     },
     "thresholdBias": 0.11,
-    "sampleStep": 2,
-    "surfaceClearance": 5,
+    "sampleStep": 3,
+    "surfaceClearance": 14,
     "allowSurfaceBreak": true,
     "surfaceBreakStyle": {
       "style": "SIMPLEX",
       "zoom": 0.84
     },
-    "surfaceBreakNoiseThreshold": 0.58,
-    "surfaceBreakDepth": 7,
-    "surfaceBreakThresholdBoost": 0.1,
+    "surfaceBreakNoiseThreshold": 0.985,
+    "surfaceBreakDepth": 2,
+    "surfaceBreakThresholdBoost": 0.05,
     "objectMinDepthBelowSurface": 12,
     "defaultObjectAnchor": "FLOOR",
     "defaultObjectPlaceMode": "ORGANIC_STILT",
@@ -237,31 +221,18 @@
     "allowFluid": true,
     "fluidMinDepthBelowSurface": 18,
     "fluidRequiresFloor": true,
-    "allowLava": true,
+    "allowLava": false,
     "modules": [
       {
         "style": {
           "style": "SIMPLEX_VASCULAR",
-          "zoom": 1.02
+          "zoom": 1.25
         },
-        "weight": 0.09,
+        "weight": 0.12,
         "threshold": 0.02,
         "verticalRange": {
-          "min": 20,
+          "min": 10,
           "max": 700
-        },
-        "invert": false
-      },
-      {
-        "style": {
-          "style": "CELLULAR_BILINEAR",
-          "zoom": 1.32
-        },
-        "weight": 0.04,
-        "threshold": 0.14,
-        "verticalRange": {
-          "min": 40,
-          "max": 620
         },
         "invert": false
       },
