@@ -155,7 +155,7 @@
     {
       "chance": 0.005,
       "density": 1,
-      "carvingSupport": "CARVING_AND_TERRAIN",
+      "carvingSupport": "ANYWHERE",
       "caveAnchorMode": "FLOOR",
       "mode": "SIMPLE",
       "place": [
