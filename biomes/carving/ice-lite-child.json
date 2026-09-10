@@ -183,7 +183,7 @@
   "caveProfile": {
     "enabled": true,
     "verticalRange": {
-      "min": 6,
+      "min": -220,
       "max": 620
     },
     "baseDensityStyle": {
@@ -198,7 +198,7 @@
       "style": "SIMPLEX",
       "zoom": 0.38
     },
-    "baseWeight": 0.81,
+    "baseWeight": 0.583,
     "detailWeight": 0.145,
     "warpStrength": 0.3128,
     "densityThreshold": {
@@ -222,7 +222,7 @@
     "surfaceBreakThresholdBoost": 0.1,
     "objectMinDepthBelowSurface": 18,
     "defaultObjectAnchor": "FLOOR",
-    "defaultObjectPlaceMode": "SIMPLE",
+    "defaultObjectPlaceMode": "CENTER_HEIGHT",
     "anchorScanStep": 1,
     "anchorSearchAttempts": 18,
     "allowFluid": true,
@@ -238,7 +238,7 @@
         "weight": 0.07,
         "threshold": 0.05,
         "verticalRange": {
-          "min": 10,
+          "min": -220,
           "max": 600
         },
         "invert": false
@@ -251,7 +251,7 @@
         "weight": 0.04,
         "threshold": 0.08,
         "verticalRange": {
-          "min": 8,
+          "min": -220,
           "max": 260
         },
         "invert": true

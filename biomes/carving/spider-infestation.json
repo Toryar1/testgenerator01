@@ -124,7 +124,7 @@
   "caveProfile": {
     "enabled": true,
     "verticalRange": {
-      "min": 6,
+      "min": -220,
       "max": 640
     },
     "baseDensityStyle": {
@@ -139,7 +139,7 @@
       "style": "SIMPLEX",
       "zoom": 0.46
     },
-    "baseWeight": 0.92,
+    "baseWeight": 0.662,
     "detailWeight": 0.08,
     "warpStrength": 0.22,
     "densityThreshold": {
@@ -153,17 +153,17 @@
     "thresholdBias": 0.16,
     "sampleStep": 2,
     "surfaceClearance": 8,
-    "allowSurfaceBreak": false,
+    "allowSurfaceBreak": true,
     "surfaceBreakStyle": {
       "style": "SIMPLEX",
       "zoom": 0.9
     },
-    "surfaceBreakNoiseThreshold": 0.9,
+    "surfaceBreakNoiseThreshold": 0.82,
     "surfaceBreakDepth": 8,
-    "surfaceBreakThresholdBoost": 0.0,
+    "surfaceBreakThresholdBoost": 0.14,
     "objectMinDepthBelowSurface": 18,
     "defaultObjectAnchor": "FLOOR",
-    "defaultObjectPlaceMode": "SIMPLE",
+    "defaultObjectPlaceMode": "CENTER_HEIGHT",
     "anchorScanStep": 1,
     "anchorSearchAttempts": 18,
     "allowFluid": true,
@@ -176,10 +176,10 @@
           "style": "SIMPLEX_VASCULAR",
           "zoom": 1.18
         },
-        "weight": 0.08,
+        "weight": 0.24,
         "threshold": 0.02,
         "verticalRange": {
-          "min": 10,
+          "min": -220,
           "max": 620
         },
         "invert": false
@@ -192,7 +192,7 @@
         "weight": 0.03,
         "threshold": 0.18,
         "verticalRange": {
-          "min": 20,
+          "min": -220,
           "max": 520
         },
         "invert": false

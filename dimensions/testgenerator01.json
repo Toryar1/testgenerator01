@@ -63,27 +63,7 @@
         ],
         "yShift": -64,
         "terrain": {
-          "mode": "ENCASE",
-          "horizontalPadding": 4,
-          "ceilingPadding": 6,
-          "floorPadding": 4,
-          "encasePalette": {
-            "zoom": 1,
-            "palette": [
-              {
-                "block": "minecraft:tuff_bricks",
-                "weight": 4
-              },
-              {
-                "block": "minecraft:tuff",
-                "weight": 4
-              },
-              {
-                "block": "minecraft:deepslate_bricks",
-                "weight": 2
-              }
-            ]
-          }
+          "mode": "SOURCE"
         }
       }
     ],
@@ -864,7 +844,7 @@
   "caveProfile": {
     "enabled": true,
     "verticalRange": {
-      "min": 6,
+      "min": -220,
       "max": 700
     },
     "baseDensityStyle": {
@@ -879,8 +859,8 @@
       "style": "FRACTAL_WATER",
       "zoom": 0.5
     },
-    "baseWeight": 0.9,
-    "detailWeight": 0.11,
+    "baseWeight": 0.6,
+    "detailWeight": 0.14,
     "warpStrength": 0.24,
     "densityThreshold": {
       "min": -0.14,
@@ -892,18 +872,18 @@
     },
     "thresholdBias": 0.14,
     "sampleStep": 3,
-    "surfaceClearance": 12,
+    "surfaceClearance": 8,
     "allowSurfaceBreak": true,
     "surfaceBreakStyle": {
       "style": "SIMPLEX",
       "zoom": 0.88
     },
-    "surfaceBreakNoiseThreshold": 0.98,
-    "surfaceBreakDepth": 2,
-    "surfaceBreakThresholdBoost": 0.05,
+    "surfaceBreakNoiseThreshold": 0.82,
+    "surfaceBreakDepth": 28,
+    "surfaceBreakThresholdBoost": 0.14,
     "objectMinDepthBelowSurface": 14,
     "defaultObjectAnchor": "FLOOR",
-    "defaultObjectPlaceMode": "SIMPLE",
+    "defaultObjectPlaceMode": "CENTER_HEIGHT",
     "anchorScanStep": 1,
     "anchorSearchAttempts": 12,
     "allowFluid": true,
@@ -914,12 +894,12 @@
       {
         "style": {
           "style": "SIMPLEX_VASCULAR",
-          "zoom": 1.05
+          "zoom": 1.25
         },
-        "weight": 0.12,
-        "threshold": 0.015,
+        "weight": 0.26,
+        "threshold": 0.02,
         "verticalRange": {
-          "min": 14,
+          "min": -220,
           "max": 680
         },
         "invert": false
@@ -927,12 +907,25 @@
       {
         "style": {
           "style": "VASCULAR_THIN",
+          "zoom": 1.6
+        },
+        "weight": 0.22,
+        "threshold": 0.025,
+        "verticalRange": {
+          "min": -220,
+          "max": 680
+        },
+        "invert": false
+      },
+      {
+        "style": {
+          "style": "CELLULAR_BILINEAR",
           "zoom": 1.35
         },
-        "weight": 0.1,
-        "threshold": 0.02,
+        "weight": 0.18,
+        "threshold": 0.08,
         "verticalRange": {
-          "min": 10,
+          "min": -220,
           "max": 680
         },
         "invert": false
@@ -945,7 +938,7 @@
         "weight": 0.04,
         "threshold": 0.08,
         "verticalRange": {
-          "min": 6,
+          "min": -220,
           "max": 240
         },
         "invert": true

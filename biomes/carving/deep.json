@@ -169,7 +169,7 @@
   "caveProfile": {
     "enabled": true,
     "verticalRange": {
-      "min": 6,
+      "min": -220,
       "max": 700
     },
     "baseDensityStyle": {
@@ -184,7 +184,7 @@
       "style": "SIMPLEX",
       "zoom": 0.46
     },
-    "baseWeight": 0.92,
+    "baseWeight": 0.662,
     "detailWeight": 0.08,
     "warpStrength": 0.18,
     "densityThreshold": {
@@ -197,18 +197,18 @@
     },
     "thresholdBias": 0.12,
     "sampleStep": 2,
-    "surfaceClearance": 12,
+    "surfaceClearance": 8,
     "allowSurfaceBreak": true,
     "surfaceBreakStyle": {
       "style": "SIMPLEX",
       "zoom": 0.88
     },
-    "surfaceBreakNoiseThreshold": 0.98,
-    "surfaceBreakDepth": 2,
-    "surfaceBreakThresholdBoost": 0.05,
+    "surfaceBreakNoiseThreshold": 0.82,
+    "surfaceBreakDepth": 26,
+    "surfaceBreakThresholdBoost": 0.14,
     "objectMinDepthBelowSurface": 14,
     "defaultObjectAnchor": "FLOOR",
-    "defaultObjectPlaceMode": "SIMPLE",
+    "defaultObjectPlaceMode": "CENTER_HEIGHT",
     "anchorScanStep": 1,
     "anchorSearchAttempts": 18,
     "allowFluid": true,
@@ -221,10 +221,10 @@
           "style": "SIMPLEX_VASCULAR",
           "zoom": 1.22
         },
-        "weight": 0.1,
+        "weight": 0.24,
         "threshold": 0.024,
         "verticalRange": {
-          "min": 10,
+          "min": -220,
           "max": 680
         },
         "invert": false
@@ -234,10 +234,10 @@
           "style": "VASCULAR_THIN",
           "zoom": 1.55
         },
-        "weight": 0.09,
+        "weight": 0.24,
         "threshold": 0.018,
         "verticalRange": {
-          "min": 10,
+          "min": -220,
           "max": 680
         },
         "invert": false
@@ -250,7 +250,7 @@
         "weight": 0.06,
         "threshold": 0.12,
         "verticalRange": {
-          "min": 15,
+          "min": -220,
           "max": 650
         },
         "invert": false
@@ -263,7 +263,7 @@
         "weight": 0.04,
         "threshold": 0.08,
         "verticalRange": {
-          "min": 6,
+          "min": -220,
           "max": 240
         },
         "invert": true

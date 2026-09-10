@@ -6,7 +6,7 @@
   "caveProfile": {
     "enabled": true,
     "verticalRange": {
-      "min": 6,
+      "min": -220,
       "max": 700
     },
     "baseDensityStyle": {
@@ -21,7 +21,7 @@
       "style": "SIMPLEX",
       "zoom": 0.28
     },
-    "baseWeight": 0.9,
+    "baseWeight": 0.648,
     "detailWeight": 0.12,
     "warpStrength": 0.38,
     "densityThreshold": {
@@ -35,10 +35,10 @@
     "thresholdBias": 0.08,
     "sampleStep": 2,
     "surfaceClearance": 9,
-    "allowSurfaceBreak": false,
+    "allowSurfaceBreak": true,
     "objectMinDepthBelowSurface": 13,
     "defaultObjectAnchor": "FLOOR",
-    "defaultObjectPlaceMode": "SIMPLE",
+    "defaultObjectPlaceMode": "CENTER_HEIGHT",
     "anchorScanStep": 1,
     "anchorSearchAttempts": 16,
     "allowFluid": true,
@@ -54,7 +54,7 @@
         "weight": 0.06,
         "threshold": 0.06,
         "verticalRange": {
-          "min": 12,
+          "min": -220,
           "max": 420
         },
         "invert": true
@@ -63,7 +63,10 @@
     "verticalEdgeFade": 22,
     "verticalEdgeFadeStrength": 0.15,
     "minCarveCells": 20,
-    "recoveryThresholdBoost": 0.06
+    "recoveryThresholdBoost": 0.06,
+    "surfaceBreakNoiseThreshold": 0.82,
+    "surfaceBreakDepth": 26,
+    "surfaceBreakThresholdBoost": 0.14
   },
   "wall": {
     "style": {
