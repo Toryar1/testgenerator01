@@ -191,7 +191,7 @@
       "style": "FRACTAL_WATER",
       "zoom": 0.46
     },
-    "baseWeight": 0.48,
+    "baseWeight": 0.25,
     "detailWeight": 0.12,
     "warpStrength": 0.34,
     "densityThreshold": {
@@ -202,7 +202,7 @@
         "zoom": 0.72
       }
     },
-    "thresholdBias": 0.11,
+    "thresholdBias": 0.05,
     "sampleStep": 2,
     "surfaceClearance": 0,
     "allowSurfaceBreak": true,
@@ -210,9 +210,9 @@
       "style": "SIMPLEX",
       "zoom": 0.84
     },
-    "surfaceBreakNoiseThreshold": 0.7,
-    "surfaceBreakDepth": 48,
-    "surfaceBreakThresholdBoost": 0.2,
+    "surfaceBreakNoiseThreshold": 0.58,
+    "surfaceBreakDepth": 52,
+    "surfaceBreakThresholdBoost": 0.22,
     "objectMinDepthBelowSurface": 12,
     "defaultObjectAnchor": "FLOOR",
     "defaultObjectPlaceMode": "CENTER_HEIGHT",
@@ -226,9 +226,9 @@
       {
         "style": {
           "style": "CELLULAR_BILINEAR",
-          "zoom": 1.25
+          "zoom": 1.3
         },
-        "weight": 0.35,
+        "weight": 0.48,
         "threshold": 0.12,
         "verticalRange": {
           "min": -220,
@@ -239,9 +239,9 @@
       {
         "style": {
           "style": "SIMPLEX_VASCULAR",
-          "zoom": 1.25
+          "zoom": 1.2
         },
-        "weight": 0.22,
+        "weight": 0.3,
         "threshold": 0.02,
         "verticalRange": {
           "min": -220,
@@ -268,7 +268,7 @@
     "minCarveCells": 20,
     "recoveryThresholdBoost": 0.07
   },
-  "caveMinDepthBelowSurface": 10,
+  "caveMinDepthBelowSurface": 0,
   "children": [
     "carving/deepravine-child"
   ],

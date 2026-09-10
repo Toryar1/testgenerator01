@@ -246,7 +246,7 @@
       "style": "FRACTAL_WATER",
       "zoom": 0.46
     },
-    "baseWeight": 0.641,
+    "baseWeight": 0.35,
     "detailWeight": 0.12,
     "warpStrength": 0.32,
     "densityThreshold": {
@@ -257,7 +257,7 @@
         "zoom": 0.7
       }
     },
-    "thresholdBias": 0.12,
+    "thresholdBias": 0.05,
     "sampleStep": 2,
     "surfaceClearance": 5,
     "allowSurfaceBreak": true,
@@ -283,7 +283,7 @@
           "style": "VASCULAR_THIN",
           "zoom": 1.08
         },
-        "weight": 0.24,
+        "weight": 0.34,
         "threshold": 0.02,
         "verticalRange": {
           "min": -220,
@@ -303,6 +303,19 @@
           "max": 220
         },
         "invert": true
+      },
+      {
+        "style": {
+          "style": "SIMPLEX_VASCULAR",
+          "zoom": 1.25
+        },
+        "weight": 0.44,
+        "threshold": 0.02,
+        "verticalRange": {
+          "min": -220,
+          "max": 680
+        },
+        "invert": false
       }
     ],
     "verticalEdgeFade": 24,

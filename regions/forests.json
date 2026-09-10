@@ -47,7 +47,7 @@
     ]
   },
   "caveProfile": {
-    "enabled": true,
+    "enabled": false,
     "verticalRange": {
       "min": 6,
       "max": 120

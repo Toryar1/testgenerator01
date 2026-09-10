@@ -197,7 +197,7 @@
       "style": "PERLIN_IRIS",
       "zoom": 0.365
     },
-    "baseWeight": 0.583,
+    "baseWeight": 0.35,
     "detailWeight": 0.1575,
     "warpStrength": 0.386,
     "densityThreshold": {
@@ -208,7 +208,7 @@
         "zoom": 0.829
       }
     },
-    "thresholdBias": 0.12,
+    "thresholdBias": 0.05,
     "sampleStep": 2,
     "surfaceClearance": 5,
     "allowSurfaceBreak": true,
@@ -254,6 +254,32 @@
           "max": 220
         },
         "invert": true
+      },
+      {
+        "style": {
+          "style": "SIMPLEX_VASCULAR",
+          "zoom": 1.25
+        },
+        "weight": 0.44,
+        "threshold": 0.02,
+        "verticalRange": {
+          "min": -220,
+          "max": 680
+        },
+        "invert": false
+      },
+      {
+        "style": {
+          "style": "VASCULAR_THIN",
+          "zoom": 1.65
+        },
+        "weight": 0.34,
+        "threshold": 0.025,
+        "verticalRange": {
+          "min": -220,
+          "max": 680
+        },
+        "invert": false
       }
     ],
     "verticalEdgeFade": 24,

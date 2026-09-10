@@ -77,13 +77,17 @@
   "importedFeatures": {
     "enabled": true,
     "steps": [
-      "LOCAL_MODIFICATIONS",
       "FLUID_SPRINGS",
       "UNDERGROUND_DECORATION",
       "UNDERGROUND_STRUCTURES",
       "LAKES"
     ],
-    "disabled": []
+    "disabled": [
+      "minecraft:iceberg",
+      "minecraft:iceberg_packed",
+      "minecraft:iceberg_blue",
+      "minecraft:ice_spike"
+    ]
   },
   "structures": [
     {
@@ -849,7 +853,7 @@
     },
     "baseDensityStyle": {
       "style": "PERLIN_IRIS",
-      "zoom": 0.72
+      "zoom": 1.2
     },
     "detailDensityStyle": {
       "style": "SIMPLEX",
@@ -859,8 +863,8 @@
       "style": "FRACTAL_WATER",
       "zoom": 0.5
     },
-    "baseWeight": 0.6,
-    "detailWeight": 0.14,
+    "baseWeight": 0.35,
+    "detailWeight": 0.1,
     "warpStrength": 0.24,
     "densityThreshold": {
       "min": -0.14,
@@ -870,17 +874,17 @@
         "zoom": 0.74
       }
     },
-    "thresholdBias": 0.14,
+    "thresholdBias": 0.05,
     "sampleStep": 3,
-    "surfaceClearance": 8,
+    "surfaceClearance": 3,
     "allowSurfaceBreak": true,
     "surfaceBreakStyle": {
       "style": "SIMPLEX",
       "zoom": 0.88
     },
-    "surfaceBreakNoiseThreshold": 0.82,
-    "surfaceBreakDepth": 28,
-    "surfaceBreakThresholdBoost": 0.14,
+    "surfaceBreakNoiseThreshold": 0.62,
+    "surfaceBreakDepth": 35,
+    "surfaceBreakThresholdBoost": 0.16,
     "objectMinDepthBelowSurface": 14,
     "defaultObjectAnchor": "FLOOR",
     "defaultObjectPlaceMode": "CENTER_HEIGHT",
@@ -896,7 +900,7 @@
           "style": "SIMPLEX_VASCULAR",
           "zoom": 1.25
         },
-        "weight": 0.26,
+        "weight": 0.44,
         "threshold": 0.02,
         "verticalRange": {
           "min": -220,
@@ -907,9 +911,9 @@
       {
         "style": {
           "style": "VASCULAR_THIN",
-          "zoom": 1.6
+          "zoom": 1.65
         },
-        "weight": 0.22,
+        "weight": 0.34,
         "threshold": 0.025,
         "verticalRange": {
           "min": -220,
@@ -922,7 +926,7 @@
           "style": "CELLULAR_BILINEAR",
           "zoom": 1.35
         },
-        "weight": 0.18,
+        "weight": 0.15,
         "threshold": 0.08,
         "verticalRange": {
           "min": -220,
