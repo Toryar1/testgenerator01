@@ -205,7 +205,7 @@
     },
     "baseWeight": 0.9,
     "detailWeight": 0.12,
-    "warpStrength": 0.24,
+    "warpStrength": 0.34,
     "densityThreshold": {
       "min": -0.12,
       "max": -0.03,
@@ -215,7 +215,7 @@
       }
     },
     "thresholdBias": 0.11,
-    "sampleStep": 3,
+    "sampleStep": 2,
     "surfaceClearance": 12,
     "allowSurfaceBreak": true,
     "surfaceBreakStyle": {

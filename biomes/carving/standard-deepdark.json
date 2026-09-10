@@ -171,7 +171,7 @@
     "enabled": true,
     "verticalRange": {
       "min": 6,
-      "max": 620
+      "max": 81
     },
     "baseDensityStyle": {
       "style": "PERLIN_IRIS",
@@ -185,7 +185,7 @@
       "style": "SIMPLEX",
       "zoom": 0.58
     },
-    "baseWeight": 0.94,
+    "baseWeight": 0.92,
     "detailWeight": 0.07,
     "warpStrength": 0.06,
     "densityThreshold": {
@@ -197,7 +197,7 @@
       }
     },
     "thresholdBias": 0.06,
-    "sampleStep": 3,
+    "sampleStep": 2,
     "surfaceClearance": 14,
     "allowSurfaceBreak": false,
     "surfaceBreakStyle": {
@@ -226,7 +226,7 @@
         "threshold": 0.03,
         "verticalRange": {
           "min": 16,
-          "max": 620
+          "max": 81
         },
         "invert": false
       },
@@ -239,7 +239,7 @@
         "threshold": 0.02,
         "verticalRange": {
           "min": 6,
-          "max": 620
+          "max": 81
         },
         "invert": true
       }
