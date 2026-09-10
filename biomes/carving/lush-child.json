@@ -231,13 +231,9 @@
         "y": -1
       },
       "place": [
-        "trees/jungle/mgeneric1",
-        "trees/jungle/mgeneric2",
-        "trees/jungle/mgeneric3",
-        "trees/jungle/mgeneric4",
-        "trees/jungle/deligeneric2",
-        "trees/jungle/deligeneric3",
-        "trees/jungle/deligeneric4"
+        "vanilla/trees/azalea_tree",
+        "vanilla/trees/azalea_tree_2",
+        "vanilla/trees/azalea_tree_3"
       ],
       "bottom": true,
       "force": true,

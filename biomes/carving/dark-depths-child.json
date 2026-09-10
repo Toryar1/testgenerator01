@@ -32,15 +32,15 @@
   },
   "layers": [
     {
-      "maxHeight": 1,
+      "maxHeight": 2,
       "minHeight": 1,
       "palette": [
         {
-          "block": "minecraft:obsidian",
-          "weight": 13
+          "block": "minecraft:sculk",
+          "weight": 8
         },
         {
-          "block": "minecraft:blackstone",
+          "block": "minecraft:deepslate",
           "weight": 3
         }
       ]
@@ -48,16 +48,11 @@
   ],
   "caveCeilingLayers": [
     {
-      "maxHeight": 3,
-      "minHeight": 2,
+      "maxHeight": 2,
+      "minHeight": 1,
       "palette": [
         {
-          "block": "minecraft:black_concrete",
-          "weight": 9
-        },
-        {
-          "block": "minecraft:blackstone",
-          "weight": 2
+          "block": "minecraft:deepslate"
         }
       ]
     }

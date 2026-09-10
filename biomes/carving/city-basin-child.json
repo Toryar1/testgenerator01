@@ -72,6 +72,9 @@
         },
         {
           "block": "minecraft:sculk_shrieker",
+          "data": {
+            "can_summon": "true"
+          },
           "weight": 1
         }
       ]
