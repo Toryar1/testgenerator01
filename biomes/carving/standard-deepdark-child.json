@@ -248,8 +248,8 @@
         "invert": true
       }
     ],
-    "verticalEdgeFade": 48,
-    "verticalEdgeFadeStrength": 0.3,
+    "verticalEdgeFade": 16,
+    "verticalEdgeFadeStrength": 0.15,
     "minCarveCells": 10,
     "recoveryThresholdBoost": 0.06
   }

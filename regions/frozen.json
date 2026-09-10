@@ -26,16 +26,12 @@
     "vanilla/jagged_peaks"
   ],
   "caveBiomes": [
-    "carving/deep",
-    "carving/deep",
-    "carving/deep",
-    "carving/deepslate",
-    "carving/deepslate",
-    "carving/drip",
-    "carving/drip",
-    "carving/deepravine",
-    "carving/deepravine",
-    "carving/standard-deepdark"
+    "carving/ice-lite",
+    "carving/ice",
+    "carving/ice-ravine",
+    "carving/frost-shards",
+    "carving/glacial",
+    "carving/deepslate"
   ],
   "shoreBiomes": [
     "frozen/shore/beach"

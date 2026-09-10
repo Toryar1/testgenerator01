@@ -31,16 +31,12 @@
     "vanilla/deep_cold_ocean"
   ],
   "caveBiomes": [
-    "carving/deep",
-    "carving/deep",
-    "carving/deep",
-    "carving/deepslate",
-    "carving/deepslate",
-    "carving/drip",
-    "carving/drip",
-    "carving/deepravine",
-    "carving/deepravine",
-    "carving/standard-deepdark"
+    "carving/calcite",
+    "carving/ice",
+    "carving/ice-lite",
+    "carving/frost-shards",
+    "carving/glacial",
+    "carving/deepslate"
   ],
   "shoreBiomes": [
     "tundra/shore/beach",

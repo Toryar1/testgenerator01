@@ -80,6 +80,27 @@
                 "maximumSlope": 3
             },
             "palette": [{"block": "minecraft:dirt"}, {"block": "minecraft:stone"}]
+        },
+        {
+            "minHeight": 30,
+            "maxHeight": 35,
+            "style": {
+                "style": "STATIC"
+            },
+            "palette": [
+                {
+                    "weight": 8,
+                    "block": "minecraft:packed_ice"
+                },
+                {
+                    "weight": 4,
+                    "block": "minecraft:ice"
+                },
+                {
+                    "weight": 2,
+                    "block": "minecraft:blue_ice"
+                }
+            ]
         }
     ]
 }

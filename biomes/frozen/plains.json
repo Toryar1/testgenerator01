@@ -64,20 +64,23 @@
       ]
     },
     {
-      "minHeight": 6,
-      "maxHeight": 18,
+      "minHeight": 30,
+      "maxHeight": 35,
       "style": {
         "style": "STATIC"
       },
       "palette": [
         {
-          "block": "minecraft:stone"
+          "weight": 8,
+          "block": "minecraft:packed_ice"
         },
         {
-          "block": "minecraft:andesite"
+          "weight": 4,
+          "block": "minecraft:calcite"
         },
         {
-          "block": "minecraft:stone"
+          "weight": 3,
+          "block": "minecraft:ice"
         }
       ]
     }

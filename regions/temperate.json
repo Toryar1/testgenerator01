@@ -32,15 +32,10 @@
   ],
   "caveBiomes": [
     "carving/deep",
-    "carving/deep",
     "carving/deepslate",
-    "carving/deepslate",
-    "carving/lush",
     "carving/lush",
     "carving/drip",
-    "carving/deepravine",
-    "carving/deepravine",
-    "carving/standard-deepdark"
+    "carving/deepravine"
   ],
   "shoreBiomes": [
     "temperate/shore/beach",

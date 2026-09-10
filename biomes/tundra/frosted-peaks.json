@@ -54,6 +54,27 @@
       ]
     },
     {
+      "minHeight": 30,
+      "maxHeight": 35,
+      "style": {
+        "style": "STATIC"
+      },
+      "palette": [
+        {
+          "weight": 8,
+          "block": "minecraft:packed_ice"
+        },
+        {
+          "weight": 4,
+          "block": "minecraft:calcite"
+        },
+        {
+          "weight": 2,
+          "block": "minecraft:snow_block"
+        }
+      ]
+    },
+    {
       "minHeight": 2,
       "maxHeight": 4,
       "style": {

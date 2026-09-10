@@ -46,7 +46,9 @@
       "nova_structures:taverns",
       "nova_structures:illager_camp",
       "nova_structures:illager_camps",
-      "nova_structures:wreckage"
+      "nova_structures:wreckage",
+      "minecraft:ancient_city",
+      "minecraft:ancient_cities"
     ],
     "adjustments": [
       {
@@ -54,13 +56,15 @@
           "minecraft:mineshaft"
         ],
         "preserveSourceY": true
+      },
+      {
+        "match": [
+          "minecraft:trial_chambers"
+        ],
+        "yShift": -64
       }
     ],
     "frequencyOverrides": [
-      {
-        "structureSet": "minecraft:ancient_cities",
-        "multiplier": 0.333
-      },
       {
         "structureSet": "minecraft:trial_chambers",
         "multiplier": 0.333
@@ -77,7 +81,60 @@
     ],
     "disabled": []
   },
-  "structures": [],
+  "structures": [
+    {
+      "nativeStructures": [
+        {
+          "structure": "minecraft:ancient_city"
+        }
+      ],
+      "placementId": "ancient-city-native",
+      "nativeSuppression": "REPLACE_SOURCE",
+      "underground": true,
+      "terrain": {
+        "mode": "FORCE_CARVE",
+        "horizontalPadding": 14,
+        "ceilingPadding": 12,
+        "floorPadding": 0,
+        "shape": "ERODED",
+        "erosionStrength": 1.0,
+        "erosionFrequency": 0.05
+      },
+      "stilt": {
+        "maxDepth": 768,
+        "spacing": 1,
+        "palette": {
+          "style": {
+            "style": "STATIC"
+          },
+          "palette": [
+            {
+              "block": "minecraft:deepslate_bricks",
+              "weight": 6
+            },
+            {
+              "block": "minecraft:cracked_deepslate_bricks",
+              "weight": 1
+            },
+            {
+              "block": "minecraft:deepslate_tiles",
+              "weight": 2
+            },
+            {
+              "block": "minecraft:cracked_deepslate_tiles",
+              "weight": 1
+            }
+          ]
+        }
+      },
+      "minHeight": -220,
+      "maxHeight": -220,
+      "distribution": "RANDOM_SPREAD",
+      "spacing": 96,
+      "separation": 16,
+      "salt": 42069
+    }
+  ],
   "fullbright": false,
   "upperDimension": "",
   "upperDimensionGap": 32,
@@ -833,13 +890,26 @@
       {
         "style": {
           "style": "SIMPLEX_VASCULAR",
-          "zoom": 1.08
+          "zoom": 1.05
         },
-        "weight": 0.08,
-        "threshold": 0.03,
+        "weight": 0.12,
+        "threshold": 0.015,
         "verticalRange": {
-          "min": 24,
-          "max": 660
+          "min": 14,
+          "max": 680
+        },
+        "invert": false
+      },
+      {
+        "style": {
+          "style": "VASCULAR_THIN",
+          "zoom": 1.35
+        },
+        "weight": 0.1,
+        "threshold": 0.02,
+        "verticalRange": {
+          "min": 10,
+          "max": 680
         },
         "invert": false
       },

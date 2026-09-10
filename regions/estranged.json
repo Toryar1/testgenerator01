@@ -382,13 +382,7 @@
   "caveBiomes": [
     "carving/deep",
     "carving/deepslate",
-    "carving/deepslate",
-    "carving/standard-deepdark",
-    "carving/standard-deepdark",
-    "carving/standard-deepdark",
     "carving/drip",
-    "carving/drip",
-    "carving/lush",
     "carving/deepravine"
   ],
   "shoreBiomes": [

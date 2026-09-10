@@ -15,16 +15,11 @@
     "vanilla/mangrove_swamp"
   ],
   "caveBiomes": [
-    "carving/deep",
+    "carving/swamp",
+    "carving/lush",
     "carving/deepslate",
-    "carving/deepslate",
-    "carving/lush",
-    "carving/lush",
-    "carving/lush",
-    "carving/lush",
     "carving/drip",
-    "carving/deepravine",
-    "carving/standard-deepdark"
+    "carving/deepravine"
   ],
   "shoreBiomes": [
     "swamp/shore/beach"

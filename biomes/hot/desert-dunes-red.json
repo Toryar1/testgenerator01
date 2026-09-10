@@ -43,6 +43,23 @@
           "block": "minecraft:red_sand"
         }
       ]
+    },
+    {
+      "minHeight": 30,
+      "maxHeight": 35,
+      "style": {
+        "style": "STATIC"
+      },
+      "palette": [
+        {
+          "weight": 8,
+          "block": "minecraft:red_sandstone"
+        },
+        {
+          "weight": 2,
+          "block": "minecraft:smooth_red_sandstone"
+        }
+      ]
     }
   ],
   "objects": [
