@@ -217,7 +217,7 @@
       "density": 1,
       "carvingSupport": "CARVING_ONLY",
       "caveAnchorMode": "FLOOR",
-      "mode": "SIMPLE",
+      "mode": "CENTER_HEIGHT",
       "place": [
         "clutter/pond"
       ]

@@ -243,7 +243,7 @@
       "density": 1,
       "carvingSupport": "ANYWHERE",
       "caveAnchorMode": "FLOOR",
-      "mode": "SIMPLE",
+      "mode": "CENTER_HEIGHT",
       "place": [
         "structures/amethyst1",
         "structures/amethyst2",
