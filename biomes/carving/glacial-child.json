@@ -1,4 +1,4 @@
-{
+﻿{
   "proceduralObjects": "snippet/procedural-objects/frozen/magical-ice-cave",
   "name": "Glacial Child",
   "derivative": "minecraft:dripstone_caves",
@@ -129,7 +129,7 @@
     "surfaceBreakThresholdBoost": 0.1,
     "objectMinDepthBelowSurface": 18,
     "defaultObjectAnchor": "FLOOR",
-    "defaultObjectPlaceMode": "ORGANIC_STILT",
+    "defaultObjectPlaceMode": "SIMPLE",
     "anchorScanStep": 1,
     "anchorSearchAttempts": 18,
     "allowFluid": true,

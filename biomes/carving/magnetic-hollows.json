@@ -1,4 +1,4 @@
-{
+﻿{
   "name": "Magnetic Hollows",
   "derivative": "minecraft:dripstone_caves",
   "vanillaDerivative": "minecraft:dripstone_caves",
@@ -38,7 +38,7 @@
     "allowSurfaceBreak": false,
     "objectMinDepthBelowSurface": 14,
     "defaultObjectAnchor": "FLOOR",
-    "defaultObjectPlaceMode": "ORGANIC_STILT",
+    "defaultObjectPlaceMode": "SIMPLE",
     "anchorScanStep": 1,
     "anchorSearchAttempts": 16,
     "allowFluid": true,

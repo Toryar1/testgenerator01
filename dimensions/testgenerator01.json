@@ -2,7 +2,7 @@
   "version": 4002,
   "name": "testgenerator01",
   "importedStructures": {
-    "datapackOverrides": false,
+    "datapackOverrides": true,
     "disabled": [
       "minecraft:village",
       "minecraft:villages",
@@ -61,7 +61,30 @@
         "match": [
           "minecraft:trial_chambers"
         ],
-        "yShift": -64
+        "yShift": -64,
+        "terrain": {
+          "mode": "ENCASE",
+          "horizontalPadding": 4,
+          "ceilingPadding": 6,
+          "floorPadding": 4,
+          "encasePalette": {
+            "zoom": 1,
+            "palette": [
+              {
+                "block": "minecraft:tuff_bricks",
+                "weight": 4
+              },
+              {
+                "block": "minecraft:tuff",
+                "weight": 4
+              },
+              {
+                "block": "minecraft:deepslate_bricks",
+                "weight": 2
+              }
+            ]
+          }
+        }
       }
     ],
     "frequencyOverrides": [
@@ -74,6 +97,7 @@
   "importedFeatures": {
     "enabled": true,
     "steps": [
+      "LOCAL_MODIFICATIONS",
       "FLUID_SPRINGS",
       "UNDERGROUND_DECORATION",
       "UNDERGROUND_STRUCTURES",
@@ -879,7 +903,7 @@
     "surfaceBreakThresholdBoost": 0.05,
     "objectMinDepthBelowSurface": 14,
     "defaultObjectAnchor": "FLOOR",
-    "defaultObjectPlaceMode": "ORGANIC_STILT",
+    "defaultObjectPlaceMode": "SIMPLE",
     "anchorScanStep": 1,
     "anchorSearchAttempts": 12,
     "allowFluid": true,

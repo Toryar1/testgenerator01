@@ -123,138 +123,6 @@
         }
       }
     ],
-    "ruins": [
-      {
-        "name": "ruined-pillar",
-        "chance": 0.06,
-        "density": 1,
-        "variants": 5,
-        "seed": 9101,
-        "form": "PILLAR",
-        "mode": "MIN_HEIGHT",
-        "block": "minecraft:stone_bricks",
-        "blockPalette": {
-          "style": {
-            "style": "STATIC"
-          },
-          "palette": [
-            {
-              "block": "minecraft:stone_bricks",
-              "weight": 4
-            },
-            {
-              "block": "minecraft:cracked_stone_bricks",
-              "weight": 2
-            },
-            {
-              "block": "minecraft:cobblestone",
-              "weight": 1
-            }
-          ]
-        },
-        "weatheringPalette": {
-          "style": {
-            "style": "STATIC"
-          },
-          "palette": [
-            {
-              "block": "minecraft:mossy_stone_bricks"
-            },
-            {
-              "block": "minecraft:mossy_cobblestone"
-            }
-          ]
-        },
-        "mossiness": 0.4,
-        "weatheringScale": 0.5,
-        "erosion": 0.3,
-        "erosionScale": 0.6,
-        "buriedFraction": 0.2,
-        "heightMin": 5,
-        "heightMax": 11,
-        "widthMin": 1,
-        "widthMax": 2,
-        "lengthMin": 1,
-        "lengthMax": 2,
-        "rotation": {
-          "enabled": true,
-          "yAxis": {
-            "enabled": true,
-            "min": 0,
-            "max": 360,
-            "interval": 90
-          }
-        },
-        "accents": [
-          {
-            "target": "TOP",
-            "block": "minecraft:vine",
-            "chance": 0.3,
-            "scatterRadius": 1
-          }
-        ]
-      },
-      {
-        "name": "ruined-wall",
-        "chance": 0.035,
-        "density": 1,
-        "variants": 5,
-        "seed": 9102,
-        "form": "WALL",
-        "mode": "MIN_HEIGHT",
-        "block": "minecraft:cobblestone",
-        "blockPalette": {
-          "style": {
-            "style": "STATIC"
-          },
-          "palette": [
-            {
-              "block": "minecraft:cobblestone",
-              "weight": 4
-            },
-            {
-              "block": "minecraft:stone_bricks",
-              "weight": 2
-            },
-            {
-              "block": "minecraft:mossy_cobblestone",
-              "weight": 2
-            }
-          ]
-        },
-        "weatheringPalette": {
-          "style": {
-            "style": "STATIC"
-          },
-          "palette": [
-            {
-              "block": "minecraft:mossy_cobblestone"
-            },
-            {
-              "block": "minecraft:mossy_stone_bricks"
-            }
-          ]
-        },
-        "mossiness": 0.5,
-        "erosion": 0.4,
-        "buriedFraction": 0.25,
-        "heightMin": 3,
-        "heightMax": 6,
-        "widthMin": 4,
-        "widthMax": 8,
-        "lengthMin": 1,
-        "lengthMax": 1,
-        "rotation": {
-          "enabled": true,
-          "yAxis": {
-            "enabled": true,
-            "min": 0,
-            "max": 360,
-            "interval": 90
-          }
-        }
-      }
-    ],
     "crystals": [
       {
         "name": "amethyst-cluster",
@@ -455,7 +323,7 @@
     "surfaceBreakThresholdBoost": 0.02,
     "objectMinDepthBelowSurface": 14,
     "defaultObjectAnchor": "FLOOR",
-    "defaultObjectPlaceMode": "ORGANIC_STILT",
+    "defaultObjectPlaceMode": "SIMPLE",
     "anchorScanStep": 1,
     "anchorSearchAttempts": 12,
     "allowFluid": true,

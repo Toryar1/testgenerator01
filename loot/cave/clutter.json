@@ -103,7 +103,7 @@
                      "rarity":  30,
                      "maxAmount":  1,
                      "minAmount":  1,
-                     "type":  "diamond"
+                     "type":  "copper_ingot"
                  }
              ]
 }

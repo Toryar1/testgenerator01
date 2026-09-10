@@ -1,0 +1,8 @@
+﻿{
+  "pack": {
+    "max_format": 107,
+    "description": "Rebalanced Loot: Diamond items replaced with Iron and Copper",
+    "min_format": 48,
+    "pack_format": 107
+  }
+}

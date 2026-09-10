@@ -1,4 +1,4 @@
-{
+﻿{
   "name": "Polarity Grotto",
   "derivative": "minecraft:lush_caves",
   "vanillaDerivative": "minecraft:lush_caves",
@@ -38,7 +38,7 @@
     "allowSurfaceBreak": false,
     "objectMinDepthBelowSurface": 13,
     "defaultObjectAnchor": "FLOOR",
-    "defaultObjectPlaceMode": "ORGANIC_STILT",
+    "defaultObjectPlaceMode": "SIMPLE",
     "anchorScanStep": 1,
     "anchorSearchAttempts": 16,
     "allowFluid": true,

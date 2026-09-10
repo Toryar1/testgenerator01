@@ -237,6 +237,21 @@
       "scale": {
         "size": 0.75
       }
+    },
+    {
+      "chance": 0.08,
+      "density": 1,
+      "carvingSupport": "CARVING_AND_TERRAIN",
+      "caveAnchorMode": "FLOOR",
+      "mode": "SIMPLE",
+      "place": [
+        "structures/amethyst1",
+        "structures/amethyst2",
+        "structures/amethyst3",
+        "structures/amethyst4",
+        "structures/amethyst5",
+        "structures/amethyst6"
+      ]
     }
   ],
   "caveProfile": {
@@ -246,26 +261,26 @@
       "max": 620
     },
     "baseDensityStyle": {
-      "style": "FRACTAL_BILLOW_SIMPLEX",
-      "zoom": 0.656
+      "style": "CELLULAR",
+      "zoom": 0.8
     },
     "detailDensityStyle": {
       "style": "SIMPLEX",
-      "zoom": 0.666
+      "zoom": 0.52
     },
     "warpStyle": {
-      "style": "PERLIN_IRIS",
-      "zoom": 0.35
+      "style": "CELLULAR",
+      "zoom": 0.46
     },
-    "baseWeight": 0.819,
-    "detailWeight": 0.145,
-    "warpStrength": 0.2396,
+    "baseWeight": 0.91,
+    "detailWeight": 0.1,
+    "warpStrength": 0.18,
     "densityThreshold": {
-      "min": -0.135,
-      "max": -0.032,
+      "min": -0.12,
+      "max": -0.04,
       "style": {
-        "style": "PERLIN_IRIS",
-        "zoom": 0.784
+        "style": "SIMPLEX_VASCULAR",
+        "zoom": 0.63
       }
     },
     "thresholdBias": 0.12,
@@ -281,7 +296,7 @@
     "surfaceBreakThresholdBoost": 0.1,
     "objectMinDepthBelowSurface": 16,
     "defaultObjectAnchor": "FLOOR",
-    "defaultObjectPlaceMode": "ORGANIC_STILT",
+    "defaultObjectPlaceMode": "SIMPLE",
     "anchorScanStep": 1,
     "anchorSearchAttempts": 18,
     "allowFluid": true,
@@ -289,6 +304,19 @@
     "fluidRequiresFloor": true,
     "allowLava": true,
     "modules": [
+      {
+        "style": {
+          "style": "VASCULAR_THIN",
+          "zoom": 1.55
+        },
+        "weight": 0.09,
+        "threshold": 0.018,
+        "verticalRange": {
+          "min": 10,
+          "max": 680
+        },
+        "invert": false
+      },
       {
         "style": {
           "style": "FRACTAL_BILLOW_SIMPLEX",

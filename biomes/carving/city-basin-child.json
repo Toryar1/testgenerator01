@@ -1,4 +1,4 @@
-{
+﻿{
   "name": "Ancient City Basin Child",
   "derivative": "minecraft:deep_dark",
   "vanillaDerivative": "minecraft:deep_dark",
@@ -204,7 +204,7 @@
     "surfaceBreakThresholdBoost": 0.0,
     "objectMinDepthBelowSurface": 40,
     "defaultObjectAnchor": "FLOOR",
-    "defaultObjectPlaceMode": "ORGANIC_STILT",
+    "defaultObjectPlaceMode": "SIMPLE",
     "anchorScanStep": 1,
     "anchorSearchAttempts": 28,
     "allowFluid": false,

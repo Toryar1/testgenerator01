@@ -136,7 +136,7 @@
       "density": 1,
       "carvingSupport": "CARVING_ONLY",
       "caveAnchorMode": "FLOOR",
-      "mode": "ORGANIC_STILT",
+      "mode": "SIMPLE",
       "place": [
         "clutter/lava-cup-1",
         "clutter/lava-cup-2"
@@ -147,9 +147,24 @@
       "density": 1,
       "carvingSupport": "CARVING_ONLY",
       "caveAnchorMode": "FLOOR",
-      "mode": "ORGANIC_STILT",
+      "mode": "SIMPLE",
       "place": [
         "clutter/pond"
+      ]
+    },
+    {
+      "chance": 0.005,
+      "density": 1,
+      "carvingSupport": "CARVING_AND_TERRAIN",
+      "caveAnchorMode": "FLOOR",
+      "mode": "SIMPLE",
+      "place": [
+        "structures/amethyst1",
+        "structures/amethyst2",
+        "structures/amethyst3",
+        "structures/amethyst4",
+        "structures/amethyst5",
+        "structures/amethyst6"
       ]
     }
   ],
@@ -195,7 +210,7 @@
     "surfaceBreakThresholdBoost": 0.05,
     "objectMinDepthBelowSurface": 14,
     "defaultObjectAnchor": "FLOOR",
-    "defaultObjectPlaceMode": "ORGANIC_STILT",
+    "defaultObjectPlaceMode": "SIMPLE",
     "anchorScanStep": 1,
     "anchorSearchAttempts": 18,
     "allowFluid": true,
@@ -206,13 +221,39 @@
       {
         "style": {
           "style": "SIMPLEX_VASCULAR",
-          "zoom": 1.08
+          "zoom": 1.22
         },
-        "weight": 0.08,
-        "threshold": 0.03,
+        "weight": 0.1,
+        "threshold": 0.024,
         "verticalRange": {
-          "min": 24,
-          "max": 660
+          "min": 10,
+          "max": 680
+        },
+        "invert": false
+      },
+      {
+        "style": {
+          "style": "VASCULAR_THIN",
+          "zoom": 1.55
+        },
+        "weight": 0.09,
+        "threshold": 0.018,
+        "verticalRange": {
+          "min": 10,
+          "max": 680
+        },
+        "invert": false
+      },
+      {
+        "style": {
+          "style": "CELLULAR_BILINEAR",
+          "zoom": 1.15
+        },
+        "weight": 0.06,
+        "threshold": 0.12,
+        "verticalRange": {
+          "min": 15,
+          "max": 650
         },
         "invert": false
       },

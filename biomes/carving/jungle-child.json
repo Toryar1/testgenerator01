@@ -1,4 +1,4 @@
-{
+﻿{
   "name": "Jungle Cavern Child",
   "derivative": "minecraft:lush_caves",
   "vanillaDerivative": "minecraft:lush_caves",
@@ -287,7 +287,7 @@
     "surfaceBreakThresholdBoost": 0.1,
     "objectMinDepthBelowSurface": 10,
     "defaultObjectAnchor": "FLOOR",
-    "defaultObjectPlaceMode": "ORGANIC_STILT",
+    "defaultObjectPlaceMode": "SIMPLE",
     "anchorScanStep": 1,
     "anchorSearchAttempts": 18,
     "allowFluid": true,
