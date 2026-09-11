@@ -152,48 +152,48 @@
   "caveProfile": {
     "enabled": true,
     "verticalRange": {
-      "min": -220,
-      "max": 620
+      "min": -250,
+      "max": 700
     },
     "baseDensityStyle": {
       "style": "PERLIN_IRIS",
-      "zoom": 1.05
+      "zoom": 0.72
     },
     "detailDensityStyle": {
-      "style": "FRACTAL_BILLOW_SIMPLEX",
-      "zoom": 0.52
+      "style": "SIMPLEX",
+      "zoom": 0.54
     },
     "warpStyle": {
-      "style": "SIMPLEX",
-      "zoom": 0.46
+      "style": "FRACTAL_WATER",
+      "zoom": 0.5
     },
-    "baseWeight": 0.28,
-    "detailWeight": 0.08,
-    "warpStrength": 0.18,
+    "baseWeight": 0.75,
+    "detailWeight": 0.1,
+    "warpStrength": 0.24,
     "densityThreshold": {
-      "min": -0.12,
-      "max": -0.04,
+      "min": -0.14,
+      "max": -0.06,
       "style": {
         "style": "SIMPLEX",
-        "zoom": 0.7
+        "zoom": 0.74
       }
     },
-    "thresholdBias": 0.04,
-    "sampleStep": 2,
-    "surfaceClearance": 0,
+    "thresholdBias": 0.205,
+    "sampleStep": 3,
+    "surfaceClearance": 10,
     "allowSurfaceBreak": true,
     "surfaceBreakStyle": {
       "style": "SIMPLEX",
-      "zoom": 0.9
+      "zoom": 0.88
     },
-    "surfaceBreakNoiseThreshold": 0.58,
-    "surfaceBreakDepth": 52,
-    "surfaceBreakThresholdBoost": 0.22,
-    "objectMinDepthBelowSurface": 16,
+    "surfaceBreakNoiseThreshold": 0.65,
+    "surfaceBreakDepth": 8,
+    "surfaceBreakThresholdBoost": 0.05,
+    "objectMinDepthBelowSurface": 14,
     "defaultObjectAnchor": "FLOOR",
     "defaultObjectPlaceMode": "CENTER_HEIGHT",
     "anchorScanStep": 1,
-    "anchorSearchAttempts": 18,
+    "anchorSearchAttempts": 12,
     "allowFluid": true,
     "fluidMinDepthBelowSurface": 20,
     "fluidRequiresFloor": true,
@@ -202,13 +202,13 @@
       {
         "style": {
           "style": "SIMPLEX_VASCULAR",
-          "zoom": 1.25
+          "zoom": 1.15
         },
-        "weight": 0.36,
+        "weight": 0.15,
         "threshold": 0.02,
         "verticalRange": {
           "min": -250,
-          "max": 700
+          "max": 680
         },
         "invert": false
       },
@@ -217,24 +217,24 @@
           "style": "VASCULAR_THIN",
           "zoom": 1.65
         },
-        "weight": 0.28,
-        "threshold": 0.025,
+        "weight": 0.13,
+        "threshold": 0.02,
         "verticalRange": {
           "min": -250,
-          "max": 700
+          "max": 680
         },
         "invert": false
       },
       {
         "style": {
           "style": "CELLULAR_BILINEAR",
-          "zoom": 1.3
+          "zoom": 1.35
         },
-        "weight": 0.26,
-        "threshold": 0.1,
+        "weight": 0.11,
+        "threshold": 0.02,
         "verticalRange": {
           "min": -250,
-          "max": 700
+          "max": 680
         },
         "invert": false
       },
@@ -243,7 +243,7 @@
           "style": "FRACTAL_FBM_SIMPLEX",
           "zoom": 0.24
         },
-        "weight": 0.04,
+        "weight": 0.03,
         "threshold": 0.08,
         "verticalRange": {
           "min": -250,
@@ -252,12 +252,12 @@
         "invert": true
       }
     ],
-    "verticalEdgeFade": 26,
+    "verticalEdgeFade": 24,
     "verticalEdgeFadeStrength": 0.18,
     "minCarveCells": 24,
     "recoveryThresholdBoost": 0.07
   },
-  "caveMinDepthBelowSurface": 0,
+  "caveMinDepthBelowSurface": 10,
   "children": [
     "carving/crystalized-overgrown-child"
   ],
