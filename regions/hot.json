@@ -108,7 +108,7 @@
       }
     },
     "thresholdBias": 0.14,
-    "sampleStep": 1,
+    "sampleStep": 2,
     "surfaceClearance": 12,
     "allowSurfaceBreak": false,
     "surfaceBreakStyle": {
@@ -128,7 +128,7 @@
     "fluidRequiresFloor": true,
     "allowLava": true,
     "modules": [],
-    "adaptiveSampling": false
+    "adaptiveSampling": true
   },
   "caveBiomeZoom": 3.6,
   "entitySpawners": [

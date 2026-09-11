@@ -223,7 +223,7 @@
       }
     },
     "thresholdBias": 0.205,
-    "sampleStep": 1,
+    "sampleStep": 2,
     "surfaceClearance": 10,
     "allowSurfaceBreak": true,
     "surfaceBreakStyle": {
@@ -300,7 +300,7 @@
     "verticalEdgeFadeStrength": 0.18,
     "minCarveCells": 24,
     "recoveryThresholdBoost": 0.07,
-    "adaptiveSampling": false
+    "adaptiveSampling": true
   },
   "caveMinDepthBelowSurface": 10,
   "children": [
