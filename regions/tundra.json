@@ -74,7 +74,7 @@
       "style": "SIMPLEX",
       "zoom": 0.5
     },
-    "baseWeight": 1,
+    "baseWeight": 0.82,
     "detailWeight": 0,
     "warpStrength": 0,
     "densityThreshold": {
@@ -85,17 +85,17 @@
         "zoom": 0.5
       }
     },
-    "thresholdBias": 0.14,
+    "thresholdBias": 0.17,
     "sampleStep": 2,
-    "surfaceClearance": 12,
+    "surfaceClearance": 10,
     "allowSurfaceBreak": false,
     "surfaceBreakStyle": {
       "style": "SIMPLEX",
       "zoom": 0.88
     },
-    "surfaceBreakNoiseThreshold": 0.99,
-    "surfaceBreakDepth": 4,
-    "surfaceBreakThresholdBoost": 0.02,
+    "surfaceBreakNoiseThreshold": 0.65,
+    "surfaceBreakDepth": 8,
+    "surfaceBreakThresholdBoost": 0.05,
     "objectMinDepthBelowSurface": 14,
     "defaultObjectAnchor": "FLOOR",
     "defaultObjectPlaceMode": "SIMPLE",
@@ -103,9 +103,62 @@
     "anchorSearchAttempts": 12,
     "allowFluid": true,
     "fluidMinDepthBelowSurface": 20,
-    "fluidRequiresFloor": true,
+    "fluidRequiresFloor": false,
     "allowLava": true,
-    "modules": [],
+    "modules": [
+      {
+        "style": {
+          "style": "SIMPLEX_VASCULAR",
+          "zoom": 1.15
+        },
+        "weight": 0.26,
+        "threshold": -0.12,
+        "verticalRange": {
+          "min": -250,
+          "max": 680
+        },
+        "invert": false
+      },
+      {
+        "style": {
+          "style": "VASCULAR_THIN",
+          "zoom": 1.65
+        },
+        "weight": 0.2,
+        "threshold": -0.55,
+        "verticalRange": {
+          "min": -250,
+          "max": 680
+        },
+        "invert": false
+      },
+      {
+        "style": {
+          "style": "CELLULAR_BILINEAR",
+          "zoom": 1.35
+        },
+        "weight": 0.32,
+        "threshold": -0.52,
+        "verticalRange": {
+          "min": -250,
+          "max": 680
+        },
+        "invert": false
+      },
+      {
+        "style": {
+          "style": "FRACTAL_FBM_SIMPLEX",
+          "zoom": 0.24
+        },
+        "weight": 0.03,
+        "threshold": 0.08,
+        "verticalRange": {
+          "min": -250,
+          "max": 240
+        },
+        "invert": true
+      }
+    ],
     "adaptiveSampling": true
   },
   "caveBiomeZoom": 3.4,

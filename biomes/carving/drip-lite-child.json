@@ -189,7 +189,7 @@
       "style": "FRACTAL_WATER",
       "zoom": 0.5
     },
-    "baseWeight": 0.75,
+    "baseWeight": 0.82,
     "detailWeight": 0.1,
     "warpStrength": 0.24,
     "densityThreshold": {
@@ -200,7 +200,7 @@
         "zoom": 0.74
       }
     },
-    "thresholdBias": 0.205,
+    "thresholdBias": 0.17,
     "sampleStep": 2,
     "surfaceClearance": 10,
     "allowSurfaceBreak": true,
@@ -218,7 +218,7 @@
     "anchorSearchAttempts": 12,
     "allowFluid": true,
     "fluidMinDepthBelowSurface": 20,
-    "fluidRequiresFloor": true,
+    "fluidRequiresFloor": false,
     "allowLava": true,
     "modules": [
       {
@@ -226,8 +226,8 @@
           "style": "SIMPLEX_VASCULAR",
           "zoom": 1.15
         },
-        "weight": 0.15,
-        "threshold": 0.02,
+        "weight": 0.26,
+        "threshold": -0.12,
         "verticalRange": {
           "min": -250,
           "max": 680
@@ -239,8 +239,8 @@
           "style": "VASCULAR_THIN",
           "zoom": 1.65
         },
-        "weight": 0.13,
-        "threshold": 0.02,
+        "weight": 0.2,
+        "threshold": -0.55,
         "verticalRange": {
           "min": -250,
           "max": 680
@@ -252,8 +252,8 @@
           "style": "CELLULAR_BILINEAR",
           "zoom": 1.35
         },
-        "weight": 0.11,
-        "threshold": 0.02,
+        "weight": 0.32,
+        "threshold": -0.52,
         "verticalRange": {
           "min": -250,
           "max": 680
