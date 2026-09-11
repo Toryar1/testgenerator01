@@ -853,7 +853,7 @@
     },
     "baseDensityStyle": {
       "style": "PERLIN_IRIS",
-      "zoom": 1.2
+      "zoom": 1.05
     },
     "detailDensityStyle": {
       "style": "SIMPLEX",
@@ -863,8 +863,8 @@
       "style": "FRACTAL_WATER",
       "zoom": 0.5
     },
-    "baseWeight": 0.35,
-    "detailWeight": 0.1,
+    "baseWeight": 0.28,
+    "detailWeight": 0.08,
     "warpStrength": 0.24,
     "densityThreshold": {
       "min": -0.14,
@@ -874,17 +874,17 @@
         "zoom": 0.74
       }
     },
-    "thresholdBias": 0.05,
+    "thresholdBias": 0.04,
     "sampleStep": 3,
-    "surfaceClearance": 3,
+    "surfaceClearance": 0,
     "allowSurfaceBreak": true,
     "surfaceBreakStyle": {
       "style": "SIMPLEX",
       "zoom": 0.88
     },
-    "surfaceBreakNoiseThreshold": 0.62,
-    "surfaceBreakDepth": 35,
-    "surfaceBreakThresholdBoost": 0.16,
+    "surfaceBreakNoiseThreshold": 0.58,
+    "surfaceBreakDepth": 52,
+    "surfaceBreakThresholdBoost": 0.22,
     "objectMinDepthBelowSurface": 14,
     "defaultObjectAnchor": "FLOOR",
     "defaultObjectPlaceMode": "CENTER_HEIGHT",
@@ -900,11 +900,11 @@
           "style": "SIMPLEX_VASCULAR",
           "zoom": 1.25
         },
-        "weight": 0.44,
+        "weight": 0.36,
         "threshold": 0.02,
         "verticalRange": {
-          "min": -220,
-          "max": 680
+          "min": -250,
+          "max": 700
         },
         "invert": false
       },
@@ -913,24 +913,24 @@
           "style": "VASCULAR_THIN",
           "zoom": 1.65
         },
-        "weight": 0.34,
+        "weight": 0.28,
         "threshold": 0.025,
         "verticalRange": {
-          "min": -220,
-          "max": 680
+          "min": -250,
+          "max": 700
         },
         "invert": false
       },
       {
         "style": {
           "style": "CELLULAR_BILINEAR",
-          "zoom": 1.35
+          "zoom": 1.3
         },
-        "weight": 0.15,
-        "threshold": 0.08,
+        "weight": 0.26,
+        "threshold": 0.1,
         "verticalRange": {
-          "min": -220,
-          "max": 680
+          "min": -250,
+          "max": 700
         },
         "invert": false
       },
@@ -942,7 +942,7 @@
         "weight": 0.04,
         "threshold": 0.08,
         "verticalRange": {
-          "min": -220,
+          "min": -250,
           "max": 240
         },
         "invert": true

@@ -253,7 +253,7 @@
     },
     "baseDensityStyle": {
       "style": "FRACTAL_BILLOW_SIMPLEX",
-      "zoom": 0.558
+      "zoom": 1.05
     },
     "detailDensityStyle": {
       "style": "FRACTAL_BILLOW_SIMPLEX",
@@ -263,8 +263,8 @@
       "style": "SIMPLEX",
       "zoom": 0.35
     },
-    "baseWeight": 0.35,
-    "detailWeight": 0.17,
+    "baseWeight": 0.28,
+    "detailWeight": 0.08,
     "warpStrength": 0.4104,
     "densityThreshold": {
       "min": -0.145,
@@ -274,17 +274,17 @@
         "zoom": 0.784
       }
     },
-    "thresholdBias": 0.05,
+    "thresholdBias": 0.04,
     "sampleStep": 2,
-    "surfaceClearance": 5,
+    "surfaceClearance": 0,
     "allowSurfaceBreak": true,
     "surfaceBreakStyle": {
       "style": "SIMPLEX_VASCULAR",
       "zoom": 0.738
     },
-    "surfaceBreakNoiseThreshold": 0.56,
-    "surfaceBreakDepth": 7,
-    "surfaceBreakThresholdBoost": 0.1,
+    "surfaceBreakNoiseThreshold": 0.58,
+    "surfaceBreakDepth": 52,
+    "surfaceBreakThresholdBoost": 0.22,
     "objectMinDepthBelowSurface": 10,
     "defaultObjectAnchor": "FLOOR",
     "defaultObjectPlaceMode": "CENTER_HEIGHT",
@@ -298,41 +298,54 @@
       {
         "style": {
           "style": "SIMPLEX_VASCULAR",
-          "zoom": 1.004
+          "zoom": 1.25
         },
-        "weight": 0.44,
+        "weight": 0.36,
         "threshold": 0.02,
         "verticalRange": {
-          "min": -220,
-          "max": 680
+          "min": -250,
+          "max": 700
         },
         "invert": false
-      },
-      {
-        "style": {
-          "style": "FRACTAL_BILLOW_SIMPLEX",
-          "zoom": 0.216
-        },
-        "weight": 0.05,
-        "threshold": 0.08,
-        "verticalRange": {
-          "min": -220,
-          "max": 220
-        },
-        "invert": true
       },
       {
         "style": {
           "style": "VASCULAR_THIN",
           "zoom": 1.65
         },
-        "weight": 0.34,
+        "weight": 0.28,
         "threshold": 0.025,
         "verticalRange": {
-          "min": -220,
-          "max": 680
+          "min": -250,
+          "max": 700
         },
         "invert": false
+      },
+      {
+        "style": {
+          "style": "CELLULAR_BILINEAR",
+          "zoom": 1.3
+        },
+        "weight": 0.26,
+        "threshold": 0.1,
+        "verticalRange": {
+          "min": -250,
+          "max": 700
+        },
+        "invert": false
+      },
+      {
+        "style": {
+          "style": "FRACTAL_FBM_SIMPLEX",
+          "zoom": 0.24
+        },
+        "weight": 0.04,
+        "threshold": 0.08,
+        "verticalRange": {
+          "min": -250,
+          "max": 240
+        },
+        "invert": true
       }
     ],
     "verticalEdgeFade": 24,
@@ -340,5 +353,5 @@
     "minCarveCells": 20,
     "recoveryThresholdBoost": 0.07
   },
-  "caveMinDepthBelowSurface": 8
+  "caveMinDepthBelowSurface": 0
 }

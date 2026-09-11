@@ -172,7 +172,7 @@
     },
     "baseDensityStyle": {
       "style": "FRACTAL_BILLOW_SIMPLEX",
-      "zoom": 0.59
+      "zoom": 1.05
     },
     "detailDensityStyle": {
       "style": "FRACTAL_BILLOW_SIMPLEX",
@@ -182,8 +182,8 @@
       "style": "SIMPLEX",
       "zoom": 0.38
     },
-    "baseWeight": 0.35,
-    "detailWeight": 0.1575,
+    "baseWeight": 0.28,
+    "detailWeight": 0.08,
     "warpStrength": 0.386,
     "densityThreshold": {
       "min": -0.155,
@@ -193,17 +193,17 @@
         "zoom": 0.829
       }
     },
-    "thresholdBias": 0.05,
+    "thresholdBias": 0.04,
     "sampleStep": 2,
-    "surfaceClearance": 8,
+    "surfaceClearance": 0,
     "allowSurfaceBreak": true,
     "surfaceBreakStyle": {
       "style": "SIMPLEX_VASCULAR",
       "zoom": 0.792
     },
-    "surfaceBreakNoiseThreshold": 0.82,
-    "surfaceBreakDepth": 26,
-    "surfaceBreakThresholdBoost": 0.14,
+    "surfaceBreakNoiseThreshold": 0.58,
+    "surfaceBreakDepth": 52,
+    "surfaceBreakThresholdBoost": 0.22,
     "objectMinDepthBelowSurface": 14,
     "defaultObjectAnchor": "FLOOR",
     "defaultObjectPlaceMode": "CENTER_HEIGHT",
@@ -219,62 +219,49 @@
           "style": "SIMPLEX_VASCULAR",
           "zoom": 1.25
         },
-        "weight": 0.44,
-        "threshold": 0.024,
+        "weight": 0.36,
+        "threshold": 0.02,
         "verticalRange": {
-          "min": -220,
-          "max": 680
+          "min": -250,
+          "max": 700
         },
         "invert": false
       },
       {
         "style": {
           "style": "VASCULAR_THIN",
-          "zoom": 1.55
+          "zoom": 1.65
         },
-        "weight": 0.34,
-        "threshold": 0.018,
+        "weight": 0.28,
+        "threshold": 0.025,
         "verticalRange": {
-          "min": -220,
-          "max": 680
+          "min": -250,
+          "max": 700
         },
         "invert": false
       },
       {
         "style": {
           "style": "CELLULAR_BILINEAR",
-          "zoom": 1.15
+          "zoom": 1.3
         },
-        "weight": 0.06,
-        "threshold": 0.12,
+        "weight": 0.26,
+        "threshold": 0.1,
         "verticalRange": {
-          "min": -220,
-          "max": 650
+          "min": -250,
+          "max": 700
         },
         "invert": false
       },
       {
         "style": {
-          "style": "FRACTAL_BILLOW_SIMPLEX",
-          "zoom": 1.058
-        },
-        "weight": 0.08,
-        "threshold": 0.03,
-        "verticalRange": {
-          "min": -220,
-          "max": 660
-        },
-        "invert": false
-      },
-      {
-        "style": {
-          "style": "FRACTAL_BILLOW_SIMPLEX",
-          "zoom": 0.211
+          "style": "FRACTAL_FBM_SIMPLEX",
+          "zoom": 0.24
         },
         "weight": 0.04,
         "threshold": 0.08,
         "verticalRange": {
-          "min": -220,
+          "min": -250,
           "max": 240
         },
         "invert": true
@@ -285,7 +272,7 @@
     "minCarveCells": 20,
     "recoveryThresholdBoost": 0.07
   },
-  "caveMinDepthBelowSurface": 10,
+  "caveMinDepthBelowSurface": 0,
   "decorators": [
     {
       "partOf": "CEILING",
