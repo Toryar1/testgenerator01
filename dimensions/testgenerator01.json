@@ -802,9 +802,9 @@
       {
         "style": {
           "style": "SIMPLEX_VASCULAR",
-          "zoom": 0.6
+          "zoom": 0.58
         },
-        "weight": 0.55,
+        "weight": 0.52,
         "threshold": 0.08,
         "verticalRange": {
           "min": 180,
@@ -814,11 +814,11 @@
       },
       {
         "style": {
-          "style": "SIMPLEX_VASCULAR",
-          "zoom": 0.85
+          "style": "VASCULAR_THIN",
+          "zoom": 1.15
         },
-        "weight": 0.35,
-        "threshold": 0.12,
+        "weight": 0.28,
+        "threshold": 0.1,
         "verticalRange": {
           "min": 180,
           "max": 310
