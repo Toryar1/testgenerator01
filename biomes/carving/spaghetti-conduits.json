@@ -1,7 +1,69 @@
 {
   "name": "Spaghetti Conduits",
-  "derivative": "minecraft:plains",
-  "vanillaDerivative": "minecraft:plains",
+  "derivative": "minecraft:dripstone_caves",
+  "vanillaDerivative": "minecraft:dripstone_caves",
+  "wall": {
+    "style": {
+      "style": "SIMPLEX",
+      "zoom": 0.08
+    },
+    "palette": [
+      {
+        "block": "minecraft:stone",
+        "weight": 12
+      },
+      {
+        "block": "minecraft:deepslate",
+        "weight": 5
+      },
+      {
+        "block": "minecraft:andesite",
+        "weight": 3
+      },
+      {
+        "block": "minecraft:tuff",
+        "weight": 2
+      }
+    ]
+  },
+  "layers": [
+    {
+      "minHeight": 1,
+      "maxHeight": 1,
+      "style": {
+        "style": "STATIC"
+      },
+      "palette": [
+        {
+          "block": "minecraft:stone",
+          "weight": 8
+        },
+        {
+          "block": "minecraft:deepslate",
+          "weight": 4
+        }
+      ]
+    }
+  ],
+  "caveCeilingLayers": [
+    {
+      "minHeight": 1,
+      "maxHeight": 1,
+      "style": {
+        "style": "STATIC"
+      },
+      "palette": [
+        {
+          "block": "minecraft:stone",
+          "weight": 8
+        },
+        {
+          "block": "minecraft:deepslate",
+          "weight": 4
+        }
+      ]
+    }
+  ],
   "caveProfile": {
     "enabled": true,
     "verticalRange": {
@@ -29,7 +91,7 @@
     "thresholdBias": 0.6,
     "sampleStep": 2,
     "adaptiveSampling": true,
-    "surfaceClearance": 10,
+    "surfaceClearance": 14,
     "allowSurfaceBreak": false,
     "allowFluid": true,
     "fluidMinDepthBelowSurface": 20,

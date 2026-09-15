@@ -876,13 +876,13 @@
     },
     "thresholdBias": 0.22,
     "sampleStep": 2,
-    "surfaceClearance": 10,
+    "surfaceClearance": 12,
     "allowSurfaceBreak": true,
     "surfaceBreakStyle": {
       "style": "SIMPLEX",
       "zoom": 0.88
     },
-    "surfaceBreakNoiseThreshold": 0.7,
+    "surfaceBreakNoiseThreshold": 0.75,
     "surfaceBreakDepth": 8,
     "surfaceBreakThresholdBoost": 0.05,
     "objectMinDepthBelowSurface": 14,
@@ -915,15 +915,6 @@
       "id": "global-spaghetti-conduits",
       "enabled": true,
       "biome": "carving/spaghetti-conduits",
-      "worldYRange": {
-        "min": -250,
-        "max": 320
-      }
-    },
-    {
-      "id": "global-vertical-ravines",
-      "enabled": true,
-      "biome": "carving/vertical-ravines",
       "worldYRange": {
         "min": -250,
         "max": 320
