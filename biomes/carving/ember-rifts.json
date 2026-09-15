@@ -182,10 +182,10 @@
         "zoom": 0.74
       }
     },
-    "thresholdBias": 0.19,
+    "thresholdBias": 0.24,
     "sampleStep": 2,
-    "surfaceClearance": 4,
-    "allowSurfaceBreak": true,
+    "surfaceClearance": 18,
+    "allowSurfaceBreak": false,
     "surfaceBreakStyle": {
       "style": "SIMPLEX",
       "zoom": 0.88
@@ -208,7 +208,7 @@
           "style": "SIMPLEX_VASCULAR",
           "zoom": 1.15
         },
-        "weight": 0.2,
+        "weight": 0.1,
         "threshold": 0.02,
         "verticalRange": {
           "min": -250,
@@ -221,7 +221,7 @@
           "style": "VASCULAR_THIN",
           "zoom": 1.65
         },
-        "weight": 0.14,
+        "weight": 0.07,
         "threshold": 0.025,
         "verticalRange": {
           "min": -250,
@@ -234,7 +234,7 @@
           "style": "CELLULAR_BILINEAR",
           "zoom": 1.35
         },
-        "weight": 0.3,
+        "weight": 0.15,
         "threshold": 0.03,
         "verticalRange": {
           "min": -250,
@@ -256,8 +256,8 @@
         "invert": true
       }
     ],
-    "verticalEdgeFade": 24,
-    "verticalEdgeFadeStrength": 0.18,
+    "verticalEdgeFade": 6,
+    "verticalEdgeFadeStrength": 0.04,
     "minCarveCells": 24,
     "recoveryThresholdBoost": 0.07,
     "adaptiveSampling": true

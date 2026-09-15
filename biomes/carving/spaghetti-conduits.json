@@ -72,7 +72,7 @@
     },
     "baseDensityStyle": {
       "style": "VASCULAR",
-      "zoom": 0.42
+      "zoom": 0.45
     },
     "detailDensityStyle": {
       "style": "SIMPLEX",
@@ -88,10 +88,10 @@
         "zoom": 0.74
       }
     },
-    "thresholdBias": 0.42,
+    "thresholdBias": 0.06,
     "sampleStep": 2,
     "adaptiveSampling": true,
-    "surfaceClearance": 18,
+    "surfaceClearance": 20,
     "allowSurfaceBreak": false,
     "allowFluid": true,
     "fluidMinDepthBelowSurface": 20,
