@@ -849,23 +849,23 @@
     "enabled": true,
     "verticalRange": {
       "min": -64,
-      "max": 256
+      "max": 60
     },
     "baseDensityStyle": {
       "style": "PERLIN_IRIS",
-      "zoom": 1.15
+      "zoom": 0.72
     },
     "detailDensityStyle": {
       "style": "SIMPLEX",
-      "zoom": 0.9
+      "zoom": 0.54
     },
     "warpStyle": {
       "style": "FRACTAL_WATER",
       "zoom": 0.5
     },
-    "baseWeight": 0.75,
-    "detailWeight": 0.1,
-    "warpStrength": 0.2,
+    "baseWeight": 0.9,
+    "detailWeight": 0.11,
+    "warpStrength": 0.24,
     "densityThreshold": {
       "min": -0.14,
       "max": -0.06,
@@ -874,38 +874,16 @@
         "zoom": 0.74
       }
     },
-    "thresholdBias": 0.25,
+    "thresholdBias": 0.14,
     "sampleStep": 2,
-    "surfaceClearance": 18,
+    "surfaceClearance": 10,
     "allowSurfaceBreak": false,
     "allowFluid": false,
     "allowLava": false,
     "modules": [],
     "verticalEdgeFade": 6,
     "verticalEdgeFadeStrength": 0.04,
-    "minCarveCells": 24,
-    "recoveryThresholdBoost": 0.07,
     "adaptiveSampling": true
   },
-  "carving": [
-    {
-      "id": "global-spaghetti",
-      "enabled": true,
-      "biome": "carving/spaghetti-conduits",
-      "worldYRange": {
-        "min": -64,
-        "max": 240
-      }
-    },
-    {
-      "id": "global-ravines",
-      "enabled": true,
-      "biome": "carving/ravines",
-      "worldYRange": {
-        "min": -40,
-        "max": 160
-      }
-    }
-  ],
   "caveLavaHeight": -54
 }
