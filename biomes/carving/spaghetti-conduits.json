@@ -1,0 +1,39 @@
+{
+  "name": "Spaghetti Conduits",
+  "derivative": "minecraft:plains",
+  "vanillaDerivative": "minecraft:plains",
+  "caveProfile": {
+    "enabled": true,
+    "verticalRange": {
+      "min": -250,
+      "max": 680
+    },
+    "baseDensityStyle": {
+      "style": "SIMPLEX_VASCULAR",
+      "zoom": 1.15
+    },
+    "detailDensityStyle": {
+      "style": "SIMPLEX",
+      "zoom": 0.54
+    },
+    "baseWeight": 0.85,
+    "detailWeight": 0.05,
+    "densityThreshold": {
+      "min": -0.14,
+      "max": -0.06,
+      "style": {
+        "style": "SIMPLEX",
+        "zoom": 0.74
+      }
+    },
+    "thresholdBias": 0.6,
+    "sampleStep": 2,
+    "adaptiveSampling": true,
+    "surfaceClearance": 10,
+    "allowSurfaceBreak": false,
+    "allowFluid": true,
+    "fluidMinDepthBelowSurface": 20,
+    "fluidRequiresFloor": true,
+    "allowLava": true
+  }
+}
