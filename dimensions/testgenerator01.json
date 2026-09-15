@@ -848,8 +848,8 @@
   "caveProfile": {
     "enabled": true,
     "verticalRange": {
-      "min": -64,
-      "max": 60
+      "min": 6,
+      "max": 310
     },
     "baseDensityStyle": {
       "style": "PERLIN_IRIS",
@@ -880,7 +880,32 @@
     "allowSurfaceBreak": false,
     "allowFluid": false,
     "allowLava": false,
-    "modules": [],
+    "modules": [
+      {
+        "style": {
+          "style": "SIMPLEX_VASCULAR",
+          "zoom": 0.4
+        },
+        "weight": 0.35,
+        "bias": -0.3,
+        "verticalRange": {
+          "min": 6,
+          "max": 310
+        }
+      },
+      {
+        "style": {
+          "style": "SIMPLEX",
+          "zoom": 0.25
+        },
+        "weight": 0.08,
+        "bias": 0.0,
+        "verticalRange": {
+          "min": 6,
+          "max": 310
+        }
+      }
+    ],
     "verticalEdgeFade": 6,
     "verticalEdgeFadeStrength": 0.04,
     "adaptiveSampling": true
