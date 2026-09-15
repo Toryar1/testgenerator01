@@ -772,10 +772,38 @@
       "global-clutter"
     ]
   },
-  "carving": {
-    "caves": [
-      "worm-test"
-    ],
-    "ravines": []
+  "caveProfile": {
+    "enabled": true,
+    "verticalRange": {
+      "min": 180,
+      "max": 320
+    },
+    "baseDensityStyle": {
+      "style": "PERLIN_IRIS",
+      "zoom": 0.65
+    },
+    "detailDensityStyle": {
+      "style": "PERLIN",
+      "zoom": 1.4
+    },
+    "baseWeight": 0.75,
+    "detailWeight": 0.25,
+    "thresholdBias": 0.12,
+    "densityThreshold": {
+      "min": -0.15,
+      "max": 0.15
+    },
+    "warpStyle": {
+      "style": "PERLIN",
+      "zoom": 0.35
+    },
+    "warpStrength": 10.0,
+    "surfaceClearance": 8,
+    "allowSurfaceBreak": false,
+    "sampleStep": 2,
+    "adaptiveSampling": true,
+    "adaptiveSampleStep": 1,
+    "adaptiveThresholdMargin": 0.08,
+    "modules": []
   }
 }
