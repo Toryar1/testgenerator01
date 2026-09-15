@@ -794,8 +794,15 @@
       "zoom": 0.35
     },
     "warpStrength": 9.5,
-    "surfaceClearance": 8,
-    "allowSurfaceBreak": false,
+    "surfaceClearance": 6,
+    "allowSurfaceBreak": true,
+    "surfaceBreakNoiseThreshold": 0.68,
+    "surfaceBreakDepth": 18,
+    "surfaceBreakThresholdBoost": 0.25,
+    "surfaceBreakStyle": {
+      "style": "SIMPLEX",
+      "zoom": 0.45
+    },
     "sampleStep": 1,
     "adaptiveSampling": false,
     "allowFluid": true,
