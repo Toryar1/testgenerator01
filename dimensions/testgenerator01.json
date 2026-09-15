@@ -48,25 +48,11 @@
       "nova_structures:illager_camps",
       "nova_structures:wreckage",
       "minecraft:ancient_city",
-      "minecraft:ancient_cities"
+      "minecraft:ancient_cities",
+      "minecraft:mineshaft",
+      "minecraft:trial_chambers"
     ],
-    "adjustments": [
-      {
-        "match": [
-          "minecraft:mineshaft"
-        ],
-        "preserveSourceY": true
-      },
-      {
-        "match": [
-          "minecraft:trial_chambers"
-        ],
-        "yShift": -64,
-        "terrain": {
-          "mode": "SOURCE"
-        }
-      }
-    ],
+    "adjustments": [],
     "frequencyOverrides": [
       {
         "structureSet": "minecraft:trial_chambers",
@@ -78,8 +64,6 @@
     "enabled": true,
     "steps": [
       "FLUID_SPRINGS",
-      "UNDERGROUND_DECORATION",
-      "UNDERGROUND_STRUCTURES",
       "LAKES"
     ],
     "disabled": [
@@ -89,60 +73,7 @@
       "minecraft:ice_spike"
     ]
   },
-  "structures": [
-    {
-      "nativeStructures": [
-        {
-          "structure": "minecraft:ancient_city"
-        }
-      ],
-      "placementId": "ancient-city-native",
-      "nativeSuppression": "REPLACE_SOURCE",
-      "underground": true,
-      "terrain": {
-        "mode": "FORCE_CARVE",
-        "horizontalPadding": 14,
-        "ceilingPadding": 12,
-        "floorPadding": 0,
-        "shape": "ERODED",
-        "erosionStrength": 1.0,
-        "erosionFrequency": 0.05
-      },
-      "stilt": {
-        "maxDepth": 768,
-        "spacing": 1,
-        "palette": {
-          "style": {
-            "style": "STATIC"
-          },
-          "palette": [
-            {
-              "block": "minecraft:deepslate_bricks",
-              "weight": 6
-            },
-            {
-              "block": "minecraft:cracked_deepslate_bricks",
-              "weight": 1
-            },
-            {
-              "block": "minecraft:deepslate_tiles",
-              "weight": 2
-            },
-            {
-              "block": "minecraft:cracked_deepslate_tiles",
-              "weight": 1
-            }
-          ]
-        }
-      },
-      "minHeight": -220,
-      "maxHeight": -220,
-      "distribution": "RANDOM_SPREAD",
-      "spacing": 96,
-      "separation": 16,
-      "salt": 42069
-    }
-  ],
+  "structures": [],
   "fullbright": false,
   "upperDimension": "",
   "upperDimensionGap": 32,
@@ -830,97 +761,15 @@
       "discardChanceOnAirExposure": 0.7
     }
   ],
-  "caveBiomeStyle": {
-    "style": "SIMPLEX",
-    "zoom": 2.6
-  },
   "coordFractureZoom": 0.15,
   "preventLeafDecay": true,
   "useMantle": true,
-  "carvingEnabled": true,
+  "carvingEnabled": false,
   "decorate": true,
   "loot": {
     "mode": "FALLBACK",
     "tables": [
       "global-clutter"
     ]
-  },
-  "caveProfile": {
-    "enabled": true,
-    "verticalRange": {
-      "min": 6,
-      "max": 310
-    },
-    "baseDensityStyle": {
-      "style": "PERLIN_IRIS",
-      "zoom": 0.7
-    },
-    "detailDensityStyle": {
-      "style": "SIMPLEX",
-      "zoom": 0.55
-    },
-    "warpStyle": {
-      "style": "FRACTAL_WATER",
-      "zoom": 0.35
-    },
-    "baseWeight": 0.85,
-    "detailWeight": 0.12,
-    "warpStrength": 20.0,
-    "densityThreshold": {
-      "min": -0.14,
-      "max": -0.06,
-      "style": {
-        "style": "SIMPLEX",
-        "zoom": 0.74
-      }
-    },
-    "thresholdBias": 0.14,
-    "sampleStep": 2,
-    "surfaceClearance": 12,
-    "allowSurfaceBreak": false,
-    "allowFluid": false,
-    "allowLava": false,
-    "modules": [
-      {
-        "style": {
-          "style": "SIMPLEX_VASCULAR",
-          "zoom": 0.38
-        },
-        "weight": 0.3,
-        "bias": -0.28,
-        "verticalRange": {
-          "min": 6,
-          "max": 310
-        }
-      },
-      {
-        "style": {
-          "style": "VASCULAR",
-          "zoom": 0.52
-        },
-        "weight": 0.22,
-        "bias": -0.22,
-        "verticalRange": {
-          "min": 6,
-          "max": 310
-        }
-      },
-      {
-        "style": {
-          "style": "SIMPLEX",
-          "zoom": 0.18
-        },
-        "weight": 0.1,
-        "bias": 0.0,
-        "verticalRange": {
-          "min": 6,
-          "max": 310
-        }
-      }
-    ],
-    "verticalEdgeFade": 6,
-    "verticalEdgeFadeStrength": 0.04,
-    "adaptiveSampling": true
-  },
-  "caveLavaHeight": -54
+  }
 }
