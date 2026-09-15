@@ -1,7 +1,7 @@
 {
   "name": "Raw Spaghetti Conduits",
-  "derivative": "minecraft:stone",
-  "vanillaDerivative": "minecraft:stone",
+  "derivative": "minecraft:plains",
+  "vanillaDerivative": "minecraft:plains",
   "wall": {
     "style": {
       "style": "STATIC"
