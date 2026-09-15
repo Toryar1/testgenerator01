@@ -780,15 +780,15 @@
     },
     "baseDensityStyle": {
       "style": "SIMPLEX",
-      "zoom": 0.55
+      "zoom": 0.65
     },
     "detailDensityStyle": {
       "style": "SIMPLEX",
-      "zoom": 1.2
+      "zoom": 1.3
     },
-    "baseWeight": 0.82,
-    "detailWeight": 0.18,
-    "thresholdBias": 0.15,
+    "baseWeight": 0.85,
+    "detailWeight": 0.15,
+    "thresholdBias": 0.38,
     "warpStyle": {
       "style": "SIMPLEX",
       "zoom": 0.35
