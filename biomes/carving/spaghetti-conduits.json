@@ -88,10 +88,10 @@
         "zoom": 0.74
       }
     },
-    "thresholdBias": -0.02,
+    "thresholdBias": 0.42,
     "sampleStep": 2,
     "adaptiveSampling": true,
-    "surfaceClearance": 14,
+    "surfaceClearance": 20,
     "allowSurfaceBreak": false,
     "allowFluid": true,
     "fluidMinDepthBelowSurface": 20,
