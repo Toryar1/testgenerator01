@@ -776,34 +776,28 @@
     "enabled": true,
     "verticalRange": {
       "min": 180,
-      "max": 320
+      "max": 310
     },
     "baseDensityStyle": {
-      "style": "PERLIN_IRIS",
-      "zoom": 0.65
+      "style": "SIMPLEX",
+      "zoom": 0.42
     },
     "detailDensityStyle": {
-      "style": "PERLIN",
-      "zoom": 1.4
+      "style": "SIMPLEX",
+      "zoom": 1.0
     },
-    "baseWeight": 0.75,
-    "detailWeight": 0.25,
-    "thresholdBias": 0.12,
-    "densityThreshold": {
-      "min": -0.15,
-      "max": 0.15
-    },
+    "baseWeight": 0.8,
+    "detailWeight": 0.2,
+    "thresholdBias": -0.18,
     "warpStyle": {
-      "style": "PERLIN",
-      "zoom": 0.35
+      "style": "SIMPLEX",
+      "zoom": 0.3
     },
-    "warpStrength": 10.0,
+    "warpStrength": 8.0,
     "surfaceClearance": 8,
     "allowSurfaceBreak": false,
-    "sampleStep": 2,
-    "adaptiveSampling": true,
-    "adaptiveSampleStep": 1,
-    "adaptiveThresholdMargin": 0.08,
+    "sampleStep": 1,
+    "adaptiveSampling": false,
     "modules": []
   }
 }
