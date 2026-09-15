@@ -764,12 +764,18 @@
   "coordFractureZoom": 0.15,
   "preventLeafDecay": true,
   "useMantle": true,
-  "carvingEnabled": false,
+  "carvingEnabled": true,
   "decorate": true,
   "loot": {
     "mode": "FALLBACK",
     "tables": [
       "global-clutter"
     ]
+  },
+  "carving": {
+    "caves": [
+      "worm-test"
+    ],
+    "ravines": []
   }
 }

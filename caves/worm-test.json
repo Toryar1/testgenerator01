@@ -1,0 +1,39 @@
+{
+  "worm": {
+    "xStyle": {
+      "generator": {
+        "type": "PERLIN"
+      },
+      "min": -2.0,
+      "max": 2.0
+    },
+    "yStyle": {
+      "generator": {
+        "type": "PERLIN"
+      },
+      "min": -0.8,
+      "max": 0.8
+    },
+    "zStyle": {
+      "generator": {
+        "type": "PERLIN"
+      },
+      "min": -2.0,
+      "max": 2.0
+    },
+    "maxDistance": 80,
+    "maxIterations": 256,
+    "girth": {
+      "min": 3.5,
+      "max": 5.5,
+      "style": {
+        "type": "SIMPLEX"
+      }
+    },
+    "allowLoops": false
+  },
+  "verticalRange": {
+    "min": -60,
+    "max": 60
+  }
+}
