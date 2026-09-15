@@ -780,20 +780,20 @@
     },
     "baseDensityStyle": {
       "style": "SIMPLEX",
-      "zoom": 0.65
+      "zoom": 0.62
     },
     "detailDensityStyle": {
       "style": "SIMPLEX",
-      "zoom": 1.3
+      "zoom": 1.25
     },
-    "baseWeight": 0.85,
-    "detailWeight": 0.15,
-    "thresholdBias": 0.4,
+    "baseWeight": 0.82,
+    "detailWeight": 0.18,
+    "thresholdBias": 0.34,
     "warpStyle": {
       "style": "SIMPLEX",
       "zoom": 0.35
     },
-    "warpStrength": 8.0,
+    "warpStrength": 9.0,
     "surfaceClearance": 8,
     "allowSurfaceBreak": false,
     "sampleStep": 1,
@@ -802,10 +802,23 @@
       {
         "style": {
           "style": "SIMPLEX_VASCULAR",
-          "zoom": 0.7
+          "zoom": 0.6
         },
-        "weight": 0.45,
-        "threshold": 0.1,
+        "weight": 0.55,
+        "threshold": 0.08,
+        "verticalRange": {
+          "min": 180,
+          "max": 310
+        },
+        "invert": false
+      },
+      {
+        "style": {
+          "style": "SIMPLEX_VASCULAR",
+          "zoom": 0.85
+        },
+        "weight": 0.35,
+        "threshold": 0.12,
         "verticalRange": {
           "min": 180,
           "max": 310
