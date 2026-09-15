@@ -8,91 +8,9 @@
       "min": 1
     }
   ],
-  "objects": [
-    {
-      "chance": 0.21,
-      "density": 4,
-      "carvingSupport": "CARVING_ONLY",
-      "caveAnchorMode": "PROFILE_DEFAULT",
-      "translate": {
-        "y": -1
-      },
-      "place": [
-        "clutter/stoneclutt4",
-        "clutter/stoneclutt5",
-        "clutter/stoneclutt6"
-      ],
-      "bottom": true,
-      "force": true,
-      "scale": {
-        "size": 0.75
-      }
-    },
-    {
-      "chance": 0.165,
-      "density": 4,
-      "carvingSupport": "CARVING_ONLY",
-      "caveAnchorMode": "PROFILE_DEFAULT",
-      "translate": {
-        "y": -1
-      },
-      "place": [
-        "clutter/stoneclutt1",
-        "clutter/stoneclutt2",
-        "clutter/stoneclutt3",
-        "clutter/stoneclutt4",
-        "clutter/stoneclutt5",
-        "clutter/rock1",
-        "clutter/rock2",
-        "clutter/rock3",
-        "clutter/boulder1",
-        "clutter/boulder2",
-        "clutter/boulder3"
-      ],
-      "bottom": true,
-      "force": true,
-      "scale": {
-        "size": 0.75
-      }
-    },
-    {
-      "chance": 0.0972,
-      "density": 4,
-      "carvingSupport": "CARVING_ONLY",
-      "caveAnchorMode": "PROFILE_DEFAULT",
-      "translate": {
-        "y": -1
-      },
-      "place": [
-        "clutter/stoneclutt1",
-        "clutter/stoneclutt2",
-        "clutter/stoneclutt3",
-        "clutter/rock1",
-        "clutter/rock2",
-        "clutter/rock3",
-        "clutter/boulder1",
-        "clutter/boulder2",
-        "clutter/boulder3"
-      ],
-      "bottom": true,
-      "force": true,
-      "scale": {
-        "size": 0.75
-      }
-    },
-    {
-      "chance": 0.02,
-      "density": 1,
-      "carvingSupport": "CARVING_ONLY",
-      "caveAnchorMode": "FLOOR",
-      "mode": "CENTER_HEIGHT",
-      "place": [
-        "clutter/pond"
-      ]
-    }
-  ],
+  "objects": [],
   "caveProfile": {
-    "enabled": true,
+    "enabled": false,
     "verticalRange": {
       "min": -250,
       "max": 700
@@ -210,27 +128,11 @@
     "palette": [
       {
         "block": "minecraft:stone",
-        "weight": 12
+        "weight": 10
       },
       {
-        "block": "minecraft:andesite",
-        "weight": 4
-      },
-      {
-        "block": "minecraft:diorite",
-        "weight": 3
-      },
-      {
-        "block": "minecraft:granite",
-        "weight": 3
-      },
-      {
-        "block": "minecraft:gravel",
-        "weight": 2
-      },
-      {
-        "block": "minecraft:tuff",
-        "weight": 1
+        "block": "minecraft:deepslate",
+        "weight": 5
       }
     ]
   },
@@ -240,16 +142,12 @@
       "maxHeight": 2,
       "palette": [
         {
-          "block": "minecraft:andesite",
-          "weight": 4
-        },
-        {
-          "block": "minecraft:cobblestone",
-          "weight": 2
-        },
-        {
           "block": "minecraft:stone",
-          "weight": 6
+          "weight": 10
+        },
+        {
+          "block": "minecraft:deepslate",
+          "weight": 5
         }
       ]
     }
@@ -261,15 +159,11 @@
       "palette": [
         {
           "block": "minecraft:stone",
-          "weight": 6
+          "weight": 10
         },
         {
           "block": "minecraft:deepslate",
-          "weight": 3
-        },
-        {
-          "block": "minecraft:andesite",
-          "weight": 2
+          "weight": 5
         }
       ]
     }
@@ -284,5 +178,6 @@
   "childStyle": {
     "style": "CELLULAR_IRIS_DOUBLE",
     "zoom": 0.82
-  }
+  },
+  "decorators": []
 }

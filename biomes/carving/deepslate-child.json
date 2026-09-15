@@ -9,24 +9,12 @@
     },
     "palette": [
       {
+        "block": "minecraft:stone",
+        "weight": 10
+      },
+      {
         "block": "minecraft:deepslate",
-        "weight": 12
-      },
-      {
-        "block": "minecraft:tuff",
         "weight": 5
-      },
-      {
-        "block": "minecraft:cobbled_deepslate",
-        "weight": 2
-      },
-      {
-        "block": "minecraft:gravel",
-        "weight": 2
-      },
-      {
-        "block": "minecraft:smooth_basalt",
-        "weight": 1
       }
     ]
   },
@@ -40,16 +28,12 @@
       "minHeight": 2,
       "palette": [
         {
+          "block": "minecraft:stone",
+          "weight": 10
+        },
+        {
           "block": "minecraft:deepslate",
-          "weight": 12
-        },
-        {
-          "block": "minecraft:tuff",
-          "weight": 13
-        },
-        {
-          "block": "minecraft:cobbled_deepslate",
-          "weight": 3
+          "weight": 5
         }
       ]
     }
@@ -60,112 +44,19 @@
       "minHeight": 2,
       "palette": [
         {
-          "block": "minecraft:deepslate",
-          "weight": 8
+          "block": "minecraft:stone",
+          "weight": 10
         },
         {
-          "block": "minecraft:tuff",
-          "weight": 2
+          "block": "minecraft:deepslate",
+          "weight": 5
         }
       ]
     }
   ],
-  "objects": [
-    {
-      "chance": 0.21,
-      "density": 6,
-      "carvingSupport": "CARVING_ONLY",
-      "caveAnchorMode": "PROFILE_DEFAULT",
-      "translate": {
-        "y": -1
-      },
-      "place": [
-        "clutter/stoneclutt4",
-        "clutter/stoneclutt5",
-        "clutter/stoneclutt6"
-      ],
-      "bottom": true,
-      "force": true,
-      "scale": {
-        "size": 0.75
-      }
-    },
-    {
-      "chance": 0.20625,
-      "density": 4,
-      "carvingSupport": "CARVING_ONLY",
-      "caveAnchorMode": "PROFILE_DEFAULT",
-      "translate": {
-        "y": -1
-      },
-      "place": [
-        "clutter/stoneclutt1",
-        "clutter/stoneclutt2",
-        "clutter/stoneclutt3",
-        "clutter/stoneclutt4",
-        "clutter/stoneclutt5",
-        "clutter/rock1",
-        "clutter/rock2",
-        "clutter/rock3",
-        "clutter/boulder1",
-        "clutter/boulder2",
-        "clutter/boulder3"
-      ],
-      "bottom": true,
-      "force": true,
-      "scale": {
-        "size": 0.75
-      }
-    },
-    {
-      "chance": 0.12636,
-      "density": 6,
-      "carvingSupport": "CARVING_ONLY",
-      "caveAnchorMode": "PROFILE_DEFAULT",
-      "translate": {
-        "y": -1
-      },
-      "place": [
-        "clutter/stoneclutt1",
-        "clutter/stoneclutt2",
-        "clutter/stoneclutt3",
-        "clutter/rock1",
-        "clutter/rock2",
-        "clutter/rock3",
-        "clutter/boulder1",
-        "clutter/boulder2",
-        "clutter/boulder3"
-      ],
-      "bottom": true,
-      "force": true,
-      "scale": {
-        "size": 0.75
-      }
-    },
-    {
-      "chance": 0.01,
-      "density": 1,
-      "carvingSupport": "CARVING_ONLY",
-      "caveAnchorMode": "FLOOR",
-      "mode": "CENTER_HEIGHT",
-      "place": [
-        "clutter/lava-cup-1",
-        "clutter/lava-cup-2"
-      ]
-    },
-    {
-      "chance": 0.015,
-      "density": 1,
-      "carvingSupport": "CARVING_ONLY",
-      "caveAnchorMode": "FLOOR",
-      "mode": "CENTER_HEIGHT",
-      "place": [
-        "clutter/pond"
-      ]
-    }
-  ],
+  "objects": [],
   "caveProfile": {
-    "enabled": true,
+    "enabled": false,
     "verticalRange": {
       "min": -250,
       "max": 700
@@ -274,15 +165,5 @@
     "adaptiveSampling": true
   },
   "caveMinDepthBelowSurface": 10,
-  "decorators": [
-    {
-      "partOf": "CEILING",
-      "chance": 0.028,
-      "palette": [
-        {
-          "block": "minecraft:glow_lichen"
-        }
-      ]
-    }
-  ]
+  "decorators": []
 }

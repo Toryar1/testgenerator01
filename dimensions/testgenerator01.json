@@ -848,16 +848,16 @@
   "caveProfile": {
     "enabled": true,
     "verticalRange": {
-      "min": -250,
-      "max": 700
+      "min": -64,
+      "max": 256
     },
     "baseDensityStyle": {
       "style": "PERLIN_IRIS",
-      "zoom": 0.72
+      "zoom": 1.15
     },
     "detailDensityStyle": {
       "style": "SIMPLEX",
-      "zoom": 0.54
+      "zoom": 0.9
     },
     "warpStyle": {
       "style": "FRACTAL_WATER",
@@ -865,7 +865,7 @@
     },
     "baseWeight": 0.75,
     "detailWeight": 0.1,
-    "warpStrength": 0.24,
+    "warpStrength": 0.2,
     "densityThreshold": {
       "min": -0.14,
       "max": -0.06,
@@ -874,80 +874,13 @@
         "zoom": 0.74
       }
     },
-    "thresholdBias": 0.24,
+    "thresholdBias": 0.25,
     "sampleStep": 2,
     "surfaceClearance": 18,
     "allowSurfaceBreak": false,
-    "surfaceBreakStyle": {
-      "style": "SIMPLEX",
-      "zoom": 0.88
-    },
-    "surfaceBreakNoiseThreshold": 0.75,
-    "surfaceBreakDepth": 8,
-    "surfaceBreakThresholdBoost": 0.05,
-    "objectMinDepthBelowSurface": 14,
-    "defaultObjectAnchor": "FLOOR",
-    "defaultObjectPlaceMode": "CENTER_HEIGHT",
-    "anchorScanStep": 1,
-    "anchorSearchAttempts": 12,
-    "allowFluid": true,
-    "fluidMinDepthBelowSurface": 20,
-    "fluidRequiresFloor": true,
-    "allowLava": true,
-    "modules": [
-      {
-        "style": {
-          "style": "SIMPLEX_VASCULAR",
-          "zoom": 1.15
-        },
-        "weight": 0.075,
-        "threshold": 0.02,
-        "verticalRange": {
-          "min": -250,
-          "max": 680
-        },
-        "invert": false
-      },
-      {
-        "style": {
-          "style": "VASCULAR_THIN",
-          "zoom": 1.65
-        },
-        "weight": 0.065,
-        "threshold": 0.02,
-        "verticalRange": {
-          "min": -250,
-          "max": 680
-        },
-        "invert": false
-      },
-      {
-        "style": {
-          "style": "CELLULAR_BILINEAR",
-          "zoom": 1.35
-        },
-        "weight": 0.055,
-        "threshold": 0.02,
-        "verticalRange": {
-          "min": -250,
-          "max": 680
-        },
-        "invert": false
-      },
-      {
-        "style": {
-          "style": "FRACTAL_FBM_SIMPLEX",
-          "zoom": 0.24
-        },
-        "weight": 0.03,
-        "threshold": 0.08,
-        "verticalRange": {
-          "min": -250,
-          "max": 240
-        },
-        "invert": true
-      }
-    ],
+    "allowFluid": false,
+    "allowLava": false,
+    "modules": [],
     "verticalEdgeFade": 6,
     "verticalEdgeFadeStrength": 0.04,
     "minCarveCells": 24,
@@ -956,21 +889,21 @@
   },
   "carving": [
     {
-      "id": "global-deepdark-band",
-      "enabled": true,
-      "biome": "carving/standard-deepdark",
-      "worldYRange": {
-        "min": -64,
-        "max": -20
-      }
-    },
-    {
-      "id": "global-spaghetti-conduits",
+      "id": "global-spaghetti",
       "enabled": true,
       "biome": "carving/spaghetti-conduits",
       "worldYRange": {
         "min": -64,
-        "max": 250
+        "max": 240
+      }
+    },
+    {
+      "id": "global-ravines",
+      "enabled": true,
+      "biome": "carving/ravines",
+      "worldYRange": {
+        "min": -40,
+        "max": 160
       }
     }
   ],

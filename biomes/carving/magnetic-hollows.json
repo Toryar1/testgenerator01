@@ -4,7 +4,7 @@
   "vanillaDerivative": "minecraft:dripstone_caves",
   "caveMinDepthBelowSurface": 10,
   "caveProfile": {
-    "enabled": true,
+    "enabled": false,
     "verticalRange": {
       "min": -250,
       "max": 700
@@ -120,23 +120,11 @@
     "palette": [
       {
         "block": "minecraft:stone",
-        "weight": 5
-      },
-      {
-        "block": "minecraft:andesite",
-        "weight": 4
-      },
-      {
-        "block": "minecraft:tuff",
-        "weight": 3
+        "weight": 10
       },
       {
         "block": "minecraft:deepslate",
-        "weight": 2
-      },
-      {
-        "block": "minecraft:calcite",
-        "weight": 1
+        "weight": 5
       }
     ]
   },
@@ -146,24 +134,12 @@
       "maxHeight": 2,
       "palette": [
         {
-          "block": "minecraft:smooth_basalt",
-          "weight": 3
+          "block": "minecraft:stone",
+          "weight": 10
         },
         {
-          "block": "minecraft:andesite",
+          "block": "minecraft:deepslate",
           "weight": 5
-        },
-        {
-          "block": "minecraft:tuff",
-          "weight": 3
-        },
-        {
-          "block": "minecraft:calcite",
-          "weight": 2
-        },
-        {
-          "block": "minecraft:amethyst_block",
-          "weight": 1
         }
       ]
     }
@@ -174,167 +150,16 @@
       "maxHeight": 2,
       "palette": [
         {
-          "block": "minecraft:tuff",
-          "weight": 4
+          "block": "minecraft:stone",
+          "weight": 10
         },
         {
           "block": "minecraft:deepslate",
-          "weight": 3
-        },
-        {
-          "block": "minecraft:smooth_basalt",
-          "weight": 2
-        },
-        {
-          "block": "minecraft:calcite",
-          "weight": 2
-        },
-        {
-          "block": "minecraft:amethyst_block",
-          "weight": 1
+          "weight": 5
         }
       ]
     }
   ],
-  "decorators": [
-    {
-      "chance": 0.045,
-      "palette": [
-        {
-          "block": "minecraft:small_amethyst_bud",
-          "weight": 4
-        },
-        {
-          "block": "minecraft:medium_amethyst_bud",
-          "weight": 3
-        },
-        {
-          "block": "minecraft:large_amethyst_bud",
-          "weight": 2
-        },
-        {
-          "block": "minecraft:amethyst_cluster",
-          "weight": 1
-        }
-      ]
-    },
-    {
-      "partOf": "CEILING",
-      "chance": 0.045,
-      "palette": [
-        {
-          "block": "minecraft:small_amethyst_bud",
-          "data": {
-            "facing": "down"
-          },
-          "weight": 4
-        },
-        {
-          "block": "minecraft:medium_amethyst_bud",
-          "data": {
-            "facing": "down"
-          },
-          "weight": 3
-        },
-        {
-          "block": "minecraft:large_amethyst_bud",
-          "data": {
-            "facing": "down"
-          },
-          "weight": 2
-        },
-        {
-          "block": "minecraft:amethyst_cluster",
-          "data": {
-            "facing": "down"
-          },
-          "weight": 1
-        }
-      ]
-    }
-  ],
-  "objects": [
-    {
-      "chance": 0.22,
-      "density": 3,
-      "carvingSupport": "CARVING_ONLY",
-      "caveAnchorMode": "PROFILE_DEFAULT",
-      "translate": {
-        "y": -1
-      },
-      "place": [
-        "clutter/stoneclutt1",
-        "clutter/stoneclutt2",
-        "clutter/stoneclutt3",
-        "clutter/stoneclutt4",
-        "clutter/stoneclutt5",
-        "clutter/stoneclutt6"
-      ],
-      "bottom": true,
-      "force": true,
-      "scale": {
-        "size": 0.55
-      }
-    },
-    {
-      "chance": 0.14,
-      "density": 2,
-      "carvingSupport": "CARVING_ONLY",
-      "caveAnchorMode": "PROFILE_DEFAULT",
-      "translate": {
-        "y": -1
-      },
-      "place": [
-        "clutter/rock1",
-        "clutter/rock2",
-        "clutter/rock3",
-        "clutter/boulder1",
-        "clutter/boulder2",
-        "clutter/boulder3"
-      ],
-      "bottom": true,
-      "force": true,
-      "scale": {
-        "size": 0.5
-      }
-    },
-    {
-      "chance": 0.035,
-      "density": 1,
-      "carvingSupport": "CARVING_ONLY",
-      "caveAnchorMode": "PROFILE_DEFAULT",
-      "translate": {
-        "y": -1
-      },
-      "place": [
-        "structures/monolith1",
-        "structures/monolith3",
-        "structures/monolith4"
-      ],
-      "bottom": true,
-      "force": true,
-      "scale": {
-        "size": 0.45
-      }
-    },
-    {
-      "chance": 0.025,
-      "density": 1,
-      "carvingSupport": "CARVING_ONLY",
-      "caveAnchorMode": "PROFILE_DEFAULT",
-      "translate": {
-        "y": -1
-      },
-      "place": [
-        "structures/crystal7",
-        "structures/crystal8",
-        "structures/crystal9"
-      ],
-      "bottom": true,
-      "force": true,
-      "scale": {
-        "size": 0.4
-      }
-    }
-  ]
+  "decorators": [],
+  "objects": []
 }

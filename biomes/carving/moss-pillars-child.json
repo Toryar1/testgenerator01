@@ -9,20 +9,12 @@
     },
     "palette": [
       {
+        "block": "minecraft:stone",
+        "weight": 10
+      },
+      {
         "block": "minecraft:deepslate",
-        "weight": 12
-      },
-      {
-        "block": "minecraft:moss_block",
-        "weight": 13
-      },
-      {
-        "block": "minecraft:mossy_cobblestone",
-        "weight": 8
-      },
-      {
-        "block": "minecraft:tuff",
-        "weight": 2
+        "weight": 5
       }
     ]
   },
@@ -35,178 +27,20 @@
       "maxHeight": 2,
       "palette": [
         {
-          "block": "minecraft:moss_block",
-          "weight": 2
+          "block": "minecraft:stone",
+          "weight": 10
         },
         {
-          "block": "minecraft:clay",
-          "weight": 12
-        },
-        {
-          "block": "minecraft:grass_block",
-          "weight": 2
+          "block": "minecraft:deepslate",
+          "weight": 5
         }
       ]
     }
   ],
-  "decorators": [
-    {
-      "chance": 0.0483,
-      "absoluteMaxStack": 1,
-      "palette": [
-        {
-          "block": "minecraft:short_grass"
-        },
-        {
-          "block": "minecraft:tall_grass"
-        },
-        {
-          "block": "minecraft:fern"
-        },
-        {
-          "block": "minecraft:large_fern"
-        },
-        {
-          "block": "minecraft:azalea"
-        },
-        {
-          "block": "minecraft:flowering_azalea"
-        }
-      ]
-    },
-    {
-      "partOf": "CEILING",
-      "chance": 0.036,
-      "stackMin": 1,
-      "stackMax": 1,
-      "palette": [
-        {
-          "block": "minecraft:glow_lichen"
-        }
-      ]
-    },
-    {
-      "chance": 0.0161,
-      "absoluteMaxStack": 1,
-      "palette": [
-        {
-          "block": "minecraft:jungle_leaves"
-        },
-        {
-          "block": "minecraft:moss_carpet"
-        },
-        {
-          "block": "minecraft:small_dripleaf"
-        },
-        {
-          "block": "minecraft:big_dripleaf"
-        }
-      ]
-    },
-    {
-      "partOf": "CEILING",
-      "chance": 0.0216,
-      "stackMin": 1,
-      "stackMax": 2,
-      "palette": [
-        {
-          "block": "minecraft:weeping_vines"
-        }
-      ]
-    }
-  ],
-  "objects": [
-    {
-      "chance": 0.21,
-      "density": 6,
-      "carvingSupport": "CARVING_ONLY",
-      "caveAnchorMode": "PROFILE_DEFAULT",
-      "translate": {
-        "y": -1
-      },
-      "place": [
-        "clutter/jungleclutt11",
-        "clutter/jungleclutt12",
-        "clutter/jungleclutt13",
-        "clutter/jungleclutt4"
-      ],
-      "bottom": true,
-      "force": true,
-      "scale": {
-        "size": 0.75
-      }
-    },
-    {
-      "chance": 0.36,
-      "density": 2,
-      "carvingSupport": "CARVING_ONLY",
-      "caveAnchorMode": "PROFILE_DEFAULT",
-      "translate": {
-        "y": -6
-      },
-      "place": [
-        "trees/jungle/mgeneric1",
-        "trees/jungle/mgeneric2",
-        "trees/jungle/mgeneric3",
-        "trees/jungle/mgeneric4",
-        "trees/jungle/deligeneric2",
-        "trees/jungle/deligeneric3",
-        "trees/jungle/deligeneric4"
-      ],
-      "bottom": true,
-      "force": true,
-      "scale": {
-        "size": 0.75
-      }
-    },
-    {
-      "chance": 0.13122,
-      "density": 6,
-      "carvingSupport": "CARVING_ONLY",
-      "caveAnchorMode": "PROFILE_DEFAULT",
-      "translate": {
-        "y": -1
-      },
-      "place": [
-        "clutter/rock1",
-        "clutter/rock2",
-        "clutter/rock3",
-        "clutter/rock4",
-        "clutter/boulder1",
-        "clutter/boulder2",
-        "clutter/boulder3",
-        "clutter/boulder4"
-      ],
-      "bottom": true,
-      "force": true,
-      "scale": {
-        "size": 0.75
-      }
-    },
-    {
-      "chance": 0.1215,
-      "density": 6,
-      "carvingSupport": "CARVING_ONLY",
-      "caveAnchorMode": "PROFILE_DEFAULT",
-      "translate": {
-        "y": -1
-      },
-      "place": [
-        "clutter/jungleclutt1",
-        "clutter/jungleclutt2",
-        "clutter/jungleclutt3",
-        "clutter/junglestone1",
-        "clutter/junglestone2"
-      ],
-      "bottom": true,
-      "force": true,
-      "scale": {
-        "size": 0.75
-      }
-    }
-  ],
+  "decorators": [],
+  "objects": [],
   "caveProfile": {
-    "enabled": true,
+    "enabled": false,
     "verticalRange": {
       "min": -250,
       "max": 700

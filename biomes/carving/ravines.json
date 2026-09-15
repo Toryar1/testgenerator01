@@ -1,5 +1,5 @@
 {
-  "name": "Raw Spaghetti Conduits",
+  "name": "Raw Ravine",
   "derivative": "minecraft:stone",
   "vanillaDerivative": "minecraft:stone",
   "wall": {
@@ -24,19 +24,19 @@
   "caveProfile": {
     "enabled": true,
     "verticalRange": {
-      "min": -64,
-      "max": 240
+      "min": -50,
+      "max": 180
     },
     "baseDensityStyle": {
-      "style": "VASCULAR",
-      "zoom": 0.45
+      "style": "CELLULAR_BILINEAR",
+      "zoom": 0.4
     },
     "detailDensityStyle": {
       "style": "SIMPLEX",
       "zoom": 0.6
     },
     "baseWeight": 0.85,
-    "detailWeight": 0.05,
+    "detailWeight": 0.1,
     "densityThreshold": {
       "min": -0.14,
       "max": -0.06,
@@ -45,7 +45,7 @@
         "zoom": 0.74
       }
     },
-    "thresholdBias": 0.06,
+    "thresholdBias": 0.08,
     "surfaceClearance": 18,
     "allowSurfaceBreak": false,
     "allowFluid": false,

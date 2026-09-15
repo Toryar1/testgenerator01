@@ -6,12 +6,12 @@
   "wall": {
     "palette": [
       {
-        "block": "minecraft:tuff",
-        "weight": 13
+        "block": "minecraft:stone",
+        "weight": 10
       },
       {
         "block": "minecraft:deepslate",
-        "weight": 3
+        "weight": 5
       }
     ]
   },
@@ -21,74 +21,36 @@
       "minHeight": 1,
       "palette": [
         {
-          "block": "minecraft:powder_snow",
-          "weight": 12
-        }
-      ]
-    }
-  ],
-  "decorators": [
-    {
-      "chance": 0.0115,
-      "style": {
-        "style": "STATIC"
-      },
-      "stackMax": 60,
-      "stackMin": 30,
-      "absoluteMaxStack": 6,
-      "scaleStack": true,
-      "partOf": "CEILING",
-      "palette": [
+          "block": "minecraft:stone",
+          "weight": 10
+        },
         {
-          "block": "minecraft:packed_ice"
+          "block": "minecraft:deepslate",
+          "weight": 5
         }
       ]
     }
   ],
+  "decorators": [],
   "caveCeilingLayers": [
     {
       "maxHeight": 3,
       "minHeight": 2,
       "palette": [
         {
-          "block": "minecraft:packed_ice",
-          "weight": 8
+          "block": "minecraft:stone",
+          "weight": 10
         },
         {
-          "block": "minecraft:ice",
-          "weight": 2
+          "block": "minecraft:deepslate",
+          "weight": 5
         }
       ]
     }
   ],
-  "objects": [
-    {
-      "chance": 0.1215,
-      "density": 6,
-      "carvingSupport": "CARVING_ONLY",
-      "caveAnchorMode": "PROFILE_DEFAULT",
-      "translate": {
-        "y": -1
-      },
-      "place": [
-        "clutter/rock1",
-        "clutter/rock2",
-        "clutter/rock3",
-        "clutter/rock4",
-        "clutter/boulder1",
-        "clutter/boulder2",
-        "clutter/boulder3",
-        "clutter/boulder4"
-      ],
-      "bottom": true,
-      "force": true,
-      "scale": {
-        "size": 0.375
-      }
-    }
-  ],
+  "objects": [],
   "caveProfile": {
-    "enabled": true,
+    "enabled": false,
     "verticalRange": {
       "min": -250,
       "max": 700

@@ -11,12 +11,12 @@
     "zoom": 0.4,
     "palette": [
       {
-        "block": "minecraft:dark_oak_wood",
-        "weight": 12
+        "block": "minecraft:stone",
+        "weight": 10
       },
       {
-        "block": "minecraft:spruce_wood",
-        "weight": 13
+        "block": "minecraft:deepslate",
+        "weight": 5
       }
     ]
   },
@@ -27,172 +27,36 @@
       },
       "palette": [
         {
-          "block": "minecraft:grass_block",
+          "block": "minecraft:stone",
           "weight": 10
         },
         {
-          "block": "minecraft:podzol",
-          "weight": 12
+          "block": "minecraft:deepslate",
+          "weight": 5
         }
       ]
     }
   ],
-  "decorators": [
-    {
-      "chance": 0.18,
-      "style": {
-        "style": "STATIC"
-      },
-      "palette": [
-        {
-          "block": "minecraft:short_grass"
-        },
-        {
-          "block": "minecraft:fern"
-        }
-      ]
-    },
-    {
-      "chance": 0.05,
-      "style": {
-        "style": "STATIC"
-      },
-      "palette": [
-        {
-          "block": "minecraft:brown_mushroom"
-        },
-        {
-          "block": "minecraft:red_mushroom"
-        }
-      ]
-    },
-    {
-      "chance": 0.015,
-      "palette": [
-        {
-          "block": "minecraft:firefly_bush"
-        }
-      ]
-    },
-    {
-      "partOf": "CEILING",
-      "chance": 0.035,
-      "palette": [
-        {
-          "block": "minecraft:glow_lichen"
-        }
-      ]
-    }
-  ],
+  "decorators": [],
   "caveCeilingLayers": [
     {
       "maxHeight": 2,
       "minHeight": 2,
       "palette": [
         {
-          "block": "minecraft:rooted_dirt",
-          "weight": 13
+          "block": "minecraft:stone",
+          "weight": 10
         },
         {
-          "block": "minecraft:coarse_dirt",
-          "weight": 8
-        },
-        {
-          "block": "minecraft:moss_block",
-          "weight": 3
+          "block": "minecraft:deepslate",
+          "weight": 5
         }
       ]
     }
   ],
-  "objects": [
-    {
-      "chance": 0.21,
-      "density": 6,
-      "carvingSupport": "CARVING_ONLY",
-      "caveAnchorMode": "PROFILE_DEFAULT",
-      "translate": {
-        "y": -1
-      },
-      "place": [
-        "clutter/jungleclutt11",
-        "clutter/jungleclutt12",
-        "clutter/jungleclutt13",
-        "clutter/jungleclutt5"
-      ],
-      "bottom": true,
-      "force": true,
-      "scale": {
-        "size": 0.75
-      }
-    },
-    {
-      "chance": 0.36,
-      "density": 2,
-      "carvingSupport": "CARVING_ONLY",
-      "caveAnchorMode": "PROFILE_DEFAULT",
-      "translate": {
-        "y": -4
-      },
-      "place": [
-        "trees/darkoak/medgeneric5",
-        "trees/darkoak/medgeneric6",
-        "trees/darkoak/medgeneric7",
-        "trees/darkoak/medgeneric8"
-      ],
-      "bottom": true,
-      "force": true,
-      "scale": {
-        "size": 0.75
-      }
-    },
-    {
-      "chance": 0.1215,
-      "density": 6,
-      "carvingSupport": "CARVING_ONLY",
-      "caveAnchorMode": "PROFILE_DEFAULT",
-      "translate": {
-        "y": -1
-      },
-      "place": [
-        "clutter/rock1",
-        "clutter/rock2",
-        "clutter/rock3",
-        "clutter/rock4",
-        "clutter/boulder1",
-        "clutter/boulder2",
-        "clutter/boulder3",
-        "clutter/boulder4"
-      ],
-      "bottom": true,
-      "force": true,
-      "scale": {
-        "size": 0.75
-      }
-    },
-    {
-      "chance": 0.12636,
-      "density": 6,
-      "carvingSupport": "CARVING_ONLY",
-      "caveAnchorMode": "PROFILE_DEFAULT",
-      "translate": {
-        "y": -1
-      },
-      "place": [
-        "clutter/jungleclutt1",
-        "clutter/jungleclutt2",
-        "clutter/jungleclutt3",
-        "clutter/junglestone1",
-        "clutter/junglestone2"
-      ],
-      "bottom": true,
-      "force": true,
-      "scale": {
-        "size": 0.75
-      }
-    }
-  ],
+  "objects": [],
   "caveProfile": {
-    "enabled": true,
+    "enabled": false,
     "verticalRange": {
       "min": -250,
       "max": 700

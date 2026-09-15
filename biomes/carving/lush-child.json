@@ -10,23 +10,11 @@
     "palette": [
       {
         "block": "minecraft:stone",
-        "weight": 8
-      },
-      {
-        "block": "minecraft:moss_block",
-        "weight": 9
-      },
-      {
-        "block": "minecraft:clay",
-        "weight": 5
-      },
-      {
-        "block": "minecraft:rooted_dirt",
-        "weight": 4
+        "weight": 10
       },
       {
         "block": "minecraft:deepslate",
-        "weight": 3
+        "weight": 5
       }
     ]
   },
@@ -40,20 +28,12 @@
       "zoom": 0.5,
       "palette": [
         {
-          "block": "minecraft:moss_block",
+          "block": "minecraft:stone",
           "weight": 10
         },
         {
-          "block": "minecraft:clay",
-          "weight": 4
-        },
-        {
-          "block": "minecraft:rooted_dirt",
-          "weight": 3
-        },
-        {
-          "block": "minecraft:stone",
-          "weight": 2
+          "block": "minecraft:deepslate",
+          "weight": 5
         }
       ]
     },
@@ -65,129 +45,17 @@
       "minHeight": 1,
       "palette": [
         {
-          "block": "minecraft:clay",
-          "weight": 6
-        },
-        {
-          "block": "minecraft:rooted_dirt",
-          "weight": 4
-        },
-        {
           "block": "minecraft:stone",
-          "weight": 3
+          "weight": 10
+        },
+        {
+          "block": "minecraft:deepslate",
+          "weight": 5
         }
       ]
     }
   ],
-  "decorators": [
-    {
-      "chance": 0.08,
-      "absoluteMaxStack": 1,
-      "palette": [
-        {
-          "block": "minecraft:moss_carpet"
-        }
-      ]
-    },
-    {
-      "chance": 0.04,
-      "style": {
-        "style": "STATIC"
-      },
-      "absoluteMaxStack": 1,
-      "palette": [
-        {
-          "block": "minecraft:azalea",
-          "weight": 3
-        },
-        {
-          "block": "minecraft:flowering_azalea",
-          "weight": 2
-        },
-        {
-          "block": "minecraft:short_grass",
-          "weight": 1
-        }
-      ]
-    },
-    {
-      "chance": 0.02,
-      "absoluteMaxStack": 4,
-      "palette": [
-        {
-          "block": "minecraft:big_dripleaf",
-          "weight": 2
-        },
-        {
-          "block": "minecraft:small_dripleaf",
-          "weight": 3
-        }
-      ]
-    },
-    {
-      "partOf": "CEILING",
-      "chance": 0.08,
-      "absoluteMaxStack": 30,
-      "scaleStack": true,
-      "stackMin": 4,
-      "stackMax": 25,
-      "topPalette": [
-        {
-          "block": "minecraft:spore_blossom",
-          "weight": 2
-        },
-        {
-          "block": "minecraft:cave_vines",
-          "data": {
-            "berries": "true"
-          },
-          "weight": 3
-        },
-        {
-          "block": "minecraft:cave_vines",
-          "weight": 2
-        }
-      ],
-      "palette": [
-        {
-          "block": "minecraft:cave_vines_plant",
-          "data": {
-            "berries": true
-          },
-          "weight": 1
-        },
-        {
-          "block": "minecraft:cave_vines_plant",
-          "data": {
-            "berries": false
-          },
-          "weight": 2
-        }
-      ]
-    },
-    {
-      "partOf": "CEILING",
-      "chance": 0.05,
-      "stackMin": 1,
-      "stackMax": 3,
-      "palette": [
-        {
-          "block": "minecraft:hanging_roots"
-        }
-      ]
-    },
-    {
-      "partOf": "CEILING",
-      "chance": 0.03,
-      "stackMin": 1,
-      "stackMax": 1,
-      "palette": [
-        {
-          "block": "minecraft:glow_lichen"
-        }
-      ]
-    }
-  ],
+  "decorators": [],
   "caveCeilingLayers": [
     {
       "style": {
@@ -197,74 +65,19 @@
       "minHeight": 1,
       "palette": [
         {
-          "block": "minecraft:moss_block",
-          "weight": 6
-        },
-        {
-          "block": "minecraft:rooted_dirt",
-          "weight": 4
-        },
-        {
           "block": "minecraft:stone",
-          "weight": 3
+          "weight": 10
+        },
+        {
+          "block": "minecraft:deepslate",
+          "weight": 5
         }
       ]
     }
   ],
-  "objects": [
-    {
-      "chance": 0.04,
-      "density": 1,
-      "carvingSupport": "CARVING_ONLY",
-      "caveAnchorMode": "FLOOR",
-      "mode": "CENTER_HEIGHT",
-      "place": [
-        "clutter/pond"
-      ]
-    },
-    {
-      "chance": 0.08,
-      "density": 1,
-      "carvingSupport": "CARVING_ONLY",
-      "caveAnchorMode": "FLOOR",
-      "translate": {
-        "y": -2
-      },
-      "place": [
-        "vanilla/trees/azalea_tree",
-        "vanilla/trees/azalea_tree_2",
-        "vanilla/trees/azalea_tree_3"
-      ],
-      "bottom": true,
-      "force": true,
-      "scale": {
-        "size": 0.75
-      }
-    },
-    {
-      "chance": 0.12,
-      "density": 3,
-      "carvingSupport": "CARVING_ONLY",
-      "caveAnchorMode": "PROFILE_DEFAULT",
-      "translate": {
-        "y": -1
-      },
-      "place": [
-        "clutter/rock1",
-        "clutter/rock2",
-        "clutter/rock3",
-        "clutter/boulder1",
-        "clutter/boulder2"
-      ],
-      "bottom": true,
-      "force": true,
-      "scale": {
-        "size": 0.75
-      }
-    }
-  ],
+  "objects": [],
   "caveProfile": {
-    "enabled": true,
+    "enabled": false,
     "verticalRange": {
       "min": -250,
       "max": 700

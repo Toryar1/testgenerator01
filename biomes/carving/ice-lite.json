@@ -6,7 +6,12 @@
   "wall": {
     "palette": [
       {
-        "block": "minecraft:packed_ice"
+        "block": "minecraft:stone",
+        "weight": 10
+      },
+      {
+        "block": "minecraft:deepslate",
+        "weight": 5
       }
     ]
   },
@@ -20,12 +25,12 @@
       "zoom": 0.4,
       "palette": [
         {
-          "weight": 5,
-          "block": "minecraft:ice"
+          "block": "minecraft:stone",
+          "weight": 10
         },
         {
-          "weight": 1,
-          "block": "minecraft:packed_ice"
+          "block": "minecraft:deepslate",
+          "weight": 5
         }
       ]
     },
@@ -38,12 +43,12 @@
       "zoom": 0.4,
       "palette": [
         {
-          "weight": 1,
-          "block": "minecraft:blue_ice"
+          "block": "minecraft:stone",
+          "weight": 10
         },
         {
-          "weight": 5,
-          "block": "minecraft:ice"
+          "block": "minecraft:deepslate",
+          "weight": 5
         }
       ]
     },
@@ -52,64 +57,29 @@
       "maxHeight": 1,
       "palette": [
         {
-          "weight": 5,
-          "block": "minecraft:blackstone"
+          "block": "minecraft:stone",
+          "weight": 10
+        },
+        {
+          "block": "minecraft:deepslate",
+          "weight": 5
         }
       ]
     }
   ],
-  "decorators": [
-    {
-      "chance": 0.001,
-      "palette": [
-        {
-          "block": "minecraft:cornflower"
-        }
-      ]
-    },
-    {
-      "chance": 0.0015,
-      "scaleStack": true,
-      "stackMin": 25,
-      "stackMax": 50,
-      "absoluteMaxStack": 3,
-      "palette": [
-        {
-          "block": "minecraft:ice",
-          "weight": 3
-        },
-        {
-          "block": "minecraft:packed_ice",
-          "weight": 1
-        }
-      ]
-    },
-    {
-      "partOf": "CEILING",
-      "chance": 0.005,
-      "absoluteMaxStack": 3,
-      "scaleStack": true,
-      "stackMin": 25,
-      "stackMax": 50,
-      "palette": [
-        {
-          "block": "minecraft:ice",
-          "weight": 3
-        },
-        {
-          "block": "minecraft:packed_ice",
-          "weight": 1
-        }
-      ]
-    }
-  ],
+  "decorators": [],
   "caveCeilingLayers": [
     {
       "maxHeight": 2,
       "minHeight": 1,
       "palette": [
         {
-          "block": "minecraft:ice"
+          "block": "minecraft:stone",
+          "weight": 10
+        },
+        {
+          "block": "minecraft:deepslate",
+          "weight": 5
         }
       ]
     },
@@ -118,42 +88,19 @@
       "minHeight": 1,
       "palette": [
         {
-          "block": "minecraft:blackstone"
+          "block": "minecraft:stone",
+          "weight": 10
         },
         {
-          "block": "minecraft:blue_ice"
+          "block": "minecraft:deepslate",
+          "weight": 5
         }
       ]
     }
   ],
-  "objects": [
-    {
-      "chance": 0.0972,
-      "density": 4,
-      "carvingSupport": "CARVING_ONLY",
-      "caveAnchorMode": "PROFILE_DEFAULT",
-      "translate": {
-        "y": -1
-      },
-      "place": [
-        "clutter/rock1",
-        "clutter/rock2",
-        "clutter/rock3",
-        "clutter/rock4",
-        "clutter/boulder1",
-        "clutter/boulder2",
-        "clutter/boulder3",
-        "clutter/boulder4"
-      ],
-      "bottom": true,
-      "force": true,
-      "scale": {
-        "size": 0.375
-      }
-    }
-  ],
+  "objects": [],
   "caveProfile": {
-    "enabled": true,
+    "enabled": false,
     "verticalRange": {
       "min": -250,
       "max": 700

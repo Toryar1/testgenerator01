@@ -5,12 +5,12 @@
   "wall": {
     "palette": [
       {
-        "block": "minecraft:tuff",
-        "weight": 12
+        "block": "minecraft:stone",
+        "weight": 10
       },
       {
         "block": "minecraft:deepslate",
-        "weight": 3
+        "weight": 5
       }
     ]
   },
@@ -20,35 +20,17 @@
       "minHeight": 1,
       "palette": [
         {
-          "block": "minecraft:calcite",
+          "block": "minecraft:stone",
           "weight": 10
         },
         {
-          "block": "minecraft:bone_block",
-          "weight": 12
-        },
-        {
-          "block": "minecraft:diorite",
-          "weight": 2
+          "block": "minecraft:deepslate",
+          "weight": 5
         }
       ]
     }
   ],
-  "decorators": [
-    {
-      "chance": 0.23,
-      "scaleStack": true,
-      "stackMin": 30,
-      "stackMax": 60,
-      "partOf": "CEILING",
-      "absoluteMaxStack": 5,
-      "palette": [
-        {
-          "block": "minecraft:cobweb"
-        }
-      ]
-    }
-  ],
+  "decorators": [],
   "caveCeilingLayers": [
     {
       "maxHeight": 1,
@@ -56,89 +38,18 @@
       "palette": [
         {
           "block": "minecraft:stone",
-          "weight": 13
+          "weight": 10
         },
         {
-          "block": "minecraft:andesite",
-          "weight": 3
+          "block": "minecraft:deepslate",
+          "weight": 5
         }
       ]
     }
   ],
-  "objects": [
-    {
-      "chance": 0.21,
-      "density": 6,
-      "carvingSupport": "CARVING_ONLY",
-      "caveAnchorMode": "PROFILE_DEFAULT",
-      "translate": {
-        "y": -1
-      },
-      "place": [
-        "clutter/stoneclutt4",
-        "clutter/stoneclutt5"
-      ],
-      "bottom": true,
-      "force": true,
-      "scale": {
-        "size": 0.75
-      }
-    },
-    {
-      "chance": 0.2145,
-      "density": 4,
-      "carvingSupport": "CARVING_ONLY",
-      "caveAnchorMode": "PROFILE_DEFAULT",
-      "translate": {
-        "y": -1
-      },
-      "place": [
-        "clutter/stoneclutt1",
-        "clutter/stoneclutt2",
-        "clutter/stoneclutt3",
-        "clutter/stoneclutt4",
-        "clutter/stoneclutt5",
-        "clutter/rock1",
-        "clutter/rock2",
-        "clutter/rock3",
-        "clutter/boulder1",
-        "clutter/boulder2",
-        "clutter/boulder3"
-      ],
-      "bottom": true,
-      "force": true,
-      "scale": {
-        "size": 0.75
-      }
-    },
-    {
-      "chance": 0.13122,
-      "density": 6,
-      "carvingSupport": "CARVING_ONLY",
-      "caveAnchorMode": "PROFILE_DEFAULT",
-      "translate": {
-        "y": -1
-      },
-      "place": [
-        "clutter/stoneclutt5",
-        "clutter/stoneclutt6",
-        "clutter/stoneclutt7",
-        "clutter/rock2",
-        "clutter/rock3",
-        "clutter/rock4",
-        "clutter/boulder13",
-        "clutter/boulder14",
-        "clutter/boulder15"
-      ],
-      "bottom": true,
-      "force": true,
-      "scale": {
-        "size": 0.75
-      }
-    }
-  ],
+  "objects": [],
   "caveProfile": {
-    "enabled": true,
+    "enabled": false,
     "verticalRange": {
       "min": -250,
       "max": 700
