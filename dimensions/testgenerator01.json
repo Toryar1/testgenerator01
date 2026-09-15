@@ -780,23 +780,23 @@
     },
     "baseDensityStyle": {
       "style": "SIMPLEX",
-      "zoom": 0.62
+      "zoom": 0.6
     },
     "detailDensityStyle": {
       "style": "SIMPLEX",
-      "zoom": 1.4
+      "zoom": 1.35
     },
-    "baseWeight": 0.78,
-    "detailWeight": 0.22,
-    "thresholdBias": 0.34,
+    "baseWeight": 0.8,
+    "detailWeight": 0.2,
+    "thresholdBias": 0.35,
     "warpStyle": {
       "style": "SIMPLEX",
       "zoom": 0.35
     },
-    "warpStrength": 9.5,
+    "warpStrength": 9.0,
     "surfaceClearance": 6,
     "allowSurfaceBreak": true,
-    "surfaceBreakNoiseThreshold": 0.68,
+    "surfaceBreakNoiseThreshold": 0.7,
     "surfaceBreakDepth": 18,
     "surfaceBreakThresholdBoost": 0.25,
     "surfaceBreakStyle": {
@@ -828,7 +828,7 @@
           "style": "VASCULAR_THIN",
           "zoom": 1.15
         },
-        "weight": 0.28,
+        "weight": 0.26,
         "threshold": 0.1,
         "verticalRange": {
           "min": 180,
