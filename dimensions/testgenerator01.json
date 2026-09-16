@@ -792,9 +792,9 @@
       "style": "PERLIN_IRIS",
       "zoom": 0.42
     },
-    "baseWeight": 0.24,
+    "baseWeight": 0.22,
     "detailWeight": 0.08,
-    "warpStrength": 0.3,
+    "warpStrength": 0.32,
     "densityThreshold": {
       "min": -0.1,
       "max": -0.02,
@@ -825,10 +825,10 @@
       {
         "style": {
           "style": "VASCULAR",
-          "zoom": 0.8
+          "zoom": 0.82
         },
-        "weight": 0.38,
-        "threshold": -0.7,
+        "weight": 0.36,
+        "threshold": -0.65,
         "verticalRange": {
           "min": 8,
           "max": 620
@@ -838,10 +838,10 @@
       {
         "style": {
           "style": "VASCULAR_THIN",
-          "zoom": 1.25
+          "zoom": 1.2
         },
-        "weight": 0.2,
-        "threshold": -0.68,
+        "weight": 0.22,
+        "threshold": -0.63,
         "verticalRange": {
           "min": 8,
           "max": 520
@@ -851,9 +851,9 @@
       {
         "style": {
           "style": "FRACTAL_FBM_SIMPLEX",
-          "zoom": 0.5
+          "zoom": 0.45
         },
-        "weight": 0.1,
+        "weight": 0.12,
         "threshold": -0.1,
         "verticalRange": {
           "min": 8,
