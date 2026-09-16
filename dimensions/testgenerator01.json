@@ -825,17 +825,17 @@
       {
         "style": {
           "style": "VASCULAR_THIN",
-          "zoom": 1.4,
+          "zoom": 0.85,
           "fracture": {
             "style": "SIMPLEX",
-            "zoom": 1.8,
-            "multiplier": 45.0
+            "zoom": 1.2,
+            "multiplier": 40.0
           }
         },
-        "weight": 0.5,
-        "threshold": -0.66,
+        "weight": 0.46,
+        "threshold": -0.64,
         "verticalRange": {
-          "min": 16,
+          "min": 204,
           "max": 600
         },
         "invert": false
@@ -843,14 +843,14 @@
       {
         "style": {
           "style": "VASCULAR",
-          "zoom": 1.2,
+          "zoom": 0.95,
           "fracture": {
             "style": "SIMPLEX",
-            "zoom": 1.5,
-            "multiplier": 40.0
+            "zoom": 1.4,
+            "multiplier": 35.0
           }
         },
-        "weight": 0.28,
+        "weight": 0.26,
         "threshold": -0.52,
         "verticalRange": {
           "min": 236,
