@@ -780,15 +780,15 @@
     },
     "baseDensityStyle": {
       "style": "SIMPLEX",
-      "zoom": 0.5
+      "zoom": 0.45
     },
     "detailDensityStyle": {
       "style": "SIMPLEX",
-      "zoom": 0.9
+      "zoom": 0.8
     },
-    "baseWeight": 0.92,
-    "detailWeight": 0.08,
-    "thresholdBias": 0.42,
+    "baseWeight": 0.9,
+    "detailWeight": 0.05,
+    "thresholdBias": 0.44,
     "warpStrength": 0.0,
     "surfaceClearance": 8,
     "allowSurfaceBreak": true,
@@ -808,42 +808,29 @@
     "modules": [
       {
         "style": {
-          "style": "SIMPLEX_VASCULAR",
-          "zoom": 0.32
+          "style": "VASCULAR",
+          "zoom": 0.35
         },
-        "weight": 0.75,
-        "threshold": 0.1,
+        "weight": 0.85,
+        "threshold": -0.82,
         "verticalRange": {
           "min": 180,
           "max": 310
         },
-        "invert": false
+        "invert": true
       },
       {
         "style": {
           "style": "VASCULAR",
-          "zoom": 0.45
+          "zoom": 0.6
         },
-        "weight": 0.55,
-        "threshold": 0.12,
+        "weight": 0.65,
+        "threshold": -0.88,
         "verticalRange": {
           "min": 180,
           "max": 310
         },
-        "invert": false
-      },
-      {
-        "style": {
-          "style": "SIMPLEX_VASCULAR",
-          "zoom": 0.65
-        },
-        "weight": 0.35,
-        "threshold": 0.18,
-        "verticalRange": {
-          "min": 180,
-          "max": 310
-        },
-        "invert": false
+        "invert": true
       }
     ]
   }
