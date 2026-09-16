@@ -786,15 +786,15 @@
     },
     "detailDensityStyle": {
       "style": "IRIS_DOUBLE",
-      "zoom": 1.1
+      "zoom": 1.2
     },
     "warpStyle": {
       "style": "PERLIN_IRIS",
-      "zoom": 0.45
+      "zoom": 0.42
     },
-    "baseWeight": 0.38,
-    "detailWeight": 0.12,
-    "warpStrength": 0.32,
+    "baseWeight": 0.24,
+    "detailWeight": 0.08,
+    "warpStrength": 0.3,
     "densityThreshold": {
       "min": -0.1,
       "max": -0.02,
@@ -824,11 +824,11 @@
     "modules": [
       {
         "style": {
-          "style": "SIMPLEX_VASCULAR",
-          "zoom": 1.4
+          "style": "VASCULAR",
+          "zoom": 0.8
         },
-        "weight": 0.3,
-        "threshold": 0.05,
+        "weight": 0.38,
+        "threshold": -0.7,
         "verticalRange": {
           "min": 8,
           "max": 620
@@ -837,11 +837,11 @@
       },
       {
         "style": {
-          "style": "CELLULAR_BILINEAR",
-          "zoom": 1.8
+          "style": "VASCULAR_THIN",
+          "zoom": 1.25
         },
         "weight": 0.2,
-        "threshold": 0.12,
+        "threshold": -0.68,
         "verticalRange": {
           "min": 8,
           "max": 520
@@ -853,8 +853,8 @@
           "style": "FRACTAL_FBM_SIMPLEX",
           "zoom": 0.5
         },
-        "weight": 0.12,
-        "threshold": 0.07,
+        "weight": 0.1,
+        "threshold": -0.1,
         "verticalRange": {
           "min": 8,
           "max": 256
