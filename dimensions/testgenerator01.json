@@ -779,36 +779,36 @@
       "max": 300
     },
     "verticalEdgeFade": 16,
-    "verticalEdgeFadeStrength": 0.35,
+    "verticalEdgeFadeStrength": 0.3,
     "baseDensityStyle": {
       "style": "SIMPLEX",
-      "zoom": 1.8
+      "zoom": 1.2
     },
     "detailDensityStyle": {
       "style": "IRIS_DOUBLE",
-      "zoom": 0.83
+      "zoom": 0.85
     },
     "warpStyle": {
       "style": "PERLIN_IRIS",
-      "zoom": 1.8
+      "zoom": 1.4
     },
-    "baseWeight": 0.04,
-    "detailWeight": 0.02,
-    "warpStrength": 16.5,
+    "baseWeight": 0.7,
+    "detailWeight": 0.15,
+    "warpStrength": 14.0,
     "densityThreshold": {
-      "min": -0.1,
-      "max": -0.02,
+      "min": -0.12,
+      "max": -0.06,
       "style": {
         "style": "PERLIN_IRIS",
         "zoom": 0.95
       }
     },
-    "thresholdBias": 0.063,
+    "thresholdBias": 0.08,
     "sampleStep": 1,
     "adaptiveSampling": false,
     "adaptiveSampleStep": 2,
     "adaptiveThresholdMargin": 0.2,
-    "surfaceClearance": 28,
+    "surfaceClearance": 26,
     "allowSurfaceBreak": true,
     "surfaceBreakNoiseThreshold": 0.92,
     "surfaceBreakDepth": 8,
@@ -820,20 +820,20 @@
     "allowFluid": true,
     "allowLava": false,
     "fluidRequiresFloor": true,
-    "fluidMinDepthBelowSurface": 32,
+    "fluidMinDepthBelowSurface": 30,
     "modules": [
       {
         "style": {
           "style": "VASCULAR_THIN",
-          "zoom": 0.6,
+          "zoom": 0.85,
           "fracture": {
             "style": "SIMPLEX",
-            "zoom": 0.95,
-            "multiplier": 32.0
+            "zoom": 1.2,
+            "multiplier": 30.0
           }
         },
-        "weight": 0.42,
-        "threshold": -0.735,
+        "weight": 0.18,
+        "threshold": 0.2,
         "verticalRange": {
           "min": 10,
           "max": 190
@@ -843,15 +843,15 @@
       {
         "style": {
           "style": "VASCULAR_THIN",
-          "zoom": 0.72,
+          "zoom": 1.1,
           "fracture": {
             "style": "SIMPLEX",
-            "zoom": 1.15,
-            "multiplier": 34.0
+            "zoom": 1.35,
+            "multiplier": 28.0
           }
         },
-        "weight": 0.36,
-        "threshold": -0.725,
+        "weight": 0.14,
+        "threshold": 0.22,
         "verticalRange": {
           "min": 10,
           "max": 190
@@ -860,18 +860,13 @@
       },
       {
         "style": {
-          "style": "VASCULAR",
-          "zoom": 0.85,
-          "fracture": {
-            "style": "SIMPLEX",
-            "zoom": 1.25,
-            "multiplier": 26.0
-          }
+          "style": "SIMPLEX",
+          "zoom": 1.4
         },
-        "weight": 0.22,
-        "threshold": -0.65,
+        "weight": 0.1,
+        "threshold": 0.25,
         "verticalRange": {
-          "min": 30,
+          "min": 25,
           "max": 160
         },
         "invert": false
