@@ -776,41 +776,41 @@
     "enabled": true,
     "verticalRange": {
       "min": 8,
-      "max": 650
+      "max": 620
     },
-    "verticalEdgeFade": 24,
-    "verticalEdgeFadeStrength": 0.25,
+    "verticalEdgeFade": 28,
+    "verticalEdgeFadeStrength": 0.35,
     "baseDensityStyle": {
       "style": "SIMPLEX",
-      "zoom": 0.55
+      "zoom": 0.5
     },
     "detailDensityStyle": {
       "style": "IRIS_DOUBLE",
-      "zoom": 0.64
+      "zoom": 0.65
     },
     "warpStyle": {
       "style": "PERLIN_IRIS",
-      "zoom": 0.35
+      "zoom": 0.38
     },
-    "baseWeight": 0.82,
-    "detailWeight": 0.12,
-    "warpStrength": 0.36,
+    "baseWeight": 0.78,
+    "detailWeight": 0.11,
+    "warpStrength": 0.38,
     "densityThreshold": {
-      "min": -0.12,
+      "min": -0.11,
       "max": -0.02,
       "style": {
         "style": "PERLIN_IRIS",
-        "zoom": 0.78
+        "zoom": 0.8
       }
     },
-    "thresholdBias": 0.1,
+    "thresholdBias": 0.065,
     "sampleStep": 2,
     "adaptiveSampling": true,
     "adaptiveSampleStep": 4,
     "adaptiveThresholdMargin": 0.05,
-    "surfaceClearance": 8,
+    "surfaceClearance": 9,
     "allowSurfaceBreak": true,
-    "surfaceBreakNoiseThreshold": 0.7,
+    "surfaceBreakNoiseThreshold": 0.72,
     "surfaceBreakDepth": 16,
     "surfaceBreakThresholdBoost": 0.15,
     "surfaceBreakStyle": {
@@ -820,40 +820,40 @@
     "allowFluid": true,
     "allowLava": false,
     "fluidRequiresFloor": true,
-    "fluidMinDepthBelowSurface": 16,
+    "fluidMinDepthBelowSurface": 18,
     "modules": [
       {
         "style": {
           "style": "SIMPLEX_VASCULAR",
-          "zoom": 0.85
+          "zoom": 1.05
         },
-        "weight": 0.14,
-        "threshold": 0.02,
+        "weight": 0.16,
+        "threshold": 0.03,
         "verticalRange": {
           "min": 8,
-          "max": 650
+          "max": 620
         },
         "invert": false
       },
       {
         "style": {
           "style": "CELLULAR_BILINEAR",
-          "zoom": 1.2
+          "zoom": 1.4
         },
-        "weight": 0.07,
-        "threshold": 0.1,
+        "weight": 0.08,
+        "threshold": 0.11,
         "verticalRange": {
           "min": 8,
-          "max": 550
+          "max": 520
         },
         "invert": false
       },
       {
         "style": {
           "style": "FRACTAL_FBM_SIMPLEX",
-          "zoom": 0.28
+          "zoom": 0.3
         },
-        "weight": 0.07,
+        "weight": 0.08,
         "threshold": 0.06,
         "verticalRange": {
           "min": 8,
