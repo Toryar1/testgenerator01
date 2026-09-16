@@ -804,8 +804,8 @@
       }
     },
     "thresholdBias": 0.063,
-    "sampleStep": 2,
-    "adaptiveSampling": true,
+    "sampleStep": 1,
+    "adaptiveSampling": false,
     "adaptiveSampleStep": 2,
     "adaptiveThresholdMargin": 0.2,
     "surfaceClearance": 38,
