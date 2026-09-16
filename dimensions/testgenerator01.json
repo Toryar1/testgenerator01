@@ -825,15 +825,33 @@
       {
         "style": {
           "style": "VASCULAR_THIN",
-          "zoom": 0.85,
+          "zoom": 0.5,
           "fracture": {
             "style": "SIMPLEX",
-            "zoom": 1.2,
-            "multiplier": 40.0
+            "zoom": 0.95,
+            "multiplier": 32.0
           }
         },
-        "weight": 0.46,
-        "threshold": -0.64,
+        "weight": 0.4,
+        "threshold": -0.73,
+        "verticalRange": {
+          "min": 204,
+          "max": 600
+        },
+        "invert": false
+      },
+      {
+        "style": {
+          "style": "VASCULAR_THIN",
+          "zoom": 0.62,
+          "fracture": {
+            "style": "SIMPLEX",
+            "zoom": 1.15,
+            "multiplier": 36.0
+          }
+        },
+        "weight": 0.35,
+        "threshold": -0.72,
         "verticalRange": {
           "min": 204,
           "max": 600
@@ -843,15 +861,15 @@
       {
         "style": {
           "style": "VASCULAR",
-          "zoom": 0.95,
+          "zoom": 0.75,
           "fracture": {
             "style": "SIMPLEX",
-            "zoom": 1.4,
-            "multiplier": 35.0
+            "zoom": 1.25,
+            "multiplier": 30.0
           }
         },
-        "weight": 0.26,
-        "threshold": -0.52,
+        "weight": 0.2,
+        "threshold": -0.62,
         "verticalRange": {
           "min": 236,
           "max": 296
