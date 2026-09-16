@@ -780,43 +780,39 @@
     },
     "baseDensityStyle": {
       "style": "SIMPLEX",
-      "zoom": 0.6
+      "zoom": 0.5
     },
     "detailDensityStyle": {
       "style": "SIMPLEX",
-      "zoom": 1.35
+      "zoom": 0.9
     },
-    "baseWeight": 0.8,
-    "detailWeight": 0.2,
-    "thresholdBias": 0.35,
-    "warpStyle": {
-      "style": "SIMPLEX",
-      "zoom": 0.35
-    },
-    "warpStrength": 9.0,
-    "surfaceClearance": 6,
+    "baseWeight": 0.92,
+    "detailWeight": 0.08,
+    "thresholdBias": 0.42,
+    "warpStrength": 0.0,
+    "surfaceClearance": 8,
     "allowSurfaceBreak": true,
-    "surfaceBreakNoiseThreshold": 0.7,
-    "surfaceBreakDepth": 18,
-    "surfaceBreakThresholdBoost": 0.25,
+    "surfaceBreakNoiseThreshold": 0.72,
+    "surfaceBreakDepth": 16,
+    "surfaceBreakThresholdBoost": 0.2,
     "surfaceBreakStyle": {
       "style": "SIMPLEX",
-      "zoom": 0.45
+      "zoom": 0.4
     },
     "sampleStep": 1,
     "adaptiveSampling": false,
     "allowFluid": true,
-    "allowLava": true,
+    "allowLava": false,
     "fluidRequiresFloor": true,
-    "fluidMinDepthBelowSurface": 14,
+    "fluidMinDepthBelowSurface": 16,
     "modules": [
       {
         "style": {
           "style": "SIMPLEX_VASCULAR",
-          "zoom": 0.58
+          "zoom": 0.32
         },
-        "weight": 0.52,
-        "threshold": 0.08,
+        "weight": 0.75,
+        "threshold": 0.1,
         "verticalRange": {
           "min": 180,
           "max": 310
@@ -825,11 +821,24 @@
       },
       {
         "style": {
-          "style": "VASCULAR_THIN",
-          "zoom": 1.15
+          "style": "VASCULAR",
+          "zoom": 0.45
         },
-        "weight": 0.26,
-        "threshold": 0.1,
+        "weight": 0.55,
+        "threshold": 0.12,
+        "verticalRange": {
+          "min": 180,
+          "max": 310
+        },
+        "invert": false
+      },
+      {
+        "style": {
+          "style": "SIMPLEX_VASCULAR",
+          "zoom": 0.65
+        },
+        "weight": 0.35,
+        "threshold": 0.18,
         "verticalRange": {
           "min": 180,
           "max": 310
@@ -837,6 +846,5 @@
         "invert": false
       }
     ]
-  },
-  "caveLavaHeight": 202
+  }
 }
