@@ -782,7 +782,7 @@
     "verticalEdgeFadeStrength": 0.3,
     "baseDensityStyle": {
       "style": "SIMPLEX",
-      "zoom": 1.2
+      "zoom": 1.15
     },
     "detailDensityStyle": {
       "style": "IRIS_DOUBLE",
@@ -790,11 +790,11 @@
     },
     "warpStyle": {
       "style": "PERLIN_IRIS",
-      "zoom": 1.4
+      "zoom": 1.35
     },
-    "baseWeight": 0.7,
-    "detailWeight": 0.15,
-    "warpStrength": 14.0,
+    "baseWeight": 0.72,
+    "detailWeight": 0.14,
+    "warpStrength": 13.5,
     "densityThreshold": {
       "min": -0.12,
       "max": -0.06,
@@ -804,7 +804,7 @@
       }
     },
     "thresholdBias": 0.08,
-    "sampleStep": 1,
+    "sampleStep": 2,
     "adaptiveSampling": false,
     "adaptiveSampleStep": 2,
     "adaptiveThresholdMargin": 0.2,
