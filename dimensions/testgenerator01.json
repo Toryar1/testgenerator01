@@ -775,11 +775,11 @@
   "caveProfile": {
     "enabled": true,
     "verticalRange": {
-      "min": 12,
-      "max": 600
+      "min": 10,
+      "max": 300
     },
-    "verticalEdgeFade": 24,
-    "verticalEdgeFadeStrength": 0.4,
+    "verticalEdgeFade": 16,
+    "verticalEdgeFadeStrength": 0.35,
     "baseDensityStyle": {
       "style": "SIMPLEX",
       "zoom": 1.8
@@ -808,7 +808,7 @@
     "adaptiveSampling": false,
     "adaptiveSampleStep": 2,
     "adaptiveThresholdMargin": 0.2,
-    "surfaceClearance": 38,
+    "surfaceClearance": 28,
     "allowSurfaceBreak": true,
     "surfaceBreakNoiseThreshold": 0.92,
     "surfaceBreakDepth": 8,
@@ -820,59 +820,59 @@
     "allowFluid": true,
     "allowLava": false,
     "fluidRequiresFloor": true,
-    "fluidMinDepthBelowSurface": 36,
+    "fluidMinDepthBelowSurface": 32,
     "modules": [
       {
         "style": {
           "style": "VASCULAR_THIN",
-          "zoom": 0.5,
+          "zoom": 0.6,
           "fracture": {
             "style": "SIMPLEX",
             "zoom": 0.95,
             "multiplier": 32.0
           }
         },
-        "weight": 0.4,
-        "threshold": -0.73,
+        "weight": 0.42,
+        "threshold": -0.735,
         "verticalRange": {
-          "min": 204,
-          "max": 600
+          "min": 10,
+          "max": 190
         },
         "invert": false
       },
       {
         "style": {
           "style": "VASCULAR_THIN",
-          "zoom": 0.62,
+          "zoom": 0.72,
           "fracture": {
             "style": "SIMPLEX",
             "zoom": 1.15,
-            "multiplier": 36.0
+            "multiplier": 34.0
           }
         },
-        "weight": 0.35,
-        "threshold": -0.72,
+        "weight": 0.36,
+        "threshold": -0.725,
         "verticalRange": {
-          "min": 204,
-          "max": 600
+          "min": 10,
+          "max": 190
         },
         "invert": false
       },
       {
         "style": {
           "style": "VASCULAR",
-          "zoom": 0.75,
+          "zoom": 0.85,
           "fracture": {
             "style": "SIMPLEX",
             "zoom": 1.25,
-            "multiplier": 30.0
+            "multiplier": 26.0
           }
         },
-        "weight": 0.2,
-        "threshold": -0.62,
+        "weight": 0.22,
+        "threshold": -0.65,
         "verticalRange": {
-          "min": 236,
-          "max": 296
+          "min": 30,
+          "max": 160
         },
         "invert": false
       }
