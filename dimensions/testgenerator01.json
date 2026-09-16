@@ -808,11 +808,11 @@
     "adaptiveSampling": true,
     "adaptiveSampleStep": 2,
     "adaptiveThresholdMargin": 0.2,
-    "surfaceClearance": 28,
+    "surfaceClearance": 38,
     "allowSurfaceBreak": true,
-    "surfaceBreakNoiseThreshold": 0.88,
-    "surfaceBreakDepth": 10,
-    "surfaceBreakThresholdBoost": 0.08,
+    "surfaceBreakNoiseThreshold": 0.92,
+    "surfaceBreakDepth": 8,
+    "surfaceBreakThresholdBoost": 0.06,
     "surfaceBreakStyle": {
       "style": "PERLIN_IRIS",
       "zoom": 0.8
@@ -820,14 +820,14 @@
     "allowFluid": true,
     "allowLava": false,
     "fluidRequiresFloor": true,
-    "fluidMinDepthBelowSurface": 28,
+    "fluidMinDepthBelowSurface": 36,
     "modules": [
       {
         "style": {
           "style": "VASCULAR_THIN",
           "zoom": 0.35
         },
-        "weight": 0.52,
+        "weight": 0.5,
         "threshold": -0.63,
         "verticalRange": {
           "min": 16,
@@ -840,24 +840,11 @@
           "style": "VASCULAR",
           "zoom": 0.85
         },
-        "weight": 0.28,
-        "threshold": -0.58,
+        "weight": 0.32,
+        "threshold": -0.52,
         "verticalRange": {
-          "min": 232,
-          "max": 292
-        },
-        "invert": false
-      },
-      {
-        "style": {
-          "style": "VASCULAR",
-          "zoom": 0.75
-        },
-        "weight": 0.2,
-        "threshold": -0.65,
-        "verticalRange": {
-          "min": 76,
-          "max": 156
+          "min": 236,
+          "max": 296
         },
         "invert": false
       }
