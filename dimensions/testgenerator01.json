@@ -775,32 +775,48 @@
   "caveProfile": {
     "enabled": true,
     "verticalRange": {
-      "min": 180,
-      "max": 310
+      "min": 8,
+      "max": 650
     },
+    "verticalEdgeFade": 24,
+    "verticalEdgeFadeStrength": 0.25,
     "baseDensityStyle": {
       "style": "SIMPLEX",
-      "zoom": 0.42
+      "zoom": 0.55
     },
     "detailDensityStyle": {
-      "style": "SIMPLEX",
-      "zoom": 0.8
+      "style": "IRIS_DOUBLE",
+      "zoom": 0.64
     },
-    "baseWeight": 0.85,
-    "detailWeight": 0.05,
-    "thresholdBias": 0.44,
-    "warpStrength": 0.0,
+    "warpStyle": {
+      "style": "PERLIN_IRIS",
+      "zoom": 0.35
+    },
+    "baseWeight": 0.82,
+    "detailWeight": 0.12,
+    "warpStrength": 0.36,
+    "densityThreshold": {
+      "min": -0.12,
+      "max": -0.02,
+      "style": {
+        "style": "PERLIN_IRIS",
+        "zoom": 0.78
+      }
+    },
+    "thresholdBias": 0.1,
+    "sampleStep": 2,
+    "adaptiveSampling": true,
+    "adaptiveSampleStep": 4,
+    "adaptiveThresholdMargin": 0.05,
     "surfaceClearance": 8,
     "allowSurfaceBreak": true,
-    "surfaceBreakNoiseThreshold": 0.72,
+    "surfaceBreakNoiseThreshold": 0.7,
     "surfaceBreakDepth": 16,
-    "surfaceBreakThresholdBoost": 0.2,
+    "surfaceBreakThresholdBoost": 0.15,
     "surfaceBreakStyle": {
-      "style": "SIMPLEX",
-      "zoom": 0.4
+      "style": "PERLIN_IRIS",
+      "zoom": 0.75
     },
-    "sampleStep": 1,
-    "adaptiveSampling": false,
     "allowFluid": true,
     "allowLava": false,
     "fluidRequiresFloor": true,
@@ -808,29 +824,42 @@
     "modules": [
       {
         "style": {
-          "style": "VASCULAR",
-          "zoom": 0.28
+          "style": "SIMPLEX_VASCULAR",
+          "zoom": 0.85
         },
-        "weight": 1.4,
-        "threshold": -0.72,
+        "weight": 0.14,
+        "threshold": 0.02,
         "verticalRange": {
-          "min": 180,
-          "max": 310
+          "min": 8,
+          "max": 650
         },
-        "invert": true
+        "invert": false
       },
       {
         "style": {
-          "style": "VASCULAR",
-          "zoom": 0.5
+          "style": "CELLULAR_BILINEAR",
+          "zoom": 1.2
         },
-        "weight": 1.1,
-        "threshold": -0.8,
+        "weight": 0.07,
+        "threshold": 0.1,
         "verticalRange": {
-          "min": 180,
-          "max": 310
+          "min": 8,
+          "max": 550
         },
-        "invert": true
+        "invert": false
+      },
+      {
+        "style": {
+          "style": "FRACTAL_FBM_SIMPLEX",
+          "zoom": 0.28
+        },
+        "weight": 0.07,
+        "threshold": 0.06,
+        "verticalRange": {
+          "min": 8,
+          "max": 256
+        },
+        "invert": false
       }
     ]
   }
