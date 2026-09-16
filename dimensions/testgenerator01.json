@@ -803,11 +803,11 @@
         "zoom": 0.95
       }
     },
-    "thresholdBias": 0.108,
+    "thresholdBias": 0.082,
     "sampleStep": 2,
     "adaptiveSampling": true,
     "adaptiveSampleStep": 2,
-    "adaptiveThresholdMargin": 0.15,
+    "adaptiveThresholdMargin": 0.2,
     "surfaceClearance": 14,
     "allowSurfaceBreak": true,
     "surfaceBreakNoiseThreshold": 0.75,
@@ -840,7 +840,7 @@
           "style": "VASCULAR_THIN",
           "zoom": 0.58
         },
-        "weight": 0.3,
+        "weight": 0.32,
         "threshold": -0.62,
         "verticalRange": {
           "min": 8,
