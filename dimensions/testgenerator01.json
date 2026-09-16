@@ -775,11 +775,11 @@
   "caveProfile": {
     "enabled": true,
     "verticalRange": {
-      "min": 8,
-      "max": 620
+      "min": 12,
+      "max": 600
     },
-    "verticalEdgeFade": 28,
-    "verticalEdgeFadeStrength": 0.35,
+    "verticalEdgeFade": 24,
+    "verticalEdgeFadeStrength": 0.4,
     "baseDensityStyle": {
       "style": "SIMPLEX",
       "zoom": 1.8
@@ -808,11 +808,11 @@
     "adaptiveSampling": true,
     "adaptiveSampleStep": 2,
     "adaptiveThresholdMargin": 0.2,
-    "surfaceClearance": 14,
+    "surfaceClearance": 28,
     "allowSurfaceBreak": true,
-    "surfaceBreakNoiseThreshold": 0.75,
-    "surfaceBreakDepth": 14,
-    "surfaceBreakThresholdBoost": 0.12,
+    "surfaceBreakNoiseThreshold": 0.88,
+    "surfaceBreakDepth": 10,
+    "surfaceBreakThresholdBoost": 0.08,
     "surfaceBreakStyle": {
       "style": "PERLIN_IRIS",
       "zoom": 0.8
@@ -820,21 +820,8 @@
     "allowFluid": true,
     "allowLava": false,
     "fluidRequiresFloor": true,
-    "fluidMinDepthBelowSurface": 18,
+    "fluidMinDepthBelowSurface": 28,
     "modules": [
-      {
-        "style": {
-          "style": "VASCULAR",
-          "zoom": 0.85
-        },
-        "weight": 0.26,
-        "threshold": -0.6,
-        "verticalRange": {
-          "min": 8,
-          "max": 620
-        },
-        "invert": false
-      },
       {
         "style": {
           "style": "VASCULAR_THIN",
@@ -843,8 +830,34 @@
         "weight": 0.52,
         "threshold": -0.63,
         "verticalRange": {
-          "min": 8,
-          "max": 620
+          "min": 16,
+          "max": 600
+        },
+        "invert": false
+      },
+      {
+        "style": {
+          "style": "VASCULAR",
+          "zoom": 0.85
+        },
+        "weight": 0.28,
+        "threshold": -0.58,
+        "verticalRange": {
+          "min": 232,
+          "max": 292
+        },
+        "invert": false
+      },
+      {
+        "style": {
+          "style": "VASCULAR",
+          "zoom": 0.75
+        },
+        "weight": 0.2,
+        "threshold": -0.65,
+        "verticalRange": {
+          "min": 76,
+          "max": 156
         },
         "invert": false
       }
